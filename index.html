@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="門診日曆">
+  <meta name="theme-color" content="#0d0d0d">
+  <title>門診日曆</title>
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --bg2: #1a1a1a;
+      --bg3: #252525;
+      --bg4: #2e2e2e;
+      --border: #2e2e2e;
+      --border2: #3a3a3a;
+      --text: #f0f0f0;
+      --text2: #999;
+      --text3: #555;
+      --accent: #4d9eff;
+      --accent-dim: rgba(77, 158, 255, .15);
+      --morning-bg: rgba(255, 200, 50, .06);
+      --afternoon-bg: rgba(80, 200, 120, .06);
+      --evening-bg: rgba(120, 140, 255, .07);
+      --other-bg: rgba(255, 100, 100, .07);
+      --ms: #b8860b;
+      --as: #2e8b57;
+      --es: #4a5ab0;
+      --os: #9b2020;
+      --slot-w: 34px;
+      --hdr-h: 52px;
+      --nav-h: 44px;
+      --r: 10px;
+      --rsm: 6px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    html,
+    body {
+      height: 100%;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      font-size: 14px;
+      color: var(--text);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent
+    }
+
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100dvh
+    }
+
+    .page {
+      display: none;
+      flex-direction: column;
+      flex: 1;
+      overflow: hidden
+    }
+
+    .page.active {
+      display: flex
+    }
+
+    /* TOP BAR */
+    .tbar {
+      height: var(--hdr-h);
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 14px;
+      flex-shrink: 0;
+      z-index: 20
+    }
+
+    .tbar h1 {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -.3px
+    }
+
+    .tbar-r {
+      display: flex;
+      align-items: center;
+      gap: 8px
+    }
+
+    .vtog {
+      display: flex;
+      background: var(--bg3);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      overflow: hidden
+    }
+
+    .vtog button {
+      padding: 5px 11px;
+      font-size: 12px;
+      font-weight: 600;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      color: var(--text2);
+      transition: all .15s;
+      line-height: 1
+    }
+
+    .vtog button.on {
+      background: var(--accent);
+      color: #fff;
+      border-radius: 7px
+    }
+
+    .ibtn {
+      width: 34px;
+      height: 34px;
+      border: none;
+      background: var(--bg3);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--text2);
+      font-size: 16px;
+      border: 1px solid var(--border);
+      transition: background .15s
+    }
+
+    .ibtn:active {
+      background: var(--bg4)
+    }
+
+    /* NAV BAR */
+    .nbar {
+      height: var(--nav-h);
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      padding: 0 8px;
+      gap: 4px;
+      flex-shrink: 0
+    }
+
+    .narr {
+      width: 36px;
+      height: 36px;
+      border: none;
+      background: transparent;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text2);
+      transition: background .12s;
+      flex-shrink: 0
+    }
+
+    .narr:active {
+      background: var(--bg4)
+    }
+
+    #nav-title {
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+      flex: 1
+    }
+
+    .tbtn {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 10px;
+      border: 1px solid var(--accent);
+      background: transparent;
+      color: var(--accent);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all .15s;
+      flex-shrink: 0
+    }
+
+    .tbtn:active {
+      background: var(--accent-dim)
+    }
+
+    /* CALENDAR */
+    #cw {
+      flex: 1;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch
+    }
+
+    #cal {
+      display: grid
+    }
+
+    .ccorner {
+      position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 8;
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border2);
+      border-right: 1px solid var(--border);
+      width: var(--slot-w)
+    }
+
+    .dhdr {
+      position: sticky;
+      top: 0;
+      z-index: 6;
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border2);
+      border-right: 1px solid var(--border);
+      padding: 7px 4px 5px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1px
+    }
+
+    .dhdr .wd {
+      font-size: 9px;
+      font-weight: 700;
+      color: var(--text3);
+      letter-spacing: .8px
+    }
+
+    .dhdr .dn {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%
+    }
+
+    .dhdr.tod .dn {
+      background: var(--accent);
+      color: #fff;
+      font-size: 14px
+    }
+
+    .dhdr .mo {
+      font-size: 9px;
+      color: var(--text3)
+    }
+
+    .slbl {
+      position: sticky;
+      left: 0;
+      z-index: 5;
+      background: var(--bg2);
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      writing-mode: vertical-rl;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--text3);
+      letter-spacing: 2px;
+      min-height: 80px;
+      padding: 8px 0;
+      width: var(--slot-w)
+    }
+
+    .slbl.morning {
+      border-left: 2px solid var(--ms)
+    }
+
+    .slbl.afternoon {
+      border-left: 2px solid var(--as)
+    }
+
+    .slbl.evening {
+      border-left: 2px solid var(--es)
+    }
+
+    .slbl.other {
+      border-left: 2px solid var(--os)
+    }
+
+    .cc {
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 4px 3px;
+      min-height: 80px;
+      /* 2-col chip layout */
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px;
+      align-content: start
+    }
+
+    .cc.morning {
+      background: var(--morning-bg)
+    }
+
+    .cc.afternoon {
+      background: var(--afternoon-bg)
+    }
+
+    .cc.evening {
+      background: var(--evening-bg)
+    }
+
+    .cc.other {
+      background: var(--other-bg)
+    }
+
+    .cc.tcol {
+      filter: brightness(1.4)
+    }
+
+    /* single chip spans full width */
+    .cc.solo .chip {
+      grid-column: 1/-1
+    }
+
+    .chip {
+      border-radius: var(--rsm);
+      padding: 4px 5px;
+      background: var(--bg3);
+      border-left: 3px solid transparent;
+      cursor: pointer;
+      transition: background .12s;
+      min-width: 0;
+      overflow: hidden
+    }
+
+    .chip:active {
+      background: var(--bg4)
+    }
+
+    .chip .cn {
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1.25;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block
+    }
+
+    .cempty {
+      grid-column: 1/-1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text3);
+      font-size: 12px;
+      padding: 10px 0;
+      min-height: 60px
+    }
+
+    /* BOTTOM SHEET */
+    #ov {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      background: rgba(0, 0, 0, .6);
+      display: none;
+      opacity: 0;
+      transition: opacity .22s;
+      -webkit-backdrop-filter: blur(3px);
+      backdrop-filter: blur(3px)
+    }
+
+    #ov.on {
+      display: block;
+      opacity: 1
+    }
+
+    #bs {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 51;
+      background: var(--bg2);
+      border-radius: 18px 18px 0 0;
+      border-top: 1px solid var(--border2);
+      padding: 0 0 env(safe-area-inset-bottom, 16px);
+      transform: translateY(100%);
+      transition: transform .28s cubic-bezier(.34, 1.12, .64, 1);
+      max-height: 65vh;
+      overflow-y: auto
+    }
+
+    #bs.on {
+      transform: translateY(0)
+    }
+
+    .bsh {
+      width: 36px;
+      height: 4px;
+      border-radius: 2px;
+      background: var(--border2);
+      margin: 10px auto 0
+    }
+
+    .bsi {
+      padding: 14px 20px 20px
+    }
+
+    .bsclin {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text2);
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px
+    }
+
+    .bsdot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0
+    }
+
+    .bsname {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 14px;
+      line-height: 1
+    }
+
+    .bsrow {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 10px 0;
+      border-top: 1px solid var(--border)
+    }
+
+    .bsicon {
+      font-size: 16px;
+      flex-shrink: 0;
+      width: 22px;
+      text-align: center
+    }
+
+    .bsbody {
+      flex: 1
+    }
+
+    .bslbl {
+      font-size: 10px;
+      color: var(--text3);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .6px;
+      margin-bottom: 2px
+    }
+
+    .bsval {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.5
+    }
+
+    .bsclose {
+      width: 100%;
+      margin-top: 14px;
+      padding: 12px;
+      background: var(--bg3);
+      border: 1px solid var(--border2);
+      border-radius: var(--r);
+      color: var(--text2);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .12s
+    }
+
+    .bsclose:active {
+      background: var(--bg4)
+    }
+
+    /* SETTINGS */
+    #page-settings {
+      background: var(--bg)
+    }
+
+    #slist {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px 16px 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px
+    }
+
+    .stitle {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 8px 0 4px
+    }
+
+    .sdesc {
+      font-size: 11px;
+      color: var(--text3);
+      margin-bottom: 6px;
+      padding: 0 2px;
+      line-height: 1.5
+    }
+
+    .scard {
+      background: var(--bg2);
+      border-radius: var(--r);
+      border: 1px solid var(--border);
+      overflow: hidden
+    }
+
+    .srow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--border);
+      gap: 10px
+    }
+
+    .srow:last-child {
+      border-bottom: none
+    }
+
+    .srl {
+      flex: 1;
+      min-width: 0
+    }
+
+    .srn {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis
+    }
+
+    .srs {
+      font-size: 11px;
+      color: var(--text3);
+      margin-top: 1px
+    }
+
+    .srr {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0
+    }
+
+    .tog {
+      width: 44px;
+      height: 26px;
+      border-radius: 13px;
+      background: var(--border2);
+      position: relative;
+      cursor: pointer;
+      transition: background .2s;
+      flex-shrink: 0;
+      border: none
+    }
+
+    .tog.on {
+      background: var(--accent)
+    }
+
+    .tog::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      top: 3px;
+      left: 3px;
+      transition: transform .2s;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .3)
+    }
+
+    .tog.on::after {
+      transform: translateX(18px)
+    }
+
+    .cswatch {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 2px solid var(--border2);
+      flex-shrink: 0
+    }
+
+    .sbadge {
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 700;
+      white-space: nowrap
+    }
+
+    .sbadge.white {
+      background: rgba(77, 158, 255, .2);
+      color: var(--accent)
+    }
+
+    .sbadge.black {
+      background: rgba(255, 100, 100, .2);
+      color: #ff8080
+    }
+
+    .addrow {
+      display: flex;
+      gap: 8px;
+      padding: 10px 14px;
+      background: var(--bg3);
+      border-top: 1px solid var(--border)
+    }
+
+    .addinp {
+      flex: 1;
+      background: var(--bg4);
+      border: 1px solid var(--border2);
+      border-radius: 8px;
+      padding: 8px 10px;
+      color: var(--text);
+      font-size: 13px;
+      outline: none
+    }
+
+    .addinp::placeholder {
+      color: var(--text3)
+    }
+
+    .addbtn {
+      padding: 8px 14px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap
+    }
+
+    /* UPDATE BAR */
+    #ubar {
+      padding: 3px 14px;
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      font-size: 10px;
+      color: var(--text3);
+      text-align: center;
+      flex-shrink: 0
+    }
+
+    ::-webkit-scrollbar {
+      width: 3px;
+      height: 3px
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border2);
+      border-radius: 2px
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent
+    }
+
+    @media(min-width:600px) {
+      #bs {
+        max-width: 480px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%) translateY(100%)
+      }
+
+      #bs.on {
+        transform: translateX(-50%) translateY(0)
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+
+    <!-- CALENDAR PAGE -->
+    <div id="page-cal" class="page active">
+      <div class="tbar">
+        <h1>🏥 門診日曆</h1>
+        <div class="tbar-r">
+          <div class="vtog">
+            <button id="b2" class="on" onclick="setView('2day')">2天</button>
+            <button id="bw" onclick="setView('week')">週</button>
+          </div>
+          <button class="ibtn" onclick="showPage('settings')">⚙️</button>
+        </div>
+      </div>
+      <div class="nbar">
+        <button class="narr" onclick="navigate(-1)">‹</button>
+        <span id="nav-title"></span>
+        <button class="tbtn" onclick="goToday()">回今天</button>
+        <button class="narr" onclick="navigate(1)">›</button>
+      </div>
+      <div id="cw">
+        <div id="cal"></div>
+      </div>
+      <div id="ubar">載入中…</div>
+    </div>
+
+    <!-- SETTINGS PAGE -->
+    <div id="page-settings" class="page">
+      <div class="tbar">
+        <button class="ibtn" onclick="showPage('cal')" style="font-size:20px;color:var(--accent)">←</button>
+        <h1>設定</h1>
+        <div style="width:34px"></div>
+      </div>
+      <div id="slist"></div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM SHEET -->
+  <div id="ov" onclick="closeSheet()"></div>
+  <div id="bs">
+    <div class="bsh"></div>
+    <div class="bsi" id="bsi"></div>
+  </div>
+
+  <script>
+    // ═══════════════════════════
+    //  CONSTANTS
+    // ═══════════════════════════
+    const PALETTE = ['#4d9eff', '#ff6b6b', '#50c878', '#ffa040', '#c87dff',
+      '#ff69b4', '#40c8c8', '#e6c200', '#7daaff', '#ff8c69',
+      '#90ee90', '#dda0dd', '#20b2aa', '#cd853f', '#6495ed',
+      '#ff7f50', '#98fb98', '#f0e68c', '#b0c4de', '#da70d6',
+      '#87ceeb', '#f4a460'];
+    const WD = ['一', '二', '三', '四', '五'];
+    const SLOTS = [
+      { key: 'morning', lbl: '上午' },
+      { key: 'afternoon', lbl: '下午' },
+      { key: 'evening', lbl: '晚上' },
+      { key: 'other', lbl: '其他' },
+    ];
+
+    // ═══════════════════════════
+    //  STATE
+    // ═══════════════════════════
+    let DATA = null;
+    let view = '2day';
+    let off = 0;
+    // Per-clinic manual overrides stored in localStorage (in addition to JSON config)
+    // Format: {clinicId: {extraHidden: [names], extraShow: [names]}}
+    let overrides = JSON.parse(localStorage.getItem('cc_overrides') || '{}');
+
+    // ═══════════════════════════
+    //  UTILS
+    // ═══════════════════════════
+    function fmtDate(d) {
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    }
+    function getMonday(d) {
+      const r = new Date(d); r.setHours(0, 0, 0, 0);
+      const day = r.getDay(); r.setDate(r.getDate() + (day === 0 ? -6 : 1 - day)); return r;
+    }
+    function addDays(d, n) { const r = new Date(d); r.setDate(r.getDate() + n); return r; }
+    function isToday(d) { return fmtDate(d) === fmtDate(new Date()); }
+
+    function getSlot(s) {
+      if (s.slot && s.slot !== 'custom') return s.slot;
+      const h = s.time_start ? parseInt(s.time_start, 10) : -1;
+      if (h < 0) return 'other';
+      if (h < 12) return 'morning';
+      if (h >= 13 && h <= 15) return 'afternoon';
+      if (h >= 16) return 'evening';
+      return 'other';
+    }
+
+    function getDates() {
+      const t = new Date(); t.setHours(0, 0, 0, 0);
+      if (view === '2day') {
+        const b = addDays(t, off * 2); return [b, addDays(b, 1)];
+      }
+      const m = getMonday(t); m.setDate(m.getDate() + off * 7);
+      return Array.from({ length: 5 }, (_, i) => addDays(m, i));
+    }
+
+    function navTitle(dates) {
+      if (!dates.length) return '';
+      const f = d => `${d.getMonth() + 1}/${d.getDate()}`;
+      if (dates.length === 1) return f(dates[0]);
+      const a = dates[0], b = dates[dates.length - 1];
+      return a.getMonth() === b.getMonth()
+        ? `${a.getMonth() + 1}月 ${a.getDate()}–${b.getDate()}日`
+        : `${f(a)} – ${f(b)}`;
+    }
+
+    // ── Filter logic: whitelist > blacklist > show all ──
+    function shouldShow(doctorName, clinic) {
+      if (!clinic) return true;
+      const wl = clinic.whitelist || [];
+      const bl = clinic.blacklist || [];
+      const ov = overrides[clinic.id] || {};
+      const extraHidden = ov.extraHidden || [];
+      const extraShow = ov.extraShow || [];
+
+      // Manual overrides take highest priority
+      if (extraHidden.includes(doctorName)) return false;
+      if (extraShow.includes(doctorName)) return true;
+
+      // JSON config
+      if (wl.length > 0) return wl.includes(doctorName);
+      if (bl.length > 0) return !bl.includes(doctorName);
+      return true;
+    }
+
+    function saveOverrides() { localStorage.setItem('cc_overrides', JSON.stringify(overrides)); }
+
+    // ═══════════════════════════
+    //  RENDER CALENDAR
+    // ═══════════════════════════
+    function render() {
+      if (!DATA) return;
+      const dates = getDates();
+      const cal = document.getElementById('cal');
+      const cols = dates.length;
+      const minW = cols > 2 ? 105 : 145;
+      cal.style.gridTemplateColumns = `var(--slot-w) repeat(${cols},minmax(${minW}px,1fr))`;
+
+      // lookup: dateStr → slot → [sessions with doctor + clinic]
+      const lk = {};
+      dates.forEach(d => { lk[fmtDate(d)] = { morning: [], afternoon: [], evening: [], other: [] }; });
+
+      DATA.sessions.forEach(s => {
+        if (!lk[s.date]) return;
+        const clinic = DATA.clinics.find(c => c.id === s.clinic_id);
+        const name = s.doctor_name;
+        if (!shouldShow(name, clinic)) return;
+        lk[s.date][getSlot(s)].push(s);
+      });
+
+      const showSlots = SLOTS.filter(sl =>
+        sl.key !== 'other' || dates.some(d => lk[fmtDate(d)].other.length > 0)
+      );
+
+      let h = '';
+      h += `<div class="ccorner"></div>`;
+      dates.forEach(d => {
+        const dow = d.getDay(); const wi = dow === 0 ? 6 : dow - 1;
+        h += `<div class="dhdr${isToday(d) ? ' tod' : ''}">
+      <span class="wd">週${WD[wi] ?? ''}</span>
+      <span class="dn">${d.getDate()}</span>
+      <span class="mo">${d.getMonth() + 1}月</span>
+    </div>`;
+      });
+
+      showSlots.forEach(sl => {
+        h += `<div class="slbl ${sl.key}">${sl.lbl}</div>`;
+        dates.forEach(d => {
+          const sessions = lk[fmtDate(d)]?.[sl.key] ?? [];
+          const tc = isToday(d) ? ' tcol' : '';
+          // solo class when ≤1 chip so it spans full width
+          const soloClass = sessions.length <= 1 ? ' solo' : '';
+          h += `<div class="cc ${sl.key}${tc}${soloClass}">`;
+          if (!sessions.length) {
+            h += `<div class="cempty">—</div>`;
+          } else {
+            sessions.forEach(s => {
+              const clinic = DATA.clinics.find(x => x.id === s.clinic_id);
+              const color = clinic?.color || '#888';
+              const name = s.doctor_name;
+              h += `<div class="chip" style="border-left-color:${color}"
+              onclick="openSheet('${s.id}')">
+            <span class="cn" style="color:${color}">${name}</span>
+          </div>`;
+            });
+          }
+          h += `</div>`;
+        });
+      });
+
+      cal.innerHTML = h;
+      document.getElementById('nav-title').textContent = navTitle(dates);
+      const t = DATA.meta?.generated_at
+        ? new Date(DATA.meta.generated_at).toLocaleString('zh-TW', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+        : '—';
+      document.getElementById('ubar').textContent = `資料更新：${t}`;
+    }
+
+    // ═══════════════════════════
+    //  BOTTOM SHEET
+    // ═══════════════════════════
+    function openSheet(sid) {
+      const s = DATA.sessions.find(x => x.id === sid); if (!s) return;
+      const clinic = DATA.clinics.find(x => x.id === s.clinic_id);
+      const color = clinic?.color || '#888';
+      const slotMap = { morning: '上午', afternoon: '下午', evening: '晚上', other: '其他', custom: '自訂' };
+
+      let rows = `<div class="bsrow">
+    <div class="bsicon">🕐</div>
+    <div class="bsbody">
+      <div class="bslbl">看診時段</div>
+      <div class="bsval">${s.time_label || slotMap[getSlot(s)] || '—'}</div>
+    </div>
+  </div>
+  <div class="bsrow">
+    <div class="bsicon">🏥</div>
+    <div class="bsbody">
+      <div class="bslbl">診所</div>
+      <div class="bsval">${clinic?.name || '—'}</div>
+    </div>
+  </div>
+  <div class="bsrow">
+    <div class="bsicon">📅</div>
+    <div class="bsbody">
+      <div class="bslbl">日期</div>
+      <div class="bsval">${s.date}</div>
+    </div>
+  </div>`;
+      if (s.source_note) rows += `<div class="bsrow">
+    <div class="bsicon">📋</div>
+    <div class="bsbody">
+      <div class="bslbl">備註</div>
+      <div class="bsval">${s.source_note}</div>
+    </div>
+  </div>`;
+
+      document.getElementById('bsi').innerHTML = `
+    <div class="bsclin"><div class="bsdot" style="background:${color}"></div>${clinic?.name || '—'}</div>
+    <div class="bsname">${s.doctor_name}</div>
+    ${rows}
+    <button class="bsclose" onclick="closeSheet()">關閉</button>`;
+
+      document.getElementById('ov').classList.add('on');
+      document.getElementById('bs').classList.add('on');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeSheet() {
+      document.getElementById('ov').classList.remove('on');
+      document.getElementById('bs').classList.remove('on');
+      document.body.style.overflow = '';
+    }
+    (() => {
+      let sy = 0; const bs = document.getElementById('bs');
+      bs.addEventListener('touchstart', e => { sy = e.touches[0].clientY; }, { passive: true });
+      bs.addEventListener('touchend', e => { if (e.changedTouches[0].clientY - sy > 60) closeSheet(); }, { passive: true });
+    })();
+
+    // ═══════════════════════════
+    //  SETTINGS PAGE
+    // ═══════════════════════════
+    function renderSettings() {
+      if (!DATA) { document.getElementById('slist').innerHTML = '<div style="padding:20px;color:var(--text3)">尚未載入資料</div>'; return; }
+      const list = document.getElementById('slist');
+      let h = '';
+
+      h += `<div class="stitle">診所篩選設定</div>
+  <div class="sdesc">各診所的白/黑名單來自資料來源設定。你可以在這裡追加額外的顯示/隱藏，優先於資料來源設定。</div>`;
+
+      DATA.clinics.forEach(cl => {
+        const wl = cl.whitelist || [];
+        const bl = cl.blacklist || [];
+        const ov = overrides[cl.id] || {};
+        const extraH = ov.extraHidden || [];
+        const extraS = ov.extraShow || [];
+
+        // Doctors seen in sessions for this clinic
+        const docNames = [...new Set(
+          DATA.sessions.filter(s => s.clinic_id === cl.id).map(s => s.doctor_name)
+        )];
+
+        let badge = '';
+        if (wl.length) badge = `<span class="sbadge white">白名單${wl.length}</span>`;
+        else if (bl.length) badge = `<span class="sbadge black">黑名單${bl.length}</span>`;
+
+        h += `<div class="stitle" style="margin-top:4px">${cl.name} ${badge}</div>
+    <div class="scard">`;
+
+        docNames.forEach(name => {
+          const show = shouldShow(name, cl);
+          const isOverridden = extraH.includes(name) || extraS.includes(name);
+          h += `<div class="srow">
+        <div class="srl">
+          <div class="srn">${name}</div>
+          ${isOverridden ? '<div class="srs">手動覆寫</div>' : ''}
+        </div>
+        <div class="srr">
+          <div class="cswatch" style="background:${cl.color}"></div>
+          <button class="tog${show ? ' on' : ''}"
+            onclick="togOverride('${cl.id}','${name.replace(/'/g, "\\'")}',this)"></button>
+        </div>
+      </div>`;
+        });
+
+        // Add extra hidden entry
+        h += `<div class="addrow">
+      <input class="addinp" id="ai_${cl.id}" placeholder="手動隱藏姓名…"
+        onkeydown="if(event.key==='Enter')addExtraHidden('${cl.id}')">
+      <button class="addbtn" onclick="addExtraHidden('${cl.id}')">隱藏</button>
+    </div></div>`;
+      });
+
+      list.innerHTML = h;
+    }
+
+    function togOverride(clinicId, name, btn) {
+      if (!overrides[clinicId]) overrides[clinicId] = { extraHidden: [], extraShow: [] };
+      const ov = overrides[clinicId];
+      const clinic = DATA.clinics.find(c => c.id === clinicId);
+      const baseShow = shouldShow(name, clinic);
+
+      // Remove from both lists first
+      ov.extraHidden = ov.extraHidden.filter(n => n !== name);
+      ov.extraShow = ov.extraShow.filter(n => n !== name);
+
+      if (baseShow) {
+        // Currently showing → add to extraHidden
+        ov.extraHidden.push(name);
+        btn.classList.remove('on');
+      } else {
+        // Currently hidden → add to extraShow
+        ov.extraShow.push(name);
+        btn.classList.add('on');
+      }
+      saveOverrides(); render();
+    }
+
+    function addExtraHidden(clinicId) {
+      const inp = document.getElementById(`ai_${clinicId}`);
+      const name = inp.value.trim(); if (!name) return;
+      if (!overrides[clinicId]) overrides[clinicId] = { extraHidden: [], extraShow: [] };
+      if (!overrides[clinicId].extraHidden.includes(name))
+        overrides[clinicId].extraHidden.push(name);
+      saveOverrides(); inp.value = '';
+      renderSettings(); render();
+    }
+
+    // ═══════════════════════════
+    //  NAVIGATION
+    // ═══════════════════════════
+    function setView(v) {
+      view = v; off = 0;
+      document.getElementById('b2').classList.toggle('on', v === '2day');
+      document.getElementById('bw').classList.toggle('on', v === 'week');
+      render();
+    }
+    function navigate(dir) { off += dir; render(); }
+    function goToday() { off = 0; render(); }
+    function showPage(id) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById('page-' + id).classList.add('active');
+      if (id === 'settings') renderSettings();
+      if (id === 'cal') render();
+    }
+
+    // ═══════════════════════════
+    //  SWIPE
+    // ═══════════════════════════
+    (() => {
+      let sx = 0, sy = 0; const w = document.getElementById('cw');
+      w.addEventListener('touchstart', e => { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });
+      w.addEventListener('touchend', e => {
+        const dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+        if (Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy) * 1.4) navigate(dx < 0 ? 1 : -1);
+      }, { passive: true });
+    })();
+
+    // ═══════════════════════════
+    //  DATA LOAD
+    // ═══════════════════════════
+    async function loadData() {
+      try {
+        const r = await fetch('./schedules.json?v=' + Date.now(), { cache: 'no-store' });
+        if (!r.ok) throw 0;
+        const j = await r.json();
+        j.clinics.forEach((c, i) => { if (!c.color) c.color = PALETTE[i % PALETTE.length]; });
+        DATA = j; render();
+      } catch {
+        // Inline fallback sample (minimal)
+        DATA = {
+          meta: { generated_at: new Date().toISOString(), version: '1.0' },
+          clinics: [{ id: 'demo', name: '範例診所', color: '#4d9eff', whitelist: [], blacklist: [] }],
+          sessions: []
+        };
+        render();
+      }
+    }
+
+    // pull-to-refresh
+    (() => {
+      let ps = 0; const w = document.getElementById('cw');
+      w.addEventListener('touchstart', e => { if (w.scrollTop === 0) ps = e.touches[0].clientY; }, { passive: true });
+      w.addEventListener('touchend', e => {
+        if (ps > 0 && e.changedTouches[0].clientY - ps > 72 && w.scrollTop === 0) {
+          document.getElementById('ubar').textContent = '更新中…'; loadData();
+        } ps = 0;
+      }, { passive: true });
+    })();
+
+    loadData();
+  </script>
+</body>
+
+</html>
