@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='120' fill='%23000000'/%3E%3Cpath d='M256 100 L380 340 L132 340 Z' fill='none' stroke='%230a84ff' stroke-width='30' stroke-linejoin='round' filter='url(%23glow)'/%3E%3Ccircle cx='256' cy='240' r='40' fill='%230a84ff' filter='url(%23glow)'/%3E%3Cdefs%3E%3Cfilter id='glow' x='-50%25' y='-50%25' width='200%25' height='200%25'%3E%3CfeGaussianBlur stdDeviation='15' result='coloredBlur'/%3E%3CfeMerge%3E%3CfeMergeNode in='coloredBlur'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='120' fill='%23000000'/%3E%3Cpath d='M256 100 L380 340 L132 340 Z' fill='none' stroke='%230a84ff' stroke-width='30' stroke-linejoin='round' filter='url(%23glow)'/%3E%3Ccircle cx='256' cy='240' r='40' fill='%230a84ff' filter='url(%23glow)'/%3E%3Cdefs%3E%3Cfilter id='glow' x='-50%25' y='-50%25' width='200%25' height='200%25'%3E%3CfeGaussianBlur stdDeviation='15' result='coloredBlur'/%3E%3CfeMerge%3E%3CfeMergeNode in='coloredBlur'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E">
   <meta name="apple-mobile-web-app-title" content="門診日曆">
   <meta name="theme-color" content="#0d0d0d">
   <title>門診日曆</title>
@@ -21,7 +25,7 @@
       --text2: #ebebf5;
       /* 60% */
       --text3: #ebebf599;
-      /* 30%? actually 60% is #ebebf5, 30% is #ebebf54d */
+      /* 30% */
       --accent: #0a84ff;
       --accent-dim: rgba(10, 132, 255, 0.15);
 
@@ -36,12 +40,15 @@
       --es: #0a84ff;
       --os: #ff453a;
 
-      --slot-w: 30px;
-      --hdr-h: 50px;
-      /* iOS standard is 44, but we need space */
-      --nav-h: 44px;
-      --r: 12px;
-      --rsm: 8px;
+      /* Compact dimensions */
+      --slot-w: 24px;
+      /* Reduced from 30px */
+      --hdr-h: 44px;
+      /* Standard iOS nav bar height */
+      --nav-h: 40px;
+      /* Slightly shorter nav bar */
+      --r: 10px;
+      --rsm: 6px;
     }
 
     *,
@@ -59,8 +66,8 @@
       height: 100%;
       overflow: hidden;
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
-      font-size: 15px;
-      /* iOS body is 17 usually, but dense info needs smaller */
+      font-size: 13px;
+      /* Reduced from 15px */
       color: var(--text);
       background: var(--bg);
       -webkit-font-smoothing: antialiased;
@@ -94,7 +101,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 16px;
+      padding: 0 12px;
       flex-shrink: 0;
       z-index: 20;
       position: sticky;
@@ -102,34 +109,34 @@
     }
 
     .tbar h1 {
-      font-size: 17px;
+      font-size: 15px;
       font-weight: 600;
-      letter-spacing: -0.4px;
+      letter-spacing: -0.2px;
     }
 
     .tbar-r {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 8px;
     }
 
     .vtog {
       display: flex;
       background: #7676803d;
       /* iOS segmented control bg */
-      border-radius: 9px;
+      border-radius: 8px;
       padding: 2px;
     }
 
     .vtog button {
-      padding: 4px 12px;
-      font-size: 13px;
+      padding: 3px 10px;
+      font-size: 12px;
       font-weight: 500;
       border: none;
       background: transparent;
       cursor: pointer;
       color: var(--text);
-      border-radius: 7px;
+      border-radius: 6px;
       transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -141,8 +148,8 @@
     }
 
     .ibtn {
-      width: 32px;
-      height: 32px;
+      width: 28px;
+      height: 28px;
       border: none;
       background: transparent;
       display: flex;
@@ -150,7 +157,7 @@
       justify-content: center;
       cursor: pointer;
       color: var(--accent);
-      font-size: 20px;
+      font-size: 18px;
       transition: opacity 0.2s;
     }
 
@@ -167,18 +174,18 @@
       border-bottom: 0.5px solid var(--border);
       display: flex;
       align-items: center;
-      padding: 0 8px;
-      gap: 4px;
+      padding: 0 4px;
+      gap: 2px;
       flex-shrink: 0;
     }
 
     .narr {
-      width: 40px;
+      width: 36px;
       height: 100%;
       border: none;
       background: transparent;
       cursor: pointer;
-      font-size: 24px;
+      font-size: 20px;
       color: var(--accent);
       display: flex;
       align-items: center;
@@ -191,19 +198,19 @@
     }
 
     #nav-title {
-      font-size: 15px;
+      font-size: 13px;
       font-weight: 600;
       text-align: center;
       flex: 1;
-      letter-spacing: -0.2px;
+      letter-spacing: -0.1px;
     }
 
     .tbtn {
-      font-size: 15px;
+      font-size: 13px;
       color: var(--accent);
       background: transparent;
       border: none;
-      padding: 0 12px;
+      padding: 0 10px;
       cursor: pointer;
       font-weight: 400;
     }
@@ -217,7 +224,7 @@
       display: none;
       align-items: center;
       gap: 8px;
-      padding: 8px 16px;
+      padding: 6px 12px;
       background: var(--bg2);
       border-bottom: 0.5px solid var(--border);
       flex-shrink: 0;
@@ -229,7 +236,7 @@
 
     #filter-bar-label {
       flex: 1;
-      font-size: 13px;
+      font-size: 12px;
       color: var(--text2);
       white-space: nowrap;
       overflow: hidden;
@@ -237,30 +244,30 @@
     }
 
     #clear-filter-btn {
-      font-size: 13px;
+      font-size: 11px;
       font-weight: 400;
-      padding: 4px 10px;
+      padding: 3px 8px;
       background: #3a3a3c;
       color: var(--text);
       border: none;
-      border-radius: 14px;
+      border-radius: 10px;
       cursor: pointer;
     }
 
     /* CLINIC SELECT */
     #clinic-select {
-      font-size: 15px;
+      font-size: 13px;
       color: var(--accent);
       border: none;
       background: transparent;
       appearance: none;
       -webkit-appearance: none;
       font-weight: 400;
-      padding-right: 16px;
+      padding-right: 14px;
       background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230a84ff'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
       background-repeat: no-repeat;
       background-position: right center;
-      background-size: 16px;
+      background-size: 14px;
     }
 
     /* CALENDAR */
@@ -296,27 +303,27 @@
       -webkit-backdrop-filter: blur(10px);
       border-bottom: 0.5px solid var(--border);
       border-right: 0.5px solid var(--border);
-      padding: 8px 4px 6px;
+      padding: 6px 2px 4px;
       text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 2px;
+      gap: 1px;
     }
 
     .dhdr .wd {
-      font-size: 11px;
+      font-size: 10px;
       font-weight: 500;
       color: var(--text3);
       text-transform: uppercase;
     }
 
     .dhdr .dn {
-      font-size: 19px;
+      font-size: 16px;
       font-weight: 600;
       color: var(--text);
-      width: 30px;
-      height: 30px;
+      width: 24px;
+      height: 24px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -333,7 +340,7 @@
     }
 
     .dhdr .mo {
-      font-size: 10px;
+      font-size: 9px;
       color: var(--text3);
       display: none;
     }
@@ -353,11 +360,12 @@
       align-items: center;
       justify-content: center;
       writing-mode: vertical-rl;
-      font-size: 11px;
+      font-size: 10px;
       font-weight: 500;
       color: var(--text2);
-      letter-spacing: 2px;
-      min-height: 80px;
+      letter-spacing: 1px;
+      min-height: 60px;
+      /* Reduced from 80px */
       width: var(--slot-w);
     }
 
@@ -380,11 +388,12 @@
     .cc {
       border-right: 0.5px solid var(--border);
       border-bottom: 0.5px solid var(--border);
-      padding: 4px;
-      min-height: 80px;
+      padding: 3px;
+      min-height: 60px;
+      /* Reduced from 80px */
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 4px;
+      gap: 3px;
       align-content: start;
     }
 
@@ -415,15 +424,16 @@
     }
 
     .chip {
-      border-radius: 6px;
-      padding: 6px 8px;
+      border-radius: 4px;
+      padding: 4px 6px;
+      /* Compact padding */
       background: var(--bg3);
-      border-left: 3px solid transparent;
+      border-left: 2.5px solid transparent;
       cursor: pointer;
       /* transition: transform 0.1s; */
       min-width: 0;
       overflow: hidden;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     }
 
     .chip:active {
@@ -432,13 +442,14 @@
     }
 
     .chip .cn {
-      font-size: 13px;
+      font-size: 11.5px;
+      /* Smaller font */
       font-weight: 600;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       display: block;
-      line-height: 1.3;
+      line-height: 1.2;
     }
 
     .chip.dimmed {
@@ -447,7 +458,7 @@
     }
 
     .chip.highlighted {
-      box-shadow: 0 0 0 2px var(--accent);
+      box-shadow: 0 0 0 1.5px var(--accent);
       background: rgba(10, 132, 255, 0.15);
     }
 
@@ -457,9 +468,9 @@
       align-items: center;
       justify-content: center;
       color: var(--text3);
-      font-size: 13px;
-      padding: 10px 0;
-      min-height: 60px;
+      font-size: 12px;
+      padding: 8px 0;
+      min-height: 40px;
     }
 
     /* BOTTOM SHEET */
