@@ -4,7 +4,7 @@
 
 「門診日曆」是一個給家庭成員（主要是媽媽）使用的私人工具，用來查看多家骨科/復健科診所的醫師排班。
 
-資料來源是 `schedules.json`，由 `scraper/` 目錄下的工具定期抓取並手動維護。App 本身不連後端，只讀取 GitHub Pages 上的靜態 JSON。
+資料來源是 `schedules.json`，由 `scraper/` 目錄下的工具配合人工維護。詳細更新流程請參閱 `SOP.md`。
 
 ---
 
@@ -107,7 +107,9 @@ clinic-pwa/
 ├── schedules.json      # 排班資料（由 scraper 維護）
 ├── Spec.md             # 本文件
 ├── Log.md              # 開發日誌
+├── SOP.md              # 門診班表資料更新 SOP（標準作業程序）
 └── scraper/
+    ├── ocr_corrections.md  # OCR 辨識比對修正清單
     ├── web_validator.py    # CXMS 網站爬取
     ├── fb_snapshot.py      # Facebook / LINE VOOM 截圖
     ├── image_validator.py  # 圖片來源驗證

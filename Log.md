@@ -103,15 +103,30 @@
 
 ---
 
+### SOP 建立與流程標準化（commit `3c58289`）
+
+**建立 `SOP.md` v1.2**：
+- 定義四大類資料來源（CXMS、FB、官網、圖片）的標準更新程序
+- 規範更新頻率：CXMS 每週日、FB/官網月班表每月底
+- 規範衝突處理：同名必同人，跨院不衝突，同天同時段才算衝突
+- 規範 OCR 流程：先問使用者 → 記錄到 `source_note` & `ocr_corrections.md`
+
+**文件更新**：
+- 新增 `scraper/ocr_corrections.md`
+- 建立 c13/c14 的 `schedule_transcription.md`
+- 修正 `schedules.json` 中 c02/c09/c10/c13/c14/c22 的資料錯誤與缺漏
+
+---
+
 ## 待辦事項
 
 ### 資料維護
-- [ ] 每週更新 `schedules.json`（需用瀏覽器爬取 CXMS AJAX 資料）
-- [ ] 確認各診所白/黑名單是否需要調整
-- [ ] 圖片診所（正陽 c08、悅滿意 c13/c14）每 6 個月複查一次
+- [x] 補齊所有診所的快照（FB 全尺寸、CXMS、官網）
+- [x] 修正 `schedules.json` 與快照不符之處
+- [ ] 下週日（2/22）執行第一次依據 SOP v1.2 的例行更新
 
 ### 功能改進（未來考慮）
-- [ ] 爬蟲改用 Selenium 自動化更新 CXMS 班表
+- [ ] 爬蟲改用 Selenium 自動化更新 CXMS 班表（目前 SOP 為手動/瀏覽器截圖）
 - [ ] 加入 Service Worker 支援離線瀏覽
 - [ ] 週視圖加入「本週/下週」快速跳轉
 - [ ] 底部資訊卡加入診所電話/地址
