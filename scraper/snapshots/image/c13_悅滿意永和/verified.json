@@ -1,13 +1,11 @@
 {
   "clinic_id": "c13",
   "clinic_name": "悅滿意永和",
-  "source_type": "image",
-  "transcribed_at": "2026-02-18T11:33:14.827781",
-  "transcribed_by": "manual",
-  "verified": false,
-  "notes": "",
-  "image_files": [],
-  "next_review_date": "2026-08-17",
-  "review_interval_days": 180,
-  "history": []
+  "verified": true,
+  "verified_at": "2026-02-18T17:13:44+08:00",
+  "verified_by": "user_provided_image",
+  "image_files": [
+    "user_provided_20260218.png"
+  ],
+  "notes": "使用者於 2026-02-18 提供門診時間表圖片，已人工比對並更新 schedules.json。圖片標題：悅滿意復健專科診所醫師看診時間表。醫師：江醫師、李醫師、王醫師、丁醫師、林醫師。"
 }
