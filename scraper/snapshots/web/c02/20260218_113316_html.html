@@ -1,0 +1,80 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>維恩骨科診所</title>
+<link href="css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body {
+	background-image: url(back.gif);
+}
+-->
+</style>
+	<script type="text/javascript" language="javascript">
+
+    var http_request = false;
+    function makeRequest(url) {
+        http_request = false;
+        if (window.XMLHttpRequest) { // Mozilla, Safari,...
+            http_request = new XMLHttpRequest();
+            if (http_request.overrideMimeType) {
+                http_request.overrideMimeType('text/xml');
+            }
+        } else if (window.ActiveXObject) { // IE
+            try {
+                http_request = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (e) {
+                try {
+                    http_request = new ActiveXObject("Microsoft.XMLHTTP");
+                } catch (e) {}
+            }
+        }
+
+        if (!http_request) {
+            return false;
+        }
+        http_request.onreadystatechange = alertContents;
+        http_request.open('GET', url, true);
+        http_request.send(null);
+    }
+
+    function alertContents() {
+        if (http_request.readyState == 4) {
+            if (http_request.status == 200) {
+            	var x = document.getElementById("ajax");
+            	x.innerHTML = http_request.responseText;
+            }
+        }
+    }
+	makeRequest("docsch_ajax.php");
+	setInterval("makeRequest(\"docsch_ajax.php\")",120000);
+</script>
+</head>
+
+<body bgcolor="ccdbfd">
+	
+	</td>
+  </tr>
+  <tr bgcolor="#FFFFe7"> 
+    <td height="18">&nbsp;</td>
+  </tr>
+</table>
+<div id="ajax" class="ajax" align="center"></div>
+<p>
+<center><font size=+1 color="blue"><b>※預約成功者，請於門診時段截止前30分鐘內於櫃台完成報到</b></font></center>
+<table width="680" border="0" align="center" bgcolor="#888888">
+  <tr bgcolor="#FFFF99"> 
+    <td width="100"> 
+      <div align="center">診別</div></td>
+    <td width="100"> <div align="center">星期一</div></td>
+    <td width="100"> <div align="center">星期二</div></td>
+    <td width="100"> <div align="center">星期三</div></td>
+    <td width="100"> <div align="center">星期四</div></td>
+    <td width="100"> <div align="center">星期五</div></td>
+    <td width="100"> <div align="center">星期六</div></td>
+  </tr>
+<tr bgcolor="pink"><td></td><td align="center">02月23日</td><td align="center">02月24日</td><td align="center">02月25日</td><td align="center">02月26日</td><td align="center">02月27日</td><td align="center">02月28日</td></tr><tr align='center' bgcolor="#E1FFDA"><td>上午一診</td><td><br>鄧維仁<div align="center"><font color="#808000">0830~1200</font></div></td><td><br>李毅康<div align="center"><font color="#808000">0830~1200</font></div></td><td><br>朱育葳<div align="center"><font color="#808000">0830~1200</font></div></td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td></tr><tr align='center' bgcolor="#FFCCFF"><td>下午一診</td><td><br>鄧維仁<div align="center"><font color="#808000">1400~1700</font></div></td><td><br>朱育葳<div align="center"><font color="#808000">1400~1700</font></div></td><td><br>鄧維仁<div align="center"><font color="#808000">1400~1700</font></div></td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td></tr><tr align='center' bgcolor="#FFCCFF"><td>下午二診</td><td><br>朱育葳<div align="center"><font color="#808000">1400~1700</font></div></td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td></tr><tr align='center' bgcolor="#CCCCFF"><td>夜間一診</td><td><br>朱育葳<div align="center"><font color="#808000">1800~2100</font></div></td><td><br>鄧維仁<div align="center"><font color="#808000">1800~2100</font></div></td><td><br>鄧維仁<div align="center"><font color="#808000">1800~2100</font></div></td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td><td bgcolor="#EEEEEE">　</td></tr></table><p>
+<center><font size=+1 color="red">本表每週更新，實際門診表會依狀況修訂，正確資訊請於就診當日向診所查詢。</font></center>
+<center><a href="post.php"><img src="webreg.png"></a></center>
+</body>
+</html>

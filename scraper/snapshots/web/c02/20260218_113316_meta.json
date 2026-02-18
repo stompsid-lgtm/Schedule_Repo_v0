@@ -1,0 +1,9 @@
+{
+  "clinic_id": "c02",
+  "clinic_name": "維恩骨科",
+  "url": "http://web.cxms.com.tw/wn/hosp.php",
+  "scraped_at": "2026-02-18T11:33:16.326736",
+  "html_file": "/Users/yezuhao/.gemini/antigravity/scratch/clinic-pwa/scraper/snapshots/web/c02/20260218_113316_html.html",
+  "html_size_bytes": 4468,
+  "status": "success"
+}
