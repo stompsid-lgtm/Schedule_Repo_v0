@@ -94,6 +94,7 @@ def take_screenshot(clinic_id: str, url: str, clinic_name: str, platform: str) -
     try:
         from selenium import webdriver
         from selenium.webdriver.chrome.options import Options
+        from selenium.webdriver.common.keys import Keys
 
         options = Options()
         options.add_argument("--headless")
@@ -109,14 +110,24 @@ def take_screenshot(clinic_id: str, url: str, clinic_name: str, platform: str) -
         try:
             print(f"  🌐 開啟 {url} ...")
             driver.get(url)
-            time.sleep(5)  # 等待頁面載入
+            time.sleep(4)  # 等待頁面載入
 
             # 偵測是否被導向登入頁
             current_url = driver.current_url
-            page_title = driver.title
             if any(kw in current_url.lower() for kw in ["login", "checkpoint"]):
                 result["needs_login"] = True
-                print(f"  ⚠️  {clinic_name}: 被導向登入頁，截圖登入提示")
+                print(f"  ⚠️  {clinic_name}: 被導向登入頁")
+
+            # 嘗試關閉 Facebook 登入 modal（按 Escape）
+            try:
+                driver.find_element("tag name", "body").send_keys(Keys.ESCAPE)
+                time.sleep(1.5)
+            except Exception:
+                pass
+
+            # 向下滾動讓班表圖片進入視野
+            driver.execute_script("window.scrollBy(0, 400);")
+            time.sleep(1)
 
             # 截圖
             screenshot_file = clinic_dir / f"{date_str}_screenshot.png"
