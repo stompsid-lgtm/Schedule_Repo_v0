@@ -975,12 +975,33 @@
       return 'other';
     }
 
+    function isWeekend(d) { const day = d.getDay(); return day === 0 || day === 6; }
+
+    function addBusinessDays(d, n) {
+      const res = new Date(d);
+      let count = 0;
+      const sign = n >= 0 ? 1 : -1;
+      const absN = Math.abs(n);
+      while (count < absN) {
+        res.setDate(res.getDate() + sign);
+        if (!isWeekend(res)) count++;
+      }
+      return res;
+    }
+
     function getDates() {
       const t = new Date(); t.setHours(0, 0, 0, 0);
+      // Ensure start date is a weekday
+      while (isWeekend(t)) { t.setDate(t.getDate() + 1); }
+
       if (view === '2day') {
-        const b = addDays(t, off * 2); return [b, addDays(b, 1)];
+        const b = addBusinessDays(t, off * 2);
+        return [b, addBusinessDays(b, 1)];
       }
-      const m = getMonday(t); m.setDate(m.getDate() + off * 7);
+
+      const m = getMonday(t);
+      m.setDate(m.getDate() + off * 7);
+      // Week view: always Mon-Fri
       return Array.from({ length: 5 }, (_, i) => addDays(m, i));
     }
 
@@ -989,9 +1010,14 @@
       const f = d => `${d.getMonth() + 1}/${d.getDate()}`;
       if (dates.length === 1) return f(dates[0]);
       const a = dates[0], b = dates[dates.length - 1];
-      return a.getMonth() === b.getMonth()
-        ? `${a.getMonth() + 1}月 ${a.getDate()}–${b.getDate()}日`
-        : `${f(a)} – ${f(b)}`;
+
+      // If same month
+      if (a.getMonth() === b.getMonth()) {
+        // for 2-day view crossing weekend (Fri, Mon), we might want full ranges
+        // but "M/D-D" is fine.
+        return `${a.getMonth() + 1}月 ${a.getDate()}–${b.getDate()}日`;
+      }
+      return `${f(a)} – ${f(b)}`;
     }
 
     // ── Filter logic: whitelist > blacklist > show all ──
