@@ -201,6 +201,69 @@
       background: var(--accent-dim)
     }
 
+    /* FILTER BAR */
+    #filter-bar {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      background: rgba(77, 158, 255, .08);
+      border-bottom: 1px solid rgba(77, 158, 255, .2);
+      flex-shrink: 0
+    }
+
+    #filter-bar.on {
+      display: flex
+    }
+
+    #filter-bar-label {
+      flex: 1;
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis
+    }
+
+    #clear-filter-btn {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border: 1px solid var(--accent);
+      background: transparent;
+      color: var(--accent);
+      border-radius: 6px;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: background .15s
+    }
+
+    #clear-filter-btn:active {
+      background: var(--accent-dim)
+    }
+
+    /* CLINIC SELECT */
+    #clinic-select {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 6px;
+      border: 1px solid var(--border2);
+      background: var(--bg3);
+      color: var(--text2);
+      border-radius: 6px;
+      cursor: pointer;
+      max-width: 80px;
+      flex-shrink: 0;
+      outline: none;
+      -webkit-appearance: none;
+      appearance: none
+    }
+
+    #clinic-select:focus {
+      border-color: var(--accent)
+    }
+
     /* CALENDAR */
     #cw {
       flex: 1;
@@ -310,7 +373,6 @@
       border-bottom: 1px solid var(--border);
       padding: 4px 3px;
       min-height: 80px;
-      /* 2-col chip layout */
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 3px;
@@ -348,7 +410,7 @@
       background: var(--bg3);
       border-left: 3px solid transparent;
       cursor: pointer;
-      transition: background .12s;
+      transition: background .12s, opacity .2s, box-shadow .2s;
       min-width: 0;
       overflow: hidden
     }
@@ -365,6 +427,17 @@
       overflow: hidden;
       text-overflow: ellipsis;
       display: block
+    }
+
+    /* Filter highlight states */
+    .chip.dimmed {
+      opacity: 0.18;
+      filter: grayscale(0.7)
+    }
+
+    .chip.highlighted {
+      box-shadow: 0 0 0 2px var(--accent);
+      background: rgba(77, 158, 255, .12)
     }
 
     .cempty {
@@ -489,9 +562,38 @@
       line-height: 1.5
     }
 
+    /* Filter doctor button in bottom sheet */
+    .bs-filter-btn {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px;
+      background: rgba(77, 158, 255, .12);
+      border: 1px solid rgba(77, 158, 255, .4);
+      border-radius: var(--r);
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background .12s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px
+    }
+
+    .bs-filter-btn:active {
+      background: rgba(77, 158, 255, .22)
+    }
+
+    .bs-filter-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent)
+    }
+
     .bsclose {
       width: 100%;
-      margin-top: 14px;
+      margin-top: 10px;
       padding: 12px;
       background: var(--bg3);
       border: 1px solid var(--border2);
@@ -535,6 +637,54 @@
       color: var(--text3);
       margin-bottom: 6px;
       padding: 0 2px;
+      line-height: 1.5
+    }
+
+    /* Usage guide card */
+    .guide-card {
+      background: var(--bg2);
+      border-radius: var(--r);
+      border: 1px solid var(--border);
+      padding: 14px 16px;
+      margin-bottom: 4px
+    }
+
+    .guide-row {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 7px 0;
+      border-bottom: 1px solid var(--border)
+    }
+
+    .guide-row:last-child {
+      border-bottom: none;
+      padding-bottom: 0
+    }
+
+    .guide-row:first-child {
+      padding-top: 0
+    }
+
+    .guide-icon {
+      font-size: 16px;
+      flex-shrink: 0;
+      width: 22px;
+      text-align: center;
+      margin-top: 1px
+    }
+
+
+    .guide-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 2px
+    }
+
+    .guide-desc {
+      font-size: 11px;
+      color: var(--text3);
       line-height: 1.5
     }
 
@@ -738,7 +888,15 @@
         <button class="narr" onclick="navigate(-1)">‹</button>
         <span id="nav-title"></span>
         <button class="tbtn" onclick="goToday()">回今天</button>
+        <select id="clinic-select" onchange="onClinicSelectChange(this)" title="篩選診所">
+          <option value="">篩選診所</option>
+        </select>
         <button class="narr" onclick="navigate(1)">›</button>
+      </div>
+      <!-- Filter status bar -->
+      <div id="filter-bar">
+        <span id="filter-bar-label"></span>
+        <button id="clear-filter-btn" onclick="clearFilter()">✕ 取消篩選</button>
       </div>
       <div id="cw">
         <div id="cal"></div>
@@ -788,9 +946,11 @@
     let DATA = null;
     let view = '2day';
     let off = 0;
-    // Per-clinic manual overrides stored in localStorage (in addition to JSON config)
-    // Format: {clinicId: {extraHidden: [names], extraShow: [names]}}
+    // Per-clinic manual overrides stored in localStorage
     let overrides = JSON.parse(localStorage.getItem('cc_overrides') || '{}');
+    // Filter state (highlight mode — does NOT hide other chips, just dims them)
+    let filterDoctor = null;   // doctor name string, or null
+    let filterClinic = null;   // clinic id string, or null
 
     // ═══════════════════════════
     //  UTILS
@@ -853,7 +1013,82 @@
       return true;
     }
 
+    // Base show without overrides (used for togOverride fix)
+    function baseShow(doctorName, clinic) {
+      if (!clinic) return true;
+      const wl = clinic.whitelist || [];
+      const bl = clinic.blacklist || [];
+      if (wl.length > 0) return wl.includes(doctorName);
+      if (bl.length > 0) return !bl.includes(doctorName);
+      return true;
+    }
+
     function saveOverrides() { localStorage.setItem('cc_overrides', JSON.stringify(overrides)); }
+
+    // ═══════════════════════════
+    //  FILTER STATE
+    // ═══════════════════════════
+    function setDoctorFilter(name) {
+      filterDoctor = name;
+      filterClinic = null;
+      // Reset clinic select
+      document.getElementById('clinic-select').value = '';
+      updateFilterBar();
+      render();
+    }
+
+    function setClinicFilter(clinicId) {
+      filterClinic = clinicId;
+      filterDoctor = null;
+      updateFilterBar();
+      render();
+    }
+
+    function clearFilter() {
+      filterDoctor = null;
+      filterClinic = null;
+      document.getElementById('clinic-select').value = '';
+      updateFilterBar();
+      render();
+    }
+
+    function updateFilterBar() {
+      const bar = document.getElementById('filter-bar');
+      const label = document.getElementById('filter-bar-label');
+      if (filterDoctor) {
+        bar.classList.add('on');
+        label.textContent = `🔍 篩選醫師：${filterDoctor}`;
+      } else if (filterClinic) {
+        const cl = DATA?.clinics.find(c => c.id === filterClinic);
+        bar.classList.add('on');
+        label.textContent = `🔍 篩選診所：${cl?.name || filterClinic}`;
+      } else {
+        bar.classList.remove('on');
+        label.textContent = '';
+      }
+    }
+
+    function onClinicSelectChange(sel) {
+      const val = sel.value;
+      if (!val) {
+        clearFilter();
+      } else {
+        setClinicFilter(val);
+      }
+    }
+
+    function populateClinicSelect() {
+      if (!DATA) return;
+      const sel = document.getElementById('clinic-select');
+      // Keep first option
+      while (sel.options.length > 1) sel.remove(1);
+      DATA.clinics.forEach(cl => {
+        const opt = document.createElement('option');
+        opt.value = cl.id;
+        opt.textContent = cl.name;
+        sel.appendChild(opt);
+      });
+    }
 
     // ═══════════════════════════
     //  RENDER CALENDAR
@@ -865,6 +1100,9 @@
       const cols = dates.length;
       const minW = cols > 2 ? 105 : 145;
       cal.style.gridTemplateColumns = `var(--slot-w) repeat(${cols},minmax(${minW}px,1fr))`;
+
+      // Determine if any filter is active
+      const hasFilter = !!(filterDoctor || filterClinic);
 
       // lookup: dateStr → slot → [sessions with doctor + clinic]
       const lk = {};
@@ -898,7 +1136,6 @@
         dates.forEach(d => {
           const sessions = lk[fmtDate(d)]?.[sl.key] ?? [];
           const tc = isToday(d) ? ' tcol' : '';
-          // solo class when ≤1 chip so it spans full width
           const soloClass = sessions.length <= 1 ? ' solo' : '';
           h += `<div class="cc ${sl.key}${tc}${soloClass}">`;
           if (!sessions.length) {
@@ -908,7 +1145,17 @@
               const clinic = DATA.clinics.find(x => x.id === s.clinic_id);
               const color = clinic?.color || '#888';
               const name = s.doctor_name;
-              h += `<div class="chip" style="border-left-color:${color}"
+
+              // Determine highlight class
+              let hlClass = '';
+              if (hasFilter) {
+                let isMatch = false;
+                if (filterDoctor && name === filterDoctor) isMatch = true;
+                if (filterClinic && s.clinic_id === filterClinic) isMatch = true;
+                hlClass = isMatch ? ' highlighted' : ' dimmed';
+              }
+
+              h += `<div class="chip${hlClass}" style="border-left-color:${color}"
               onclick="openSheet('${s.id}')">
             <span class="cn" style="color:${color}">${name}</span>
           </div>`;
@@ -964,16 +1211,37 @@
     </div>
   </div>`;
 
+      // Determine if this doctor is currently filtered
+      const isFiltered = filterDoctor === s.doctor_name;
+      const filterBtnClass = isFiltered ? 'bs-filter-btn active' : 'bs-filter-btn';
+      const filterBtnText = isFiltered ? '✓ 已篩選此醫師' : '🔍 篩選此醫師';
+
       document.getElementById('bsi').innerHTML = `
     <div class="bsclin"><div class="bsdot" style="background:${color}"></div>${clinic?.name || '—'}</div>
     <div class="bsname">${s.doctor_name}</div>
     ${rows}
+    <button class="${filterBtnClass}" id="bs-filter-btn"
+      onclick="onSheetFilterClick('${s.doctor_name.replace(/'/g, "\\'")}')">
+      ${filterBtnText}
+    </button>
     <button class="bsclose" onclick="closeSheet()">關閉</button>`;
 
       document.getElementById('ov').classList.add('on');
       document.getElementById('bs').classList.add('on');
       document.body.style.overflow = 'hidden';
     }
+
+    function onSheetFilterClick(doctorName) {
+      if (filterDoctor === doctorName) {
+        // Toggle off
+        clearFilter();
+        closeSheet();
+      } else {
+        setDoctorFilter(doctorName);
+        closeSheet();
+      }
+    }
+
     function closeSheet() {
       document.getElementById('ov').classList.remove('on');
       document.getElementById('bs').classList.remove('on');
@@ -993,7 +1261,55 @@
       const list = document.getElementById('slist');
       let h = '';
 
-      h += `<div class="stitle">診所篩選設定</div>
+      // ── Usage Guide ──
+      h += `<div class="stitle">使用說明</div>
+  <div class="guide-card">
+    <div class="guide-row">
+      <div class="guide-icon">🔍</div>
+      <div class="guide-body">
+        <div class="guide-title">篩選醫師</div>
+        <div class="guide-desc">點擊日曆上任一醫師名稱，在資訊頁點「篩選此醫師」，主頁面會醒目顯示該醫師，其他變暗。</div>
+      </div>
+    </div>
+    <div class="guide-row">
+      <div class="guide-icon">🏥</div>
+      <div class="guide-body">
+        <div class="guide-title">篩選診所</div>
+        <div class="guide-desc">在日曆頁上方的「篩選診所」下拉選單選取診所，該診所所有醫師會醒目顯示。</div>
+      </div>
+    </div>
+    <div class="guide-row">
+      <div class="guide-icon">✕</div>
+      <div class="guide-body">
+        <div class="guide-title">取消篩選</div>
+        <div class="guide-desc">點擊篩選狀態列上的「✕ 取消篩選」，或再次點擊已篩選的醫師，即可取消篩選。</div>
+      </div>
+    </div>
+    <div class="guide-row">
+      <div class="guide-icon">👁</div>
+      <div class="guide-body">
+        <div class="guide-title">顯示 / 隱藏醫師</div>
+        <div class="guide-desc">在下方「診所篩選設定」中，可用開關控制各診所醫師的顯示。白名單/黑名單來自資料設定，手動覆寫優先。</div>
+      </div>
+    </div>
+    <div class="guide-row">
+      <div class="guide-icon">↔️</div>
+      <div class="guide-body">
+        <div class="guide-title">切換日期</div>
+        <div class="guide-desc">左右滑動日曆可切換日期；點「回今天」回到今日；頂部可切換「2天」或「週」視圖。</div>
+      </div>
+    </div>
+    <div class="guide-row">
+      <div class="guide-icon">🔄</div>
+      <div class="guide-body">
+        <div class="guide-title">更新資料</div>
+        <div class="guide-desc">在日曆頁向下拉（Pull to Refresh）可重新載入最新班表資料。</div>
+      </div>
+    </div>
+  </div>`;
+
+      // ── Clinic filter settings ──
+      h += `<div class="stitle" style="margin-top:8px">診所篩選設定</div>
   <div class="sdesc">各診所的白/黑名單來自資料來源設定。你可以在這裡追加額外的顯示/隱藏，優先於資料來源設定。</div>`;
 
       DATA.clinics.forEach(cl => {
@@ -1046,21 +1362,30 @@
       if (!overrides[clinicId]) overrides[clinicId] = { extraHidden: [], extraShow: [] };
       const ov = overrides[clinicId];
       const clinic = DATA.clinics.find(c => c.id === clinicId);
-      const baseShow = shouldShow(name, clinic);
 
-      // Remove from both lists first
-      ov.extraHidden = ov.extraHidden.filter(n => n !== name);
-      ov.extraShow = ov.extraShow.filter(n => n !== name);
+      const inHidden = ov.extraHidden.includes(name);
+      const inShow = ov.extraShow.includes(name);
 
-      if (baseShow) {
-        // Currently showing → add to extraHidden
-        ov.extraHidden.push(name);
-        btn.classList.remove('on');
+      if (inHidden || inShow) {
+        // Currently overriding → clear override, return to base state
+        ov.extraHidden = ov.extraHidden.filter(n => n !== name);
+        ov.extraShow = ov.extraShow.filter(n => n !== name);
+        // Reflect base state on button
+        btn.classList.toggle('on', baseShow(name, clinic));
       } else {
-        // Currently hidden → add to extraShow
-        ov.extraShow.push(name);
-        btn.classList.add('on');
+        // No override → toggle from current effective state (= base state)
+        const currentlyShowing = baseShow(name, clinic);
+        if (currentlyShowing) {
+          // Showing → hide
+          ov.extraHidden.push(name);
+          btn.classList.remove('on');
+        } else {
+          // Hidden → show
+          ov.extraShow.push(name);
+          btn.classList.add('on');
+        }
       }
+
       saveOverrides(); render();
     }
 
@@ -1113,7 +1438,9 @@
         if (!r.ok) throw 0;
         const j = await r.json();
         j.clinics.forEach((c, i) => { if (!c.color) c.color = PALETTE[i % PALETTE.length]; });
-        DATA = j; render();
+        DATA = j;
+        populateClinicSelect();
+        render();
       } catch {
         // Inline fallback sample (minimal)
         DATA = {
@@ -1121,6 +1448,7 @@
           clinics: [{ id: 'demo', name: '範例診所', color: '#4d9eff', whitelist: [], blacklist: [] }],
           sessions: []
         };
+        populateClinicSelect();
         render();
       }
     }
