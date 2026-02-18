@@ -995,7 +995,8 @@
       while (isWeekend(t)) { t.setDate(t.getDate() + 1); }
 
       if (view === '2day') {
-        const b = addBusinessDays(t, off * 2);
+        // Sliding window: advance 1 day at a time
+        const b = addBusinessDays(t, off * 1);
         return [b, addBusinessDays(b, 1)];
       }
 
