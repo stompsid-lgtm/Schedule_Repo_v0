@@ -12,7 +12,8 @@
 
 ### 查看排班
 1. 打開 App（已加入主畫面，以 PWA 形式執行）
-2. 預設顯示「2天視圖」（今天 + 明天），按左右箭頭切換日期
+14. 預設顯示「2天視圖」（今天 + 明天），按左右箭頭切換日期（每次滑動 1 天）
+15. 自動跳過週六、週日（只顯示平日）
 3. 每個格子顯示該時段（早診/下午/晚上）有哪些醫師在哪家診所看診
 4. 點擊醫師 chip → 底部資訊卡彈出，顯示：看診時段、診所名稱、日期
 
@@ -29,7 +30,7 @@
 
 ### 切換視圖
 - 右上角「2天」/「週」按鈕切換視圖
-- 週視圖顯示週一到週五（或週日）
+32. - 週視圖顯示週一到週五
 
 ### 更新資料
 - 在日曆區域向下拉（Pull to Refresh）→ 重新從 GitHub Pages 載入 `schedules.json`
@@ -50,7 +51,7 @@
 | **靜態 JSON** | 資料來自 `schedules.json`，部署在 GitHub Pages，App 啟動時 fetch |
 | **無後端** | 沒有 API、沒有資料庫，所有狀態存在 `localStorage` |
 | **無框架** | 純 Vanilla JS + CSS，不用 React/Vue/Tailwind |
-| **行動裝置優先** | 設計給 iPhone 使用，`user-scalable=no`，touch 手勢（swipe、pull-to-refresh） |
+|53. **行動裝置優先** | iOS Dark Mode 設計風格，緊湊佈局，SVG Icon 內嵌 |
 | **繁體中文** | UI 全中文，`lang="zh-Hant"` |
 
 ---
