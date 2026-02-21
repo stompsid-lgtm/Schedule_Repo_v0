@@ -221,7 +221,7 @@
       "id": "c21",
       "name": "永馨復健科",
       "color": "#87ceeb",
-      "source_url": "https://www.sc-dr.com.tw",
+      "source_url": "https://www.sc-dr.com.tw/progress/3531035027.php",
       "schedule_type": "C2",
       "whitelist": [
         "陳彥誌"
@@ -1617,123 +1617,6 @@
       "source_note": "228和平紀念日僅早診"
     },
     {
-      "id": "sm_m1",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-23",
-      "slot": "morning",
-      "time_label": "早診 09:00–12:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_m2",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-24",
-      "slot": "morning",
-      "time_label": "早診 09:00–12:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_m3",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-25",
-      "slot": "morning",
-      "time_label": "早診 09:00–12:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_m4",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-26",
-      "slot": "morning",
-      "time_label": "早診 09:00–12:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_m5",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-27",
-      "slot": "morning",
-      "time_label": "早診 09:00–12:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_a1",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-23",
-      "slot": "afternoon",
-      "time_label": "午診 15:00–18:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_a3",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-25",
-      "slot": "afternoon",
-      "time_label": "午診 15:00–18:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_a4",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-26",
-      "slot": "afternoon",
-      "time_label": "午診 15:00–18:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_a5",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-27",
-      "slot": "afternoon",
-      "time_label": "午診 15:00–18:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_e1",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-23",
-      "slot": "evening",
-      "time_label": "晚診 19:00–22:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_e2",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-24",
-      "slot": "evening",
-      "time_label": "晚診 19:00–22:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_e3",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-25",
-      "slot": "evening",
-      "time_label": "晚診 19:00–22:00",
-      "source_note": ""
-    },
-    {
-      "id": "sm_e5",
-      "doctor_name": "黃有明",
-      "clinic_id": "c18",
-      "date": "2026-02-27",
-      "slot": "evening",
-      "time_label": "晚診 19:00–22:00",
-      "source_note": ""
-    },
-    {
       "id": "dy_m1",
       "doctor_name": "廖芝晨",
       "clinic_id": "c19",
@@ -1966,60 +1849,6 @@
       "slot": "evening",
       "time_label": "夜診 18:00–21:00",
       "source_note": "夜間一診"
-    },
-    {
-      "id": "yx_m3",
-      "doctor_name": "陳彥誌",
-      "clinic_id": "c21",
-      "date": "2026-02-25",
-      "slot": "morning",
-      "time_label": "早診 09:00–12:00",
-      "source_note": ""
-    },
-    {
-      "id": "yx_a3",
-      "doctor_name": "陳彥誌",
-      "clinic_id": "c21",
-      "date": "2026-02-25",
-      "slot": "afternoon",
-      "time_label": "午診 14:30–17:30",
-      "source_note": ""
-    },
-    {
-      "id": "yx_a4",
-      "doctor_name": "陳彥誌",
-      "clinic_id": "c21",
-      "date": "2026-02-26",
-      "slot": "afternoon",
-      "time_label": "午診 14:30–17:30",
-      "source_note": ""
-    },
-    {
-      "id": "yx_a5",
-      "doctor_name": "陳彥誌",
-      "clinic_id": "c21",
-      "date": "2026-02-27",
-      "slot": "afternoon",
-      "time_label": "午診 14:30–17:30",
-      "source_note": ""
-    },
-    {
-      "id": "yx_e3",
-      "doctor_name": "陳彥誌",
-      "clinic_id": "c21",
-      "date": "2026-02-25",
-      "slot": "evening",
-      "time_label": "晚診 18:00–21:00",
-      "source_note": ""
-    },
-    {
-      "id": "yx_e4",
-      "doctor_name": "陳彥誌",
-      "clinic_id": "c21",
-      "date": "2026-02-26",
-      "slot": "evening",
-      "time_label": "晚診 18:00–21:00",
-      "source_note": ""
     },
     {
       "id": "xq_m2_liu",
@@ -3037,6 +2866,1023 @@
       "slot": "evening",
       "time_label": "夜診 18:00–21:00",
       "source_note": "夜間一診"
+    },
+    {
+      "id": "yx_m_0223",
+      "doctor_name": "王欣宜",
+      "clinic_id": "c21",
+      "date": "2026-02-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0223",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-02-23",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_e_0223",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-02-23",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0224",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-02-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_e_0224",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-02-24",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0225",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-02-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0225",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-02-25",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0226",
+      "doctor_name": "陳瑋杰",
+      "clinic_id": "c21",
+      "date": "2026-02-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0226",
+      "doctor_name": "陳瑋杰",
+      "clinic_id": "c21",
+      "date": "2026-02-26",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0302",
+      "doctor_name": "王欣宜",
+      "clinic_id": "c21",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0302",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-02",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_e_0302",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-02",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0303",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_e_0303",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-03",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0304",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0304",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-04",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0305",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-05",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0305",
+      "doctor_name": "陳瑋杰",
+      "clinic_id": "c21",
+      "date": "2026-03-05",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0306",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0306",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-06",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_e_0306",
+      "doctor_name": "陳瑋杰",
+      "clinic_id": "c21",
+      "date": "2026-03-06",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0309",
+      "doctor_name": "王欣宜",
+      "clinic_id": "c21",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0309",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-09",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_e_0309",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-09",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0310",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-10",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_e_0310",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-10",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0311",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0311",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-11",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0312",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-12",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0312",
+      "doctor_name": "陳瑋杰",
+      "clinic_id": "c21",
+      "date": "2026-03-12",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_m_0313",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_a_0313",
+      "doctor_name": "陳彥誌",
+      "clinic_id": "c21",
+      "date": "2026-03-13",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "yx_e_0313",
+      "doctor_name": "陳瑋杰",
+      "clinic_id": "c21",
+      "date": "2026-03-13",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "sc-dr.com.tw API 2026-02-21"
+    },
+    {
+      "id": "sm_m_0223",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-02-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0223_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-02-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0223",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-02-23",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0223",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-02-23",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0224",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-02-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0224_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-02-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0224",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-02-24",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0224",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-02-24",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0225",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-02-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0225_2",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-02-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0225",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-02-25",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0225_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-02-25",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0225",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-02-25",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0226",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-02-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0226",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-02-26",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0226",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-02-26",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0227",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-02-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0227_2",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-02-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0227",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-02-27",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0227",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-02-27",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0302",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0302_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0302",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-02",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0302",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-02",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0303",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0303_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0303",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-03",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0303",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-03",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0304",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0304_2",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0304",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-04",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0304_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-04",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0304",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-04",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0305",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-05",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0305",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-05",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0305",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-05",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0306",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0306_2",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0306",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-06",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0306",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-06",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0309",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0309_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0309",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-09",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0309",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-09",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0310",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0310_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0310",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-10",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0310",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-10",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0311",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0311_2",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0311",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-11",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0311_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-11",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0311",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-11",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0312",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-12",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0312",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-12",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0312",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-12",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0313",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0313_2",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0313",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-13",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0313",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-13",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0316",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0316_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0316",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0316",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0317",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0317_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0317",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0317",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0318",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0318_2",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0318",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0318_2",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0318",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0319",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0319",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0319",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0320",
+      "doctor_name": "黃有明",
+      "clinic_id": "c18",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_m_0320_2",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_a_0320",
+      "doctor_name": "楊正楓",
+      "clinic_id": "c18",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "午診 15:00–18:00",
+      "source_note": "shiangming.com curl 2026-02-21"
+    },
+    {
+      "id": "sm_e_0320",
+      "doctor_name": "夏漢詳",
+      "clinic_id": "c18",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "晚診 19:00–22:00",
+      "source_note": "shiangming.com curl 2026-02-21"
     }
   ]
 }

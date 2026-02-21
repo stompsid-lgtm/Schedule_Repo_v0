@@ -1,0 +1,10 @@
+{
+  "clinic_id": "c21",
+  "clinic_name": "永馨復健科",
+  "url": "https://www.sc-dr.com.tw/progress/3531035027.php",
+  "api_url": "https://www.sc-dr.com.tw/progress/ajax/getreserve.php",
+  "hospid": "3531035027",
+  "scraped_at": "2026-02-21T00:00:00",
+  "method": "POST hospid=3531035027&firstday=115.02.21&lastday=115.03.20",
+  "status": "success"
+}

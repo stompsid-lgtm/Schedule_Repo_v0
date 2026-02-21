@@ -175,11 +175,35 @@ for code, (cid, name) in clinic_map.items():
 
 ## 類型 C2：官方網站週班表（1 家）— 每週更新
 
-| 診所 | 網址 |
-|------|------|
-| c21 永馨復健科 | https://www.sc-dr.com.tw |
+| 診所 | 預約頁面 |
+|------|----------|
+| c21 永馨復健科 | https://www.sc-dr.com.tw/progress/3531035027.php |
 
-**操作**：同類型 A（CXMS），每週日開啟網頁截圖，更新下週 sessions。
+### 操作步驟（每週日）
+
+1. **抓取 API**（`hospid=3531035027`，民國年格式，範圍 4 週）：
+
+```bash
+# 計算今日民國年日期（例：2026-02-21 → 115.02.21）
+YEAR=$(($(date +%Y) - 1911))
+FIRSTDAY="${YEAR}.$(date +%m.%d)"
+# lastday = +28天，手動計算或用 Python
+curl -s -X POST \
+  -d "hospid=3531035027&firstday=${FIRSTDAY}&lastday=${YEAR}.$(date -v+28d +%m.%d)" \
+  "https://www.sc-dr.com.tw/progress/ajax/getreserve.php" \
+  > /tmp/yongxin_api.json
+```
+
+2. **解析欄位**：
+   - `infirm1x` = 上午（09:00–12:00），`infirm2x` = 下午（14:30–17:30），`infirm3x` = 晚上（18:00–21:00）
+   - 醫師欄格式：`姓名      號碼`，取名字部分（strip 後取首段）
+   - 日期格式：民國年 `115.02.23` → Gregorian `2026-02-23`（+1911）
+
+3. **更新 sessions**：刪除 `clinic_id == 'c21'` 的所有舊 sessions，寫入 API 傳回的有資料日期（跳過空白日）
+
+4. **ID 命名**：`yx_{m|a|e}_{MMDD}`（例：`yx_m_0223`）
+
+5. **快照**：API JSON 存至 `scraper/snapshots/web/c21/YYYYMMDD_getreserve.json`
 
 ---
 
@@ -192,13 +216,33 @@ for code, (cid, name) in clinic_map.items():
 
 ### 操作步驟（每月底）
 
-1. 開啟網頁，截圖
-2. **對比上月截圖**：若班表無變動，沿用舊資料，不需更新 schedules.json
-3. 若有變動，更新 schedules.json 並記錄變動原因
+1. **curl 抓取靜態 HTML**：
+
+```bash
+# c11 土城維力
+curl -s -L "https://www.weili-clinic.com/news/category-5/post-30" \
+  > scraper/snapshots/web/c11/YYYYMMDD_html.html
+
+# c18 祥明診所
+curl -s -L "https://www.shiangming.com/time.php" \
+  > scraper/snapshots/web/c18/YYYYMMDD_html.html
+```
+
+2. **對比上月快照**：若班表無變動，沿用舊 sessions 資料（更新日期即可）
+3. 若有變動：重建該診所所有 sessions（刪舊、依新班表補入），記錄變動原因
+
+**sessions 需涵蓋當月 + 下月（約 8 週）**；固定班表每週相同，用 Python 依週期批次生成日期。
 
 #### 土城維力（c11）特殊說明
 - 與板橋維力共用同一網頁，**土城在下方**
 - 週六資料不顯示於 App，不需記錄週六 sessions
+
+#### 祥明診所（c18）班表摘要（截至 2026-02）
+| 診 | 一 | 二 | 三 | 四 | 五 |
+|----|----|----|----|----|-----|
+| 早 | 黃有明、夏漢詳 | 黃有明、夏漢詳 | 黃有明、楊正楓 | 黃有明 | 黃有明、楊正楓 |
+| 午 | 黃有明 | 楊正楓 | 黃有明、夏漢詳 | 楊正楓 | 楊正楓 |
+| 晚 | 黃有明 | 楊正楓 | 夏漢詳 | 楊正楓 | 夏漢詳 |
 
 ---
 

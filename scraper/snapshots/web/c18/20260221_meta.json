@@ -1,0 +1,8 @@
+{
+  "clinic_id": "c18",
+  "clinic_name": "祥明診所",
+  "url": "https://www.shiangming.com/time.php",
+  "scraped_at": "2026-02-21",
+  "method": "curl -s -L https://www.shiangming.com/time.php",
+  "status": "success"
+}

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<head>
+  <!-- 相容性 -->
+<meta charset="utf-8">
+<title>一般門診時間,中和骨科,中和外科,中和內科｜祥明診所</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
+<!-- SEO -->
+<link rel="shortcut icon" href="img/logo-img.ico">
+<meta name="keywords" content="祥明診所,掛號,網路掛號,一般門診,門診時間,營業時間,新北中和,復健科,骨科,一般外科,三高慢性病,糖尿病,高血壓,高血脂,神經內科,一般內科,耳鼻喉科">
+<meta name="description" content="祥明診所,掛號,網路掛號,一般門診,門診時間,營業時間,新北中和,復健科,骨科,一般外科,三高慢性病,糖尿病,高血壓,高血脂,神經內科,一般內科,耳鼻喉科">
+<meta name="copyright" content="一般門診時間,中和骨科,中和外科,中和內科｜祥明診所" />
+<meta name="Distribution" content="Taiwan">
+<meta property="og:title" content="一般門診時間,中和骨科,中和外科,中和內科｜祥明診所"/> 
+<meta property="og:description" content="祥明診所,掛號,網路掛號,一般門診,門診時間,營業時間,新北中和,復健科,骨科,一般外科,三高慢性病,糖尿病,高血壓,高血脂,神經內科,一般內科,耳鼻喉科"/> 
+<meta property="og:image" content="https://www.shiangming.com/img/ogimg.jpg"/> 
+<meta property="og:image:alt" content="祥明診所｜復健科、骨外科、三高慢性病，服務專線:02-22467650"/> 
+<meta property="og:site_name" content="祥明診所"/> 
+<meta property="og:type" content="website"/> 
+<!-- <meta property="og:url" content="https://www.shiangming.com/"/>  -->
+
+
+<!-- CSS -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/RWD.css" rel="stylesheet" type="text/css" />
+<link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+<link href="css/owl.theme.default.css" rel="stylesheet" type="text/css" />
+<!-- JS -->
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/scrollreveal.min.js" type="text/javascript"></script>
+<script src="js/scrollreveal.js" type="text/javascript"></script>
+
+
+
+
+</head>
+
+<body>
+
+ <script>
+function search(search_type){
+	if(search_type == 'top'){
+		var keywordsObj = document.getElementById("sh_keywords_top");
+	}else if(search_type == 'search'){
+		var keywordsObj = document.getElementById("sh_keywords_search");
+	}
+	if(keywordsObj.value == ''){
+		alert("請輸入關鍵字!!!");
+		keywordsObj.focus();
+		return;
+	}
+	
+	var request_url = 'search.php';
+	
+	if(keywordsObj.value != ''){
+		request_url += '?sh_keyword=' + keywordsObj.value;
+	}
+	
+	window.location.href = request_url;
+}
+</script>
+
+
+
+<div id="menu">
+  <div class="menu-top">
+    <div class="menu-wrap">
+      <div class="logo">
+        <a href="index.php">
+          <img src="img/logo.png" alt="祥明診所" title="祥明診所">
+        </a>
+      </div>
+      <ul class="menu-tel">
+         <li class="m-hide">
+            <a href="https://techgroup.com.tw/ConsultingStatus/index?id=3531041632" target="_blank" title="網路掛號"><button class="btn"><span>網路掛號</span></button></a>
+         </li>
+         <li class="m-hide">
+            <a href="tel:02-22467650" title="服務專線: 02-22467650"><button class="btn"><span>服務專線: 02-22467650</span></button></a>
+         </li>
+         <li class="pc-hide">
+            <a href="https://techgroup.com.tw/ConsultingStatus/index?id=3531041632" target="_blank" title="網路掛號"><button class="btn"><span>網路掛號</span></button></a>
+         </li>
+         <li class="pc-hide">
+            <a href="tel:02-22467650" title="服務專線: 02-22467650"><button class="btn"><span>服務專線</span></button></a>
+         </li>
+         <form id="search-block"  name="search_top" method="post" action="javascript:search('top');">
+            <input id="sh_keywords_top" name="sh_keywords_top" type="text" placeholder="站內搜尋" title="請輸入搜尋內容">
+            <button type="submit" title="搜尋"></button>
+         </form>
+      </ul>
+    </div>
+  </div>
+  <div class="menu-bottom">
+    <div class="menu-wrap">
+      <div id="burger">
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+      <ul class="mainlist">
+        <li><h6><a href="about.php" title="關於祥明">關於祥明</a></h6>
+          <ul class="childlist">
+                     <li class="arrow-b-list"><h6><a href="about.php?ad=5" title="診所介紹">診所介紹</a></h6></li>
+                  <li class="arrow-b-list"><h6><a href="about.php?ad=6" title="診所位置">診所位置</a></h6></li>
+                  <li class="arrow-b-list"><h6><a href="about.php?ad=7" title="看診注意事項">看診注意事項</a></h6></li>
+                  
+          </ul>
+        </li>
+        
+        <li><h6><a href="time.php" title="門診時間">門診時間</a></h6>
+          <ul class="childlist">
+                        <li class="arrow-b-list"><h6><a href="time.php?td=5" title="一般門診時間">一般門診時間</a></h6></li>
+                  <li class="arrow-b-list"><h6><a href="time.php?td=7" title="復健治療時間">復健治療時間</a></h6></li>
+                  <li class="arrow-b-list"><h6><a href="time.php?td=6" title="診所位置">診所位置</a></h6></li>
+                  <li class="arrow-b-list"><h6><a href="time.php?td=8" title="搭車與停車資訊">搭車與停車資訊</a></h6></li>
+                  
+          </ul>
+        </li>
+        <li><h6><a href="team.php" title="醫師簡介">醫師簡介</a></h6>
+        <ul class="childlist">
+                         <li class="arrow-b-list"><h6><a href="team_d.php?td=14" title="黃有明院長">黃有明院長</a></h6></li>
+                          <li class="arrow-b-list"><h6><a href="team_d.php?td=13" title="楊正楓醫師">楊正楓醫師</a></h6></li>
+                          <li class="arrow-b-list"><h6><a href="team_d.php?td=15" title="夏漢詳醫師">夏漢詳醫師</a></h6></li>
+                       </ul>
+        </li>
+        <li><h6><a href="service.php" title="主治項目">主治項目</a></h6>
+          <ul class="childlist">
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=13" title="骨科/一般外科">骨科/一般外科</a></h6>
+              <ul class="finallist">
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=12" title="復健科">復健科</a></h6>
+              <ul class="finallist">
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=19" title="糖尿病">糖尿病</a></h6>
+              <ul class="finallist">
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=20" title="高血壓">高血壓</a></h6>
+              <ul class="finallist">
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=21" title="高血脂">高血脂</a></h6>
+              <ul class="finallist">
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=15" title="一般內科">一般內科</a></h6>
+              <ul class="finallist">
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=22" title="一般家醫科">一般家醫科</a></h6>
+              <ul class="finallist">
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=209" title="帶狀皰疹">帶狀皰疹</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=210" title="何謂C型肝炎">何謂C型肝炎</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=211" title="減重特別門診">減重特別門診</a></h6></li>
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=17" title="神經內科">神經內科</a></h6>
+              <ul class="finallist">
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=208" title="失眠">失眠</a></h6></li>
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=16" title="耳鼻喉科">耳鼻喉科</a></h6>
+              <ul class="finallist">
+                               </ul>
+            </li>
+                        <li class="arrow-b-list"><h6><a href="service_d.php?sdo=14" title="健康檢查">健康檢查</a></h6>
+              <ul class="finallist">
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=199" title="基礎健康檢查">基礎健康檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=198" title="豪華健康檢查">豪華健康檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=197" title="婚前健康檢查">婚前健康檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=196" title="菁英健康檢查">菁英健康檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=195" title="肝膽功能檢查">肝膽功能檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=194" title="癌症腫瘤檢查">癌症腫瘤檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=193" title="心血管檢查">心血管檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=192" title="糖尿病檢查">糖尿病檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=191" title="性福人生檢查">性福人生檢查</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=205" title="40項過敏原檢測">40項過敏原檢測</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=204" title="66項過敏原檢測">66項過敏原檢測</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="service_d.php?sdt=190" title="123項過敏原檢查">123項過敏原檢查</a></h6></li>
+                               </ul>
+            </li>
+                      </ul>
+        </li>
+        <li><h6><a href="beauty.php" title="骨外科治療">骨外科治療</a></h6>
+          <ul class="childlist">
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=48" title="骨外科治療照片">骨外科治療照片</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=47" title="玻尿酸注射治療">玻尿酸注射治療</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=46" title="PRP自體血小板血漿注射治療">PRP自體血小板血漿注射治療</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=29" title="五十肩">五十肩</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=35" title="運動傷害">運動傷害</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=49" title="媽媽手">媽媽手</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=34" title="手腕隧道症候群">手腕隧道症候群</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=33" title="足底筋膜炎">足底筋膜炎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=54" title="鵝足滑囊炎">鵝足滑囊炎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=51" title="網球肘">網球肘</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=50" title="梨狀肌症候群">梨狀肌症候群</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=38" title="椎間盤突出症">椎間盤突出症</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=53" title="髕骨軟骨軟化症">髕骨軟骨軟化症</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=52" title="髕骨股骨疼痛症候群">髕骨股骨疼痛症候群</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=45" title="增生注射治療">增生注射治療</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=44" title="退化性關節炎">退化性關節炎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=43" title="坐骨神經痛">坐骨神經痛</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=42" title="類風濕性關節炎">類風濕性關節炎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=41" title="骨質疏鬆症">骨質疏鬆症</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=40" title="骨折">骨折</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=39" title="脊椎側彎">脊椎側彎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=37" title="脊椎狹窄症">脊椎狹窄症</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=36" title="腰椎炎">腰椎炎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=31" title="人工關節置換術後">人工關節置換術後</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=32" title="扁平足">扁平足</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=30" title="肌腱炎">肌腱炎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=28" title="末梢神經麻痺">末梢神經麻痺</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=27" title="板機指手術">板機指手術</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=56" title="甲溝炎">甲溝炎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=26" title="腫瘤切除">腫瘤切除</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=25" title="外傷縫合">外傷縫合</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="beauty_d.php?bd=24" title="燙傷處理">燙傷處理</a></h6></li>
+                      </ul>
+        </li>
+        <li><h6><a href="checkup.php" title="復健科">復健科</a></h6>
+          <ul class="childlist">
+                        <li class="arrow-b-list"><h6><a href="checkup_d.php?cd=28" title="網球肘">網球肘</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="checkup_d.php?cd=27" title="梨狀肌症候群">梨狀肌症候群</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="checkup_d.php?cd=26" title="關節注射玻尿酸">關節注射玻尿酸</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="checkup_d.php?cd=25" title="PRP自體血小板濃厚液療法">PRP自體血小板濃厚液療法</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="checkup_d.php?cd=24" title="肩關節疼痛疾病">肩關節疼痛疾病</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="checkup_d.php?cd=23" title="膝部骨關節炎">膝部骨關節炎</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="checkup_d.php?cd=22" title="媽媽手">媽媽手</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="checkup_d.php?cd=21" title="肌肉痠痛物理治療的方法">肌肉痠痛物理治療的方法</a></h6></li>
+                      </ul>
+        </li>
+        <li><h6><a href="equipment.php" title="儀器設備">儀器設備</a></h6>
+          <ul class="childlist">
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=19" title="新一代雙光能X光機骨質密度儀器">新一代雙光能X光機骨質密度儀器</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=8" title="X光">X光</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=15" title="紅外線">紅外線</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=14" title="牽引">牽引</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=13" title="體外震波">體外震波</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=12" title="低頻雷射">低頻雷射</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=10" title="中頻干擾波">中頻干擾波</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=9" title="經皮神經電刺激">經皮神經電刺激</a></h6></li>
+                        <li class="arrow-b-list"><h6><a href="equipment_d.php?ed=16" title="伸展運動設備">伸展運動設備</a></h6></li>
+                      </ul>
+        </li>
+        <li><h6><a href="news.php" title="最新消息">最新消息</a></h6></li>
+        <li><h6><a href="education.php" title="醫療衛教">醫療衛教</a></h6>
+          <ul class="childlist">
+            
+                                  <li class="arrow-b-list"><h6><a href="education.php?ecat=14" title="骨科/外科介紹">骨科/外科介紹</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="education.php?ecat=13" title="復健專區">復健專區</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="education.php?ecat=12" title="糖尿病">糖尿病</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="education.php?ecat=17" title="家醫科">家醫科</a></h6></li>
+                                  <li class="arrow-b-list"><h6><a href="education.php?ecat=15" title="運動傷害">運動傷害</a></h6></li>
+                               
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+  
+
+<div class="menu-height"></div>
+ <div class="inner-banner"></div>
+ <div class="f-title sclrvl1">
+   <h2>門診時間</h2>
+ </div>
+
+ <ul class="innerlink sclrvl1">
+    <li><a href="index.php" title="首頁">首頁</a></li>
+    <li><a href="time.php" title="門診時間">門診時間</a></li>
+    <li><a href="time.php?td=5" title="一般門診時間">一般門診時間</a></li>
+ </ul>
+
+ <div class="container innerpage">
+    <ul class="inner-list">
+       <li><p><a href="time.php" title="門診時間">門診時間</a></p>
+         <ul class="child-list">
+     		                <li><h6><a href="time.php?td=5" title="一般門診時間">一般門診時間</a></h6></li>
+            <li><h6><a href="time.php?td=7" title="復健治療時間">復健治療時間</a></h6></li>
+            <li><h6><a href="time.php?td=6" title="診所位置">診所位置</a></h6></li>
+            <li><h6><a href="time.php?td=8" title="搭車與停車資訊">搭車與停車資訊</a></h6></li>
+         </ul>
+       </li>
+    </ul>
+    <div class="inner-box">
+       
+       <div class="inner-title">
+         <div class="titlebox">
+            <h1>一般門診時間</h1>
+            
+<ul class="ex-link">
+   <li>
+     <!-- FB 分享 -->
+     <a href="https://www.facebook.com/sharer.php?u=https://www.shiangming.com/time.php" target="_blank" title="分享到facebook">
+       <img src="img/exlink/facebook.svg" alt="分享到facebook">
+     </a>
+     <div id="fb-root"></div>
+     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.3&appId=841876956146933&autoLogAppEvents=1"></script>
+   </li>
+   <li>
+     <!-- twitter 分享 -->
+     <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+       <a class="a2a_button_twitter" title="分享到twitter"></a>
+     </div>
+     <script async src="https://static.addtoany.com/menu/page.js"></script>
+   </li>
+   <li>
+     <!-- Line 分享 -->
+     <script>
+     //<![CDATA[
+     (function() {
+     var img = "img/exlink/line.svg", // line 按鈕圖示
+     title = document.title,
+     url = "https://" + location.hostname + location.pathname + location.search,
+     href, html;
+
+     // 行動裝置語法
+     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+     href = "http://line.naver.jp/R/msg/text/?" + title + "%0D%0A" + url;
+     } else {
+     // 網頁版語法
+     href = "https://lineit.line.me/share/ui?url=" + encodeURIComponent(url);
+     }
+     html = "<a href='" + href + "' target='_blank' title='分享到LINE'><img alt='分享到LINE' src='" + img + "'/></a>";
+     document.write(html);
+     })();
+     //]]>
+     </script>
+    
+   </li>
+</ul>
+         </div>
+       </div>
+       <div class="inner-edit">
+          <table class="time top sclrvl1">
+	<thead>
+		<tr>
+			<td>一般門診</td>
+			<td>一</td>
+			<td>二</td>
+			<td>三</td>
+			<td>四</td>
+			<td>五</td>
+			<td>六</td>
+			<td>日</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+			<p>早上</p>
+
+			<h6>9:00~12:00</h6>
+			</td>
+			<td class="yellow"><br />
+			一診<br />
+			黃有明<br />
+			<br />
+			<span style="color:#669999;">二診<br />
+			夏漢詳</span><br />
+			&nbsp;</td>
+			<td class="yellow">一診<br />
+			黃有明<br />
+			<br />
+			<span style="color:#669999;">二診<br />
+			夏漢詳</span></td>
+			<td><span style="color:#f39c12;">一診<br />
+			黃有明</span><br />
+			<br />
+			<span style="color:#0066cc;">二診<br />
+			楊正楓</span></td>
+			<td class="yellow">黃有明</td>
+			<td class="yellow"><span style="color:#f39c12;">一診<br />
+			黃有明</span><br />
+			<br />
+			<span style="color:#0066cc;">二診<br />
+			楊正楓</span></td>
+			<td>&nbsp;<span style="color:#0066cc;">一診<br />
+			楊正楓</span><br />
+			<br />
+			<span style="color:#669999;">二診<br />
+			夏漢詳</span></td>
+			<td class="red">休</td>
+		</tr>
+		<tr>
+			<td>
+			<p><span style="color:#669999;">下午</span></p>
+
+			<h6><span style="color:#669999;">3:00~6:00</span></h6>
+			</td>
+			<td class="yellow"><br />
+			黃有明<br />
+			&nbsp;</td>
+			<td><span style="color:#0066cc;">楊正楓</span></td>
+			<td class="yellow"><br />
+			一診<br />
+			黃有明<br />
+			<br />
+			<span style="color:#669999;">二診<br />
+			夏漢詳</span><br />
+			&nbsp;</td>
+			<td><span style="color:#0066cc;">楊正楓</span></td>
+			<td><span style="color:#0066cc;">楊正楓</span></td>
+			<td><span style="color:#0066cc;">楊正楓</span></td>
+			<td class="red">休</td>
+		</tr>
+		<tr>
+			<td>
+			<p>晚上</p>
+
+			<h6>7:00~10:00</h6>
+			</td>
+			<td class="yellow">黃有明</td>
+			<td><span style="color:#0066cc;">楊正楓</span></td>
+			<td class="yellow"><br />
+			<span style="color:#669999;">夏漢詳</span><br />
+			&nbsp;</td>
+			<td><span style="color:#0066cc;">楊正楓</span></td>
+			<td><span style="color:#669999;">夏漢詳</span></td>
+			<td class="red">休</td>
+			<td class="red">休</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li>一般門診<span style="color:#e74c3c;">國定假日</span>營業時間：早上9:00~12:00。</li>
+	<li>最後掛號及報到時間為各診<span style="color:#e74c3c;">結束前10分鐘</span>，謝謝配合。</li>
+	<li>網路掛號：<a href="https://techgroup.com.tw/ConsultingStatus/index?id=3531041632" target="_blank" title="前往網路掛號系統">前往網路掛號系統</a><br />
+	&nbsp;</li>
+	<li><strong><a href="team_d.php?td=14" title="黃有明院長"><span style="color:#f39c12;">黃有明</span>院長</a>：</strong><br />
+	<br />
+	專治<a href="beauty.php" title="骨科/一般外科">骨科 / 一般外科</a>&nbsp;/&nbsp;<a href="checkup.php" title="復健科">復健科</a><br />
+	<br />
+	&nbsp;</li>
+	<li><strong><a href="team_d.php?td=13" title="楊正楓醫師">楊正楓醫師</a>：</strong><br />
+	<br />
+	專治<a href="service_d.php?sdo=17" title="神經內科">神經內科</a>&nbsp;/&nbsp;<a href="service_d.php?sdo=15" title="一般內科">一般內科</a>&nbsp;/&nbsp;<a href="service_d.php?sdo=16" title="耳鼻喉科">耳鼻喉科</a>/<br />
+	<br />
+	三高慢性病（<a href="service_d.php?sdo=19" title="糖尿病">糖尿病</a>&nbsp;/&nbsp;<a href="service_d.php?sdo=20" title="高血壓">高血壓</a>&nbsp;/&nbsp;<a href="service_d.php?sdo=21" title="高血脂">高血脂</a>），以及<a href="service_d.php?sdo=14" title="健康檢查">健康檢查</a><br />
+	<br />
+	&nbsp;</li>
+	<li><strong><a href="team_d.php?td=15" title="楊正楓醫師">夏漢詳醫師</a></strong>：
+	<p><span style="color:#669999;">二診</span><br />
+	主治 慢性疾病/三高/一般內科/皮膚搔癢/<a charset="減重特別門診" href="https://shiangming.com/education_d.php?ed=76" target="_blank" title="減重特別門診">減重特別門診</a></p>
+	</li>
+</ul>       </div>
+       <div class="ex-box">
+          把這篇文章分享到：
+<ul class="ex-link">
+   <li>
+     <!-- FB 分享 -->
+     <a href="https://www.facebook.com/sharer.php?u=https://www.shiangming.com/time.php" target="_blank" title="分享到facebook">
+       <img src="img/exlink/facebook.svg" alt="分享到facebook">
+     </a>
+     <div id="fb-root"></div>
+     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.3&appId=841876956146933&autoLogAppEvents=1"></script>
+   </li>
+   <li>
+     <!-- twitter 分享 -->
+     <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+       <a class="a2a_button_twitter" title="分享到twitter"></a>
+     </div>
+     <script async src="https://static.addtoany.com/menu/page.js"></script>
+   </li>
+   <li>
+     <!-- Line 分享 -->
+     <script>
+     //<![CDATA[
+     (function() {
+     var img = "img/exlink/line.svg", // line 按鈕圖示
+     title = document.title,
+     url = "https://" + location.hostname + location.pathname + location.search,
+     href, html;
+
+     // 行動裝置語法
+     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+     href = "http://line.naver.jp/R/msg/text/?" + title + "%0D%0A" + url;
+     } else {
+     // 網頁版語法
+     href = "https://lineit.line.me/share/ui?url=" + encodeURIComponent(url);
+     }
+     html = "<a href='" + href + "' target='_blank' title='分享到LINE'><img alt='分享到LINE' src='" + img + "'/></a>";
+     document.write(html);
+     })();
+     //]]>
+     </script>
+    
+   </li>
+</ul>
+       </div>
+    </div>
+
+ </div>
+
+ <!-- footer純靜態 -->
+
+<div id="footer-contact">
+   <div class="font-box container">
+      <h2 class="sclrvl1">連絡我們</h2>
+      <ul class="sclrvl-bottom-big">
+         <li>
+            <a href="time.php" title="祥明診所門診時間表"><button class="btn"><span>門診時間表</span></button></a>
+         </li>
+         <li>
+            <a href="https://techgroup.com.tw/ConsultingStatus/index?id=3531041632" target="_blank" title="祥明診所網路掛號"><button class="btn"><span>網路掛號</span></button></a>
+         </li>
+         <li>
+            <a href="contact.php" title="連絡我們"><button class="btn"><span>連絡我們</span></button></a>
+         </li>
+      </ul>
+   </div>
+</div>
+
+<div id="footer">
+   <div class="container">
+     
+     <div class="footer-left">
+        <div>
+           <h2 class="sclrvl1">祥明診所<span>新北中和在地診所</span></h2>
+           <p class="slogan sclrvl1">
+           服務項目：復健科,骨外科,糖尿病,高血壓,高血脂,三高慢性病,媽媽手,五十肩,坐骨神經痛,骨質疏鬆,關節炎,肌腱炎,PRP自體血小板血漿注射治療,感冒,發燒,水腫,便秘,腹瀉,痛風,失眠,睡眠障礙,貧血,暈眩,頭暈,頭痛,戒菸門診,心血管檢查,過敏原檢查,健康檢查<br>
+           <br>
+           新北市糖尿病共同照護院所
+           </p>
+           <ul class="footer-info sclrvl1">
+              <li><p><span class="icon-phone"></span>電話：<a href="tel:02-22467650" title="02-22467650">02-22467650</a></p></li>
+              <li><p><span class="icon-home"></span>地址：<a href="https://goo.gl/maps/DsWi13zHczdTsZua9" target="_blank" title="新北市中和區中和路171號">新北市中和區中和路171號</a></p></li>
+           </ul>
+        </div>
+        <ul class="footer-btn sclrvl1">
+           <li>
+              <a href="https://goo.gl/maps/DsWi13zHczdTsZua9" target="_blank" title="Google地圖-祥明診所位置"><button class="btn"><span>Google地圖-祥明診所位置</span></button></a>
+           </li>
+           <li>
+              <a href="time.php?td=8" title="搭車與停車資訊"><button class="btn"><span>搭車與停車資訊</span></button></a>
+           </li>
+        </ul>
+     </div>
+
+     <ul class="footer-link sclrvl1">
+        <li><h5>祥明診所</h5></li>
+        <li><p><a href="about.php" title="關於祥明">關於祥明</a></p></li>
+        <li><p><a href="time.php" title="門診時間">門診時間</a></p></li>
+        <li><p><a href="team.php" title="醫師簡介">醫師簡介</a></p></li>
+        <li><p><a href="service.php" title="主治項目">主治項目</a></p></li>
+        <li><p><a href="equipment.php" title="儀器設備">儀器設備</a></p></li>
+        <li><p><a href="news.php" title="最新消息">最新消息</a></p></li>
+        <li><p><a href="education.php" title="醫療衛教">醫療衛教</a></p></li>
+        <li><p><a href="contact.php" title="連絡我們">連絡我們</a></p></li>
+        <li><p><a href="time.php?td=8" title="搭車資訊">搭車資訊</a></p></li>
+        <li><p><a href="time.php?td=8" title="停車資訊">停車資訊</a></p></li>
+     </ul>
+     <ul class="footer-link sclrvl1">
+        <li><h5>主治項目</h5></li>
+        <li><p><a href="service_d.php?sdo=13" title="骨科/一般外科">骨科/一般外科</a></p></li>
+        <li><p><a href="beauty.php" title="骨外科治療">骨外科治療</a></p></li>
+        <li><p><a href="service_d.php?sdo=12" title="復健科">復健科</a></p></li>
+        <li><p><a href="service_d.php?sdo=19" title="糖尿病">糖尿病</a></p></li>
+        <li><p><a href="service_d.php?sdo=20" title="高血壓">高血壓</a></p></li>
+        <li><p><a href="service_d.php?sdo=21" title="高血脂">高血脂</a></p></li>
+        <li><p><a href="service_d.php?sdo=17" title="神經內科">神經內科</a></p></li>
+        <li><p><a href="service_d.php?sdo=16" title="耳鼻喉科">耳鼻喉科</a></p></li>
+        <li><p><a href="service_d.php?sdo=15" title="一般內科">一般內科</a></p></li>
+        <li><p><a href="service_d.php?sdo=14" title="健康檢查">健康檢查</a></p></li>
+     </ul>
+
+     
+     <div class="footer-right sclrvl1">
+        <div class="QRcode">
+           <a href="https://techgroup.com.tw/ConsultingStatus/index?id=3531041632" target="_blank" title="點擊或掃描QRcode網路掛號">
+              <img src="img/registeredQRCode.jpg" alt="點擊或掃描QRcode網路掛號">
+              <h6>點擊或掃描QRcode網路掛號</h6>
+           </a>
+        </div>
+     </div>
+     
+   </div>
+   <div class="copyright">
+      Copyright © 2020 Shiangming All rights reserved. Design by <a href="https://www.maya.com.tw/" target="_blank" title="瑪雅網頁設計" style="border:none;color: #fff;">Maya</a> .
+   </div>
+</div>
+
+<div id="icon-wrap">
+   <ul>
+     <li class="gotop">
+         <div class="img"><img src="img/arrow-left-w.svg" alt="TOP"></div>
+     </li>
+   </ul>
+</div>
+<iframe name="pagetmp" style="display:none"></iframe>
+
+
+
+</body>
