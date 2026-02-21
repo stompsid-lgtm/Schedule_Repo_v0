@@ -26,35 +26,85 @@
 
 ## 類型 A：CXMS 網頁（8 家）— 每週更新
 
-### 重要說明
-- 班表透過 **AJAX 動態載入**，靜態爬蟲抓不到，必須用瀏覽器等待 JS 執行
+### 重要說明（2026-02-21 更新）
+
+> ✅ **不需要開瀏覽器、不需要截圖、不需要 OCR。**
+>
+> 班表資料直接嵌在靜態 HTML 裡（JS 只是每 2 分鐘刷新用，非首次載入必要）。
+> 用 `curl` 以 **HTTP**（非 HTTPS）抓取即可取得完整資料。
+
+**舊認知（已更正）**：~~班表透過 AJAX 動態載入，靜態爬蟲抓不到，必須用瀏覽器~~
+
 - 班表只顯示「當週」，**每週日**預先抓取下週資料
-- c02 維恩骨科：舊快照為 HTML 格式（靜態爬蟲遺留），已於 2026-02-18 補截圖
 
-### 各診所網址
+### 各診所代碼與網址
 
-| 診所 | 網址 |
-|------|------|
-| c02 維恩骨科 | http://web.cxms.com.tw/wn/hosp.php |
-| c03 富新骨科 | http://web.cxms.com.tw/fc/hosp.php |
-| c04 得安診所 | http://web.cxms.com.tw/da/hosp.php |
-| c05 昌惟骨科 | http://web.cxms.com.tw/cw/hosp.php |
-| c06 昌禾骨科 | http://web.cxms.com.tw/ch/hosp.php |
-| c07 土城杏光 | http://web.cxms.com.tw/xq/hosp.php |
-| c19 得揚診所 | http://web.cxms.com.tw/dy/hosp.php |
-| c20 力康骨科 | http://web.cxms.com.tw/lk/hosp.php |
+| 診所 | 代碼 | 網址 |
+|------|------|------|
+| c02 維恩骨科 | `wn` | http://web.cxms.com.tw/wn/hosp.php |
+| c03 富新骨科 | `fc` | http://web.cxms.com.tw/fc/hosp.php |
+| c04 得安診所 | `da` | http://web.cxms.com.tw/da/hosp.php |
+| c05 昌惟骨科 | `cw` | http://web.cxms.com.tw/cw/hosp.php |
+| c06 昌禾骨科 | `ch` | http://web.cxms.com.tw/ch/hosp.php |
+| c07 土城杏光 | `xq` | http://web.cxms.com.tw/xq/hosp.php |
+| c19 得揚診所 | `dy` | http://web.cxms.com.tw/dy/hosp.php |
+| c20 力康骨科 | `lk` | http://web.cxms.com.tw/lk/hosp.php |
 
 ### 操作步驟（每週日執行，抓取下週班表）
 
-1. 依序開啟上表 8 個網址，**等待 3 秒**讓 AJAX 載入
-2. **截圖**（全頁），儲存至：
-   ```
-   scraper/snapshots/web/{診所ID}/YYYYMMDD_schedule.png
-   ```
-3. 逐格讀取：醫師姓名 × 日期 × 時段（早/午/晚）
-4. 對比 schedules.json，找出差異
-5. 更新 schedules.json：刪除該診所舊 sessions，新增本週正確 sessions
-6. 執行衝突檢查（見下方）
+#### Step 1：一次下載所有 HTML
+
+```bash
+for code in wn fc da cw ch xq dy lk; do
+  curl -s -L --max-time 10 "http://web.cxms.com.tw/$code/hosp.php" \
+    > /tmp/cxms_$code.html
+  echo "$code: $(wc -c < /tmp/cxms_$code.html) bytes"
+done
+```
+
+> ⚠️ 必須用 **HTTP**（非 HTTPS），HTTPS 會拒絕連線。
+
+#### Step 2：解析班表
+
+```python
+import re, json
+
+clinic_map = {
+    'wn': ('c02','維恩骨科'),  'fc': ('c03','富新骨科'),
+    'da': ('c04','得安診所'),  'cw': ('c05','昌惟骨科'),
+    'ch': ('c06','昌禾骨科'),  'xq': ('c07','土城杏光'),
+    'dy': ('c19','得揚診所'),  'lk': ('c20','力康骨科'),
+}
+days = ['Mon','Tue','Wed','Thu','Fri','Sat']
+
+for code, (cid, name) in clinic_map.items():
+    with open(f'/tmp/cxms_{code}.html', encoding='utf-8', errors='ignore') as f:
+        html = f.read()
+    row_pattern = re.compile(r"<tr align='center'[^>]*>(.*?)</tr>", re.DOTALL)
+    cell_pattern = re.compile(r"<td[^>]*>(.*?)</td>", re.DOTALL)
+    doc_pattern  = re.compile(r'<br>\s*([\u4e00-\u9fff]+)', re.DOTALL)
+
+    print(f'\n=== {cid} {name} ===')
+    for row in row_pattern.finditer(html):
+        cells = cell_pattern.findall(row.group(1))
+        if not cells: continue
+        diag = re.sub(r'<[^>]+>', '', cells[0]).strip()
+        if not diag: continue
+        day_docs = []
+        for cell in cells[1:]:
+            m = doc_pattern.search(cell)
+            day_docs.append(m.group(1) if m else '空')
+        parts = [f'{d}={doc}' for d, doc in zip(days, day_docs)]
+        print(f'  {diag}: {" | ".join(parts)}')
+```
+
+#### Step 3：對比並更新 schedules.json
+
+1. 比對輸出與 schedules.json 現有 sessions
+2. 刪除該診所本週舊 sessions
+3. 新增正確 sessions（注意黑名單醫師仍要收錄，UI 會過濾）
+4. 執行衝突檢查（見下方）
+5. `git commit & push`
 
 ### 特殊注意
 - **得揚（c19）**：日期有時顯示上週日期（系統 bug），以實際星期幾判斷
@@ -177,7 +227,7 @@
 
 ```
 【每週日執行，抓取下週班表】
-□ 類型 A（CXMS 8 家）：截圖 → 讀取 → 更新 schedules.json（下週）
+□ 類型 A（CXMS 8 家）：curl 抓 HTML → Python 解析 → 更新 schedules.json（下週）
 □ 類型 C2（永馨 c21）：截圖 → 讀取 → 更新 schedules.json（下週）
 □ 衝突檢查（見下方）
 □ git commit & push
@@ -254,4 +304,4 @@ scraper/snapshots/
         └── YYYYMMDD_schedule.png
 ```
 
-*最後更新：2026-02-18 v1.2*
+*最後更新：2026-02-21 v1.3*

@@ -28,11 +28,23 @@
 
 ## 資料問題與修正
 
-### CXMS 班表 AJAX 動態載入（根本原因）
+### CXMS 班表抓取方式確認（2026-02-21 更正）
 
-**發現**：CXMS 所有診所的班表透過 AJAX 動態載入，舊爬蟲只抓靜態 HTML，完全抓不到班表。導致初次轉錄全靠人工，存在系統性錯誤。
+**舊認知（錯誤）**：~~AJAX 動態載入，靜態爬蟲抓不到，需要 Selenium~~
 
-**後續對策**：爬蟲需改用 Selenium 渲染，或直接找各診所的 AJAX 端點（路徑因診所而異）。
+**正確做法**：用 `curl` 以 **HTTP**（非 HTTPS）直接 GET 即可，班表資料完整嵌在靜態 HTML 中：
+
+```bash
+curl -s -L --max-time 10 "http://web.cxms.com.tw/{code}/hosp.php"
+```
+
+**根本原因分析**：
+- 頁面 JS 確實有 AJAX（`makeRequest("docsch_ajax.php")`），但作用是每 2 分鐘刷新，不是首次載入
+- 首次載入時班表資料已完整嵌在靜態 HTML 的 `<table>` 中
+- 之前嘗試失敗原因：WebFetch 工具走 HTTPS（`web.cxms.com.tw` 的 HTTPS 拒絕連線）
+
+**已於 2026-02-21 補齊** c02/c03/c04/c05/c06/c07/c20 週四五班表（共 46 筆）
+**SOP 已更新**：v1.2 → v1.3，類型 A 操作步驟改為 curl + Python 解析，不再需要截圖 + OCR
 
 ---
 
