@@ -11,6 +11,7 @@
       "name": "禾安復健科",
       "color": "#4d9eff",
       "source_url": "https://www.facebook.com/share/19qBxvUV52/",
+      "schedule_type": "B2",
       "whitelist": [
         "陳柏誠"
       ],
@@ -21,6 +22,7 @@
       "name": "維恩骨科",
       "color": "#ff6b6b",
       "source_url": "http://web.cxms.com.tw/wn/hosp.php",
+      "schedule_type": "A",
       "whitelist": [],
       "blacklist": [
         "李毅康",
@@ -32,6 +34,7 @@
       "name": "富新骨科",
       "color": "#50c878",
       "source_url": "http://web.cxms.com.tw/fc/hosp.php",
+      "schedule_type": "A",
       "whitelist": [],
       "blacklist": []
     },
@@ -40,6 +43,7 @@
       "name": "得安診所",
       "color": "#ffa040",
       "source_url": "http://web.cxms.com.tw/da/hosp.php",
+      "schedule_type": "A",
       "whitelist": [],
       "blacklist": [
         "郭周樺"
@@ -50,6 +54,7 @@
       "name": "昌惟骨科",
       "color": "#c87dff",
       "source_url": "http://web.cxms.com.tw/cw/hosp.php",
+      "schedule_type": "A",
       "whitelist": [],
       "blacklist": [
         "莊凱如",
@@ -61,6 +66,7 @@
       "name": "昌禾骨科",
       "color": "#ff69b4",
       "source_url": "http://web.cxms.com.tw/ch/hosp.php",
+      "schedule_type": "A",
       "whitelist": [],
       "blacklist": []
     },
@@ -69,6 +75,7 @@
       "name": "土城杏光",
       "color": "#40c8c8",
       "source_url": "http://web.cxms.com.tw/xq/hosp.php",
+      "schedule_type": "A",
       "whitelist": [],
       "blacklist": []
     },
@@ -77,6 +84,7 @@
       "name": "正陽骨科",
       "color": "#e6c200",
       "source_url": "image",
+      "schedule_type": "D",
       "whitelist": [
         "黃英庭",
         "黃旭東",
@@ -89,6 +97,7 @@
       "name": "健維骨科",
       "color": "#ff8c69",
       "source_url": "https://www.facebook.com/JianWeiGuKeZhenSuo",
+      "schedule_type": "B1",
       "whitelist": [
         "韓文江"
       ],
@@ -99,6 +108,7 @@
       "name": "板橋維力",
       "color": "#7daaff",
       "source_url": "https://linevoom.line.me/user/_dRU2sRwynUYUwthLTwpRZUkS3Pl4GVHRt2DZSr8",
+      "schedule_type": "C1",
       "whitelist": [
         "高逢駿",
         "陳書佑"
@@ -110,6 +120,7 @@
       "name": "土城維力",
       "color": "#90ee90",
       "source_url": "https://www.weili-clinic.com",
+      "schedule_type": "C3",
       "whitelist": [],
       "blacklist": []
     },
@@ -118,6 +129,7 @@
       "name": "陳正傑骨科",
       "color": "#dda0dd",
       "source_url": "https://www.facebook.com/share/1EwsVWdZka/",
+      "schedule_type": "B2",
       "whitelist": [],
       "blacklist": []
     },
@@ -126,6 +138,7 @@
       "name": "悅滿意永和",
       "color": "#20b2aa",
       "source_url": "image",
+      "schedule_type": "D",
       "whitelist": [
         "悅滿意江"
       ],
@@ -136,6 +149,7 @@
       "name": "悅滿意新店",
       "color": "#cd853f",
       "source_url": "image",
+      "schedule_type": "D",
       "whitelist": [
         "悅滿意江",
         "悅滿意王"
@@ -147,6 +161,7 @@
       "name": "誠陽復健科",
       "color": "#6495ed",
       "source_url": "https://sites.google.com/view/chengyang-clinic",
+      "schedule_type": "C1",
       "whitelist": [
         "楊景堯"
       ],
@@ -157,6 +172,7 @@
       "name": "康澤復健科",
       "color": "#ff7f50",
       "source_url": "https://kangzereh.com",
+      "schedule_type": "C1",
       "whitelist": [],
       "blacklist": []
     },
@@ -165,6 +181,7 @@
       "name": "仁祐骨科",
       "color": "#98fb98",
       "source_url": "https://www.facebook.com/share/19wyYeXoNV/",
+      "schedule_type": "B1",
       "whitelist": [],
       "blacklist": []
     },
@@ -173,6 +190,7 @@
       "name": "祥明診所",
       "color": "#f0e68c",
       "source_url": "https://www.shiangming.com/time.php",
+      "schedule_type": "C3",
       "whitelist": [
         "黃有明"
       ],
@@ -183,6 +201,7 @@
       "name": "得揚診所",
       "color": "#b0c4de",
       "source_url": "http://web.cxms.com.tw/dy/hosp.php",
+      "schedule_type": "A",
       "whitelist": [],
       "blacklist": []
     },
@@ -191,6 +210,7 @@
       "name": "力康骨科",
       "color": "#da70d6",
       "source_url": "http://web.cxms.com.tw/lk/hosp.php",
+      "schedule_type": "A",
       "whitelist": [],
       "blacklist": [
         "林恭毅",
@@ -202,6 +222,7 @@
       "name": "永馨復健科",
       "color": "#87ceeb",
       "source_url": "https://www.sc-dr.com.tw",
+      "schedule_type": "C2",
       "whitelist": [
         "陳彥誌"
       ],
@@ -212,6 +233,7 @@
       "name": "順安復健科",
       "color": "#f4a460",
       "source_url": "https://www.facebook.com/share/1AnuyYyEsi/",
+      "schedule_type": "B1",
       "whitelist": [],
       "blacklist": []
     }
