@@ -906,267 +906,6 @@
       "source_note": "夜間一診"
     },
     {
-      "id": "bwl_m1",
-      "doctor_name": "高達駿",
-      "clinic_id": "c10",
-      "date": "2026-02-23",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "OCR備註：網站辨識為「高達駿」，使用者確認正確名稱為「高逢駿」，OCR誤讀可接受"
-    },
-    {
-      "id": "bwl_m2",
-      "doctor_name": "陳書佑",
-      "clinic_id": "c10",
-      "date": "2026-02-24",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "早上一診"
-    },
-    {
-      "id": "bwl_m3",
-      "doctor_name": "高達駿",
-      "clinic_id": "c10",
-      "date": "2026-02-26",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "OCR備註：網站辨識為「高達駿」，使用者確認正確名稱為「高逢駿」，OCR誤讀可接受"
-    },
-    {
-      "id": "bwl_m4",
-      "doctor_name": "陳書佑",
-      "clinic_id": "c10",
-      "date": "2026-02-27",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "早上一診"
-    },
-    {
-      "id": "bwl_a1",
-      "doctor_name": "陳書佑",
-      "clinic_id": "c10",
-      "date": "2026-02-24",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "下午一診"
-    },
-    {
-      "id": "bwl_a2",
-      "doctor_name": "陳書佑",
-      "clinic_id": "c10",
-      "date": "2026-02-26",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "下午一診"
-    },
-    {
-      "id": "bwl_a3",
-      "doctor_name": "高達駿",
-      "clinic_id": "c10",
-      "date": "2026-02-27",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "OCR備註：網站辨識為「高達駿」，使用者確認正確名稱為「高逢駿」，OCR誤讀可接受"
-    },
-    {
-      "id": "bwl_e1",
-      "doctor_name": "陳書佑",
-      "clinic_id": "c10",
-      "date": "2026-02-23",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "晚診一診"
-    },
-    {
-      "id": "bwl_e2",
-      "doctor_name": "高達駿",
-      "clinic_id": "c10",
-      "date": "2026-02-24",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "OCR備註：網站辨識為「高達駿」，使用者確認正確名稱為「高逢駿」，OCR誤讀可接受"
-    },
-    {
-      "id": "bwl_e3",
-      "doctor_name": "陳書佑",
-      "clinic_id": "c10",
-      "date": "2026-02-26",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "晚診一診"
-    },
-    {
-      "id": "bwl_e4",
-      "doctor_name": "高達駿",
-      "clinic_id": "c10",
-      "date": "2026-02-27",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "OCR備註：網站辨識為「高達駿」，使用者確認正確名稱為「高逢駿」，OCR誤讀可接受"
-    },
-    {
-      "id": "twl_m1a",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-02-23",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "早上一診"
-    },
-    {
-      "id": "twl_m1b",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-02-23",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "早上二診"
-    },
-    {
-      "id": "twl_m2",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-02-24",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "早上一診"
-    },
-    {
-      "id": "twl_m3",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-02-25",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "早上一診"
-    },
-    {
-      "id": "twl_m4",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-02-26",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "早上一診"
-    },
-    {
-      "id": "twl_m5",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-02-27",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "早上一診"
-    },
-    {
-      "id": "twl_a1a",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-02-23",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "下午一診"
-    },
-    {
-      "id": "twl_a1b",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-02-23",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "下午二診"
-    },
-    {
-      "id": "twl_a2",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-02-24",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "下午一診"
-    },
-    {
-      "id": "twl_a3",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-02-25",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "下午一診"
-    },
-    {
-      "id": "twl_a4",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-02-26",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "下午一診"
-    },
-    {
-      "id": "twl_a5",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-02-27",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "下午一診"
-    },
-    {
-      "id": "twl_e1",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-02-23",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "晚診一診"
-    },
-    {
-      "id": "twl_e2a",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-02-24",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "晚診一診"
-    },
-    {
-      "id": "twl_e2b",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-02-24",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "晚診二診"
-    },
-    {
-      "id": "twl_e3",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-02-25",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "晚診一診"
-    },
-    {
-      "id": "twl_e4",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-02-26",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "晚診一診"
-    },
-    {
-      "id": "twl_e5",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-02-27",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "晚診一診"
-    },
-    {
       "id": "cjj_m1",
       "doctor_name": "陳正傑",
       "clinic_id": "c12",
@@ -5217,1995 +4956,6 @@
       "source_note": "sc-dr.com.tw API 2026-03-01"
     },
     {
-      "id": "bwl_m_0302_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-02",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0302_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-02",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0302_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-02",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0302_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-02",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0302_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-02",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0302_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-02",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0303_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-03",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0303_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-03",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0303_黃",
-      "doctor_name": "黃博佑",
-      "clinic_id": "c10",
-      "date": "2026-03-03",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0303_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-03",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0303_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-03",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0304_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-04",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0304_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-04",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0304_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-04",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0305_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-05",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0305_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-05",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0305_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-05",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0305_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-05",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0305_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-05",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0306_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-06",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0306_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-06",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0306_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-06",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0306_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-06",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0307_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-07",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0307_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-07",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0309_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-09",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0309_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-09",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0309_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-09",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0309_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-09",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0309_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-09",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0309_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-09",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0310_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-10",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0310_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-10",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0310_黃",
-      "doctor_name": "黃博佑",
-      "clinic_id": "c10",
-      "date": "2026-03-10",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0310_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-10",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0310_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-10",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0311_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-11",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0311_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-11",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0311_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-11",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0312_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-12",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0312_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-12",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0312_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-12",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0312_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-12",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0312_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-12",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0313_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-13",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0313_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-13",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0313_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-13",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0313_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-13",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0314_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-14",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0314_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-14",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0316_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-16",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0316_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-16",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0316_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-16",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0316_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-16",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0316_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-16",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0316_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-16",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0317_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-17",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0317_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-17",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0317_黃",
-      "doctor_name": "黃博佑",
-      "clinic_id": "c10",
-      "date": "2026-03-17",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0317_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-17",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0317_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-17",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0318_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-18",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0318_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-18",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0318_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-18",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0319_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-19",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0319_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-19",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0319_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-19",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0319_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-19",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0319_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-19",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0320_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-20",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0320_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-20",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0320_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-20",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0320_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-20",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0321_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-21",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0321_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-21",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0323_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-23",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0323_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-23",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0323_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-23",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0323_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-23",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0323_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-23",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0323_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-23",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0324_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-24",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0324_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-24",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0324_黃",
-      "doctor_name": "黃博佑",
-      "clinic_id": "c10",
-      "date": "2026-03-24",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0324_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-24",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0324_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-24",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0325_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-25",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0325_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-25",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0325_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-25",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0326_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-26",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0326_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-26",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0326_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-26",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0326_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-26",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0326_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-26",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0327_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-27",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0327_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-27",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0327_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-27",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0327_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-27",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0328_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-28",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0328_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-28",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0330_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-30",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0330_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-30",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0330_林",
-      "doctor_name": "林茂鑫",
-      "clinic_id": "c10",
-      "date": "2026-03-30",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0330_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-30",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0330_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-30",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0330_高",
-      "doctor_name": "高道賢",
-      "clinic_id": "c10",
-      "date": "2026-03-30",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_m_0331_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-31",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0331_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-31",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_a_0331_黃",
-      "doctor_name": "黃博佑",
-      "clinic_id": "c10",
-      "date": "2026-03-31",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0331_許",
-      "doctor_name": "許芳倫",
-      "clinic_id": "c10",
-      "date": "2026-03-31",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "bwl_e_0331_陳",
-      "doctor_name": "陳奕成",
-      "clinic_id": "c10",
-      "date": "2026-03-31",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0302_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-02",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0302_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-02",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0302_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-02",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0302_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-02",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0302_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-02",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0302_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-02",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0303_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-03",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0303_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-03",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0303_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-03",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0303_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-03",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0304_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-04",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0304_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-04",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0304_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-04",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0304_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-04",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0304_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-04",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0305_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-05",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0305_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-05",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0305_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-05",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0305_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-05",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0305_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-05",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0306_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-06",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0306_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-06",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0306_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-06",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0307_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-07",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0307_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-07",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0309_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-09",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0309_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-09",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0309_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-09",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0309_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-09",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0309_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-09",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0309_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-09",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0310_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-10",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0310_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-10",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0310_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-10",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0310_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-10",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0311_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-11",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0311_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-11",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0311_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-11",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0311_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-11",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0311_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-11",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0312_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-12",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0312_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-12",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0312_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-12",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0312_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-12",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0312_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-12",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0313_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-13",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0313_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-13",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0313_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-13",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0314_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-14",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0314_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-14",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0316_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-16",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0316_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-16",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0316_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-16",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0316_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-16",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0316_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-16",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0316_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-16",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0317_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-17",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0317_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-17",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0317_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-17",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0317_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-17",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0318_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-18",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0318_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-18",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0318_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-18",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0318_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-18",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0318_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-18",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0319_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-19",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0319_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-19",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0319_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-19",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0319_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-19",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0319_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-19",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0320_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-20",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0320_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-20",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0320_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-20",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0321_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-21",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0321_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-21",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0323_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-23",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0323_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-23",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0323_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-23",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0323_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-23",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0323_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-23",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0323_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-23",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0324_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-24",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0324_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-24",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0324_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-24",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0324_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-24",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0325_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-25",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0325_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-25",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0325_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-25",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0325_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-25",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0325_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-25",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0326_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-26",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0326_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-26",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0326_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-26",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0326_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-26",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0326_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-26",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0327_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-27",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0327_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-27",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0327_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-27",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0328_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-28",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0328_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-28",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0330_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-30",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0330_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-30",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0330_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-30",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0330_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-30",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0330_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-30",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0330_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-30",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_m_0331_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-31",
-      "slot": "morning",
-      "time_label": "早診 08:30–12:00",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_a_0331_張",
-      "doctor_name": "張晉魁",
-      "clinic_id": "c11",
-      "date": "2026-03-31",
-      "slot": "afternoon",
-      "time_label": "下午 14:30–17:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0331_劉",
-      "doctor_name": "劉大維",
-      "clinic_id": "c11",
-      "date": "2026-03-31",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
-      "id": "twl_e_0331_楊",
-      "doctor_name": "楊欣達",
-      "clinic_id": "c11",
-      "date": "2026-03-31",
-      "slot": "evening",
-      "time_label": "晚診 18:30–21:30",
-      "source_note": "固定班表 2026-03-01 更新"
-    },
-    {
       "id": "cy_m_0302_楊",
       "doctor_name": "楊景堯",
       "clinic_id": "c15",
@@ -10093,6 +7843,1797 @@
       "slot": "evening",
       "time_label": "晚診 18:30–21:30",
       "source_note": "FB 月班表 2026-03-01 更新"
+    },
+    {
+      "id": "bwl_m_0302_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0302_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0302_林",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-02",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0302_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-02",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0302_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-02",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0302_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-02",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0303_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-03",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0303_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-03",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0303_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-03",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0304_陳",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-04",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0304_許",
+      "doctor_name": "許芳偉",
+      "clinic_id": "c10",
+      "date": "2026-03-04",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0304_許",
+      "doctor_name": "許芳偉",
+      "clinic_id": "c10",
+      "date": "2026-03-04",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0305_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-05",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0305_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-05",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0305_林b",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-05",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0305_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-05",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0305_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-05",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0306_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-06",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0306_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-06",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0306_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-06",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0307_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-07",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0307_陳b",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-07",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0309_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0309_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0309_林",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-09",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0309_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-09",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0309_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-09",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0309_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-09",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0310_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-10",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0310_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-10",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0310_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-10",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0311_陳",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-11",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0311_許",
+      "doctor_name": "許芳偉",
+      "clinic_id": "c10",
+      "date": "2026-03-11",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0311_許",
+      "doctor_name": "許芳偉",
+      "clinic_id": "c10",
+      "date": "2026-03-11",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0312_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-12",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0312_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-12",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0312_林b",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-12",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0312_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-12",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0312_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-12",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0313_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-13",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0313_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-13",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0313_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-13",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0314_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-14",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0314_陳b",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-14",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0316_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0316_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0316_林",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0316_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0316_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0316_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0317_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0317_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0317_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0318_陳",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0318_許",
+      "doctor_name": "許芳偉",
+      "clinic_id": "c10",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0318_許",
+      "doctor_name": "許芳偉",
+      "clinic_id": "c10",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0319_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0319_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0319_林b",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0319_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0319_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0320_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0320_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0320_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0321_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0321_陳b",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0323_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-23",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0323_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-23",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0323_林",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-23",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0323_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-23",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0323_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0323_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0324_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-24",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0324_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-24",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0324_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0325_陳",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-25",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0325_許",
+      "doctor_name": "許芳偉",
+      "clinic_id": "c10",
+      "date": "2026-03-25",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0325_許",
+      "doctor_name": "許芳偉",
+      "clinic_id": "c10",
+      "date": "2026-03-25",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0326_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-26",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0326_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-26",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0326_林b",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-26",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0326_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-26",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0326_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-26",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0327_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-27",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0327_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-27",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0327_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-27",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0328_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-28",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0328_陳b",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-28",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0330_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-30",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0330_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-30",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0330_林",
+      "doctor_name": "林茂鑫",
+      "clinic_id": "c10",
+      "date": "2026-03-30",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0330_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-30",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0330_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0330_陳b",
+      "doctor_name": "陳奕成",
+      "clinic_id": "c10",
+      "date": "2026-03-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_m_0331_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-31",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_a_0331_陳",
+      "doctor_name": "陳書佑",
+      "clinic_id": "c10",
+      "date": "2026-03-31",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "bwl_e_0331_高",
+      "doctor_name": "高逢駿",
+      "clinic_id": "c10",
+      "date": "2026-03-31",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0302_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0302_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0302_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-02",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0302_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-02",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0302_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-02",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0302_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-02",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0303_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-03",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0303_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-03",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0303_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-03",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0303_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-03",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0304_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-04",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0304_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-04",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0304_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-04",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0304_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-04",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0304_張b",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-04",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0305_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-05",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0305_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-05",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0305_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-05",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0306_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-06",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0306_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-06",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0306_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-06",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0307_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-07",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0307_張b",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-07",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0309_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0309_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0309_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-09",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0309_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-09",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0309_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-09",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0309_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-09",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0310_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-10",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0310_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-10",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0310_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-10",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0310_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-10",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0311_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-11",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0311_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-11",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0311_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-11",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0311_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-11",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0311_張b",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-11",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0312_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-12",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0312_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-12",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0312_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-12",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0313_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-13",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0313_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-13",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0313_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-13",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0314_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-14",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0314_張b",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-14",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0316_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0316_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0316_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0316_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0316_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0316_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0317_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0317_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0317_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0317_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0318_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0318_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0318_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0318_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0318_張b",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0319_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0319_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0319_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0320_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0320_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0320_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0321_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0321_張b",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0323_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-23",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0323_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-23",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0323_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-23",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0323_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-23",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0323_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0323_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0324_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-24",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0324_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-24",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0324_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0324_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0325_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-25",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0325_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-25",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0325_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-25",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0325_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-25",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0325_張b",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-25",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0326_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-26",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0326_楊",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-26",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0326_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-26",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0327_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-27",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0327_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-27",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0327_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-27",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0328_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-28",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0328_張b",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-28",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0330_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-30",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0330_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-30",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0330_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-30",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0330_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-30",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0330_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0330_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_m_0331_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-31",
+      "slot": "morning",
+      "time_label": "早診 08:30–12:00",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_a_0331_張",
+      "doctor_name": "張晉魁",
+      "clinic_id": "c11",
+      "date": "2026-03-31",
+      "slot": "afternoon",
+      "time_label": "下午 14:30–17:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0331_劉",
+      "doctor_name": "劉大維",
+      "clinic_id": "c11",
+      "date": "2026-03-31",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
+    },
+    {
+      "id": "twl_e_0331_楊b",
+      "doctor_name": "楊欣達",
+      "clinic_id": "c11",
+      "date": "2026-03-31",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "固定班表 2026-03-01 更新（115年班表）"
     }
   ]
 }

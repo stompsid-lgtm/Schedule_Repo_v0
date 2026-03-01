@@ -1,6 +1,6 @@
 # 門診班表資料更新 SOP
 
-**版本**：v1.2（2026-02-18）  
+**版本**：v1.4（2026-03-01）  
 **最高守則**：資料正確性優先於一切。有疑問時，以原始來源為準，不猜測。
 
 ---
@@ -12,9 +12,9 @@
 | **A. CXMS 網頁** | 週班表 | **每週** | c02 維恩、c03 富新、c04 得安、c05 昌惟、c06 昌禾、c07 土城杏光、c19 得揚、c20 力康 |
 | **B1. Facebook（月班表）** | 月班表 | **前月月底** | c09 健維、c17 仁祐、c22 順安 |
 | **B2. Facebook（固定班表）** | 固定班表 | **不需更新** | c01 禾安、c12 陳正傑 |
-| **C1. 官方網站（月班表）** | 月班表 | **前月月底** | c10 板橋維力、c15 誠陽、c16 康澤 |
+| **C1. 官方網站（月班表）** | 月班表 | **前月月底** | c15 誠陽、c16 康澤 |
 | **C2. 官方網站（週班表）** | 週班表 | **每週** | c21 永馨 |
-| **C3. 官方網站（固定班表）** | 固定班表 | **每月檢查** | c11 土城維力、c18 祥明 |
+| **C3. 官方網站（固定班表）** | 固定班表 | **每月檢查** | c10 板橋維力、c11 土城維力、c18 祥明 |
 | **D. 靜態圖片** | 固定班表 | **每 6 個月** | c08 正陽、c13 悅滿意永和、c14 悅滿意新店 |
 
 ### 衝突判斷規則
@@ -153,9 +153,8 @@ for code, (cid, name) in clinic_map.items():
 
 | 診所 | 網址 | 醫師 | OCR 備註 |
 |------|------|------|---------|
-| c10 板橋維力 | https://www.weili-clinic.com/news/category-5/post-30 | 高逢駿、陳書佑、林茂森、陳奕成、許芳偉 | 「高逢駿」網站文字 OCR 可能辨識為「高達駿」，可接受 |
-| c15 誠陽復健科 | https://sites.google.com/view/chengyang-clinic | 待確認 | — |
-| c16 康澤復健科 | https://kangzereh.com | 待確認 | — |
+| c15 誠陽復健科 | https://sites.google.com/view/chengyang-clinic | 楊景堯、林俊言 | 週三上午僅復健無門診 |
+| c16 康澤復健科（土城） | https://kangzereh.com/tuchengkangze#business | 李紹安、許哲維 | — |
 
 ### 操作步驟（每月底，抓取下個月班表）
 
@@ -166,10 +165,6 @@ for code, (cid, name) in clinic_map.items():
    ```
 3. 逐格讀取整月班表
 4. **寫入整月 sessions**：刪除該診所下個月所有舊 sessions，新增整月正確 sessions
-
-#### 板橋維力（c10）特殊說明
-- 與土城維力共用同一網頁，**板橋在上方**，土城在下方
-- 月班表：每月底更新下個月班表
 
 ---
 
@@ -207,11 +202,12 @@ curl -s -X POST \
 
 ---
 
-## 類型 C3：官方網站固定班表（2 家）— 每月檢查
+## 類型 C3：官方網站固定班表（3 家）— 每月檢查
 
 | 診所 | 網址 | 說明 |
 |------|------|------|
-| c11 土城維力 | https://www.weili-clinic.com/news/category-5/post-30 | 固定週班，每月確認有無更新 |
+| c10 板橋維力 | https://www.weili-clinic.com/news/category-5/post-30 | 固定週班（115年），每月確認有無更新 |
+| c11 土城維力 | https://www.weili-clinic.com/news/category-5/post-30 | 固定週班（115年），每月確認有無更新 |
 | c18 祥明診所 | https://www.shiangming.com/time.php | 固定週班，每月確認有無更新 |
 
 ### 操作步驟（每月底）
@@ -219,9 +215,10 @@ curl -s -X POST \
 1. **curl 抓取靜態 HTML**：
 
 ```bash
-# c11 土城維力
+# c10 板橋維力 & c11 土城維力（同一網頁）
 curl -s -L "https://www.weili-clinic.com/news/category-5/post-30" \
-  > scraper/snapshots/web/c11/YYYYMMDD_html.html
+  > scraper/snapshots/web/c10/YYYYMMDD_html.html
+cp scraper/snapshots/web/c10/YYYYMMDD_html.html scraper/snapshots/web/c11/YYYYMMDD_html.html
 
 # c18 祥明診所
 curl -s -L "https://www.shiangming.com/time.php" \
@@ -233,9 +230,10 @@ curl -s -L "https://www.shiangming.com/time.php" \
 
 **sessions 需涵蓋當月 + 下月（約 8 週）**；固定班表每週相同，用 Python 依週期批次生成日期。
 
-#### 土城維力（c11）特殊說明
-- 與板橋維力共用同一網頁，**土城在下方**
-- 週六資料不顯示於 App，不需記錄週六 sessions
+#### 板橋維力（c10）＆ 土城維力（c11）說明
+- 共用同一網頁：**板橋在上方**，土城在下方
+- 2026 起啟用 **115年固定班表**（不再需要每月更新，只需每月確認是否有變動）
+- 週六晚上：固定公休
 
 #### 祥明診所（c18）班表摘要（截至 2026-02）
 | 診 | 一 | 二 | 三 | 四 | 五 |
@@ -348,4 +346,4 @@ scraper/snapshots/
         └── YYYYMMDD_schedule.png
 ```
 
-*最後更新：2026-02-21 v1.3*
+*最後更新：2026-03-01 v1.4*
