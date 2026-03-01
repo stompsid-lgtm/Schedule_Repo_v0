@@ -1880,7 +1880,7 @@
     {
       "id": "sa_03",
       "clinic_id": "c22",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "date": "2026-02-23",
       "slot": "morning",
       "time_label": "上午 08:30–12:00",
@@ -1889,7 +1889,7 @@
     {
       "id": "sa_04",
       "clinic_id": "c22",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "date": "2026-02-24",
       "slot": "evening",
       "time_label": "夜診 18:00–21:00",
@@ -1898,7 +1898,7 @@
     {
       "id": "sa_05",
       "clinic_id": "c22",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "date": "2026-02-24",
       "slot": "morning",
       "time_label": "上午 08:30–12:00",
@@ -1907,7 +1907,7 @@
     {
       "id": "sa_06",
       "clinic_id": "c22",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "date": "2026-02-25",
       "slot": "afternoon",
       "time_label": "下午 14:00–17:00",
@@ -1916,7 +1916,7 @@
     {
       "id": "sa_07",
       "clinic_id": "c22",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "date": "2026-02-25",
       "slot": "evening",
       "time_label": "夜診 18:00–21:00",
@@ -1943,7 +1943,7 @@
     {
       "id": "sa_10",
       "clinic_id": "c22",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "date": "2026-02-26",
       "slot": "morning",
       "time_label": "上午 08:30–12:00",
@@ -7126,7 +7126,7 @@
     },
     {
       "id": "sa_m_0302",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-02",
       "slot": "morning",
@@ -7153,7 +7153,7 @@
     },
     {
       "id": "sa_m_0303",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-03",
       "slot": "morning",
@@ -7162,7 +7162,7 @@
     },
     {
       "id": "sa_e_0303",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-03",
       "slot": "evening",
@@ -7180,7 +7180,7 @@
     },
     {
       "id": "sa_a_0304",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-04",
       "slot": "afternoon",
@@ -7189,7 +7189,7 @@
     },
     {
       "id": "sa_e_0304",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-04",
       "slot": "evening",
@@ -7198,7 +7198,7 @@
     },
     {
       "id": "sa_m_0305",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-05",
       "slot": "morning",
@@ -7243,7 +7243,7 @@
     },
     {
       "id": "sa_m_0309",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-09",
       "slot": "morning",
@@ -7270,7 +7270,7 @@
     },
     {
       "id": "sa_m_0310",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-10",
       "slot": "morning",
@@ -7279,7 +7279,7 @@
     },
     {
       "id": "sa_e_0310",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-10",
       "slot": "evening",
@@ -7297,7 +7297,7 @@
     },
     {
       "id": "sa_a_0311",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-11",
       "slot": "afternoon",
@@ -7306,7 +7306,7 @@
     },
     {
       "id": "sa_e_0311",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-11",
       "slot": "evening",
@@ -7315,7 +7315,7 @@
     },
     {
       "id": "sa_m_0312",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-12",
       "slot": "morning",
@@ -7333,7 +7333,7 @@
     },
     {
       "id": "sa_m_0313",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-13",
       "slot": "morning",
@@ -7342,7 +7342,7 @@
     },
     {
       "id": "sa_a_0313",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-13",
       "slot": "afternoon",
@@ -7351,7 +7351,7 @@
     },
     {
       "id": "sa_m_0314",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-14",
       "slot": "morning",
@@ -7360,7 +7360,7 @@
     },
     {
       "id": "sa_m_0316",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-16",
       "slot": "morning",
@@ -7387,7 +7387,7 @@
     },
     {
       "id": "sa_m_0317",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-17",
       "slot": "morning",
@@ -7396,7 +7396,7 @@
     },
     {
       "id": "sa_e_0317",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-17",
       "slot": "evening",
@@ -7414,7 +7414,7 @@
     },
     {
       "id": "sa_a_0318",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-18",
       "slot": "afternoon",
@@ -7423,7 +7423,7 @@
     },
     {
       "id": "sa_e_0318",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-18",
       "slot": "evening",
@@ -7432,7 +7432,7 @@
     },
     {
       "id": "sa_m_0319",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-19",
       "slot": "morning",
@@ -7477,7 +7477,7 @@
     },
     {
       "id": "sa_m_0323",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-23",
       "slot": "morning",
@@ -7504,7 +7504,7 @@
     },
     {
       "id": "sa_m_0324",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-24",
       "slot": "morning",
@@ -7513,7 +7513,7 @@
     },
     {
       "id": "sa_e_0324",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-24",
       "slot": "evening",
@@ -7531,7 +7531,7 @@
     },
     {
       "id": "sa_a_0325",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-25",
       "slot": "afternoon",
@@ -7540,7 +7540,7 @@
     },
     {
       "id": "sa_e_0325",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-25",
       "slot": "evening",
@@ -7549,7 +7549,7 @@
     },
     {
       "id": "sa_m_0326",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-26",
       "slot": "morning",
@@ -7594,7 +7594,7 @@
     },
     {
       "id": "sa_m_0330",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-30",
       "slot": "morning",
@@ -7621,7 +7621,7 @@
     },
     {
       "id": "sa_m_0331",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-31",
       "slot": "morning",
@@ -7630,7 +7630,7 @@
     },
     {
       "id": "sa_e_0331",
-      "doctor_name": "滕學淵",
+      "doctor_name": "滕學澍",
       "clinic_id": "c22",
       "date": "2026-03-31",
       "slot": "evening",

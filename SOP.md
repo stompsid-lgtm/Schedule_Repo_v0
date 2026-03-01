@@ -122,7 +122,7 @@ for code, (cid, name) in clinic_map.items():
 |------|--------------|------|---------|
 | c09 健維骨科 | https://www.facebook.com/JianWeiGuKeZhenSuo | 韓文江、林承翰 | 週四下午林承翰看診至 17:15（17:00 截止掛號） |
 | c17 仁祐骨科 | https://www.facebook.com/share/19wyYeXoNV/ | 劉彥麟、陳漢祐 | 週六早診交替（奇週=劉彥麟、偶週=陳漢祐），請每月確認 |
-| c22 順安復健科 | https://www.facebook.com/share/1AnuyYyEsi/ | 滕學淵、陳俊宇 | 「滕學淵」FB 圖片可能辨識為「滕學澍」，前兩字相同可接受 |
+| c22 順安復健科 | https://www.facebook.com/share/1AnuyYyEsi/ | 滕學澍、陳俊宇 | 「滕學澍」是正確名稱，OCR 可能辨識為「滕學淵」，前兩字相同，遲竅接受 |
 
 ### 操作步驟（每月底，抓取下個月班表）
 
@@ -317,7 +317,7 @@ for key, entries in conflicts.items():
 2. 得到確認後，記錄到兩個地方：
    - `schedules.json` 的 `source_note`：`OCR備註：圖片辨識為「XXX」，確認名稱為「YYY」`
    - `scraper/ocr_corrections.md`：更新模糊比對清單（見下方）
-3. 前兩字相同的辨識結果通常可接受（例：滕學澍 vs 滕學淵）
+3. 前兩字相同的辨識結果通常可接受（例：滕學淵 vs 滕學澍）
 
 ### Q: 診所某天沒有門診怎麼辦？
 假日或停診：不建立 session，空白即代表無門診。
