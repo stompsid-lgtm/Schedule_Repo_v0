@@ -109,6 +109,7 @@ for code, (cid, name) in clinic_map.items():
 ### 特殊注意
 - **得揚（c19）**：日期有時顯示上週日期（系統 bug），以實際星期幾判斷
 - **力康（c20）**：每個時段可能有 2 位醫師（一診/二診），都要記錄
+- **維恩（c02）**：CXMS HTML 可能不即時反映當月新增的特聘醫師，若診所有公告圖片，以公告圖片為準
 - 若網頁空白，先確認是否為假日，不要貿然刪除資料
 
 ---
@@ -119,8 +120,8 @@ for code, (cid, name) in clinic_map.items():
 
 | 診所 | Facebook 頁面 | 醫師 | OCR 備註 |
 |------|--------------|------|---------|
-| c09 健維骨科 | https://www.facebook.com/JianWeiGuKeZhenSuo | 韓文江、林承翰 | 週四下午林承翰 17:15 結束（17:00 截止掛號） |
-| c17 仁祐骨科 | https://www.facebook.com/share/19wyYeXoNV/ | 待確認 | — |
+| c09 健維骨科 | https://www.facebook.com/JianWeiGuKeZhenSuo | 韓文江、林承翰 | 週四下午林承翰看診至 17:15（17:00 截止掛號） |
+| c17 仁祐骨科 | https://www.facebook.com/share/19wyYeXoNV/ | 劉彥麟、陳漢祐 | 週六早診交替（奇週=劉彥麟、偶週=陳漢祐），請每月確認 |
 | c22 順安復健科 | https://www.facebook.com/share/1AnuyYyEsi/ | 滕學淵、陳俊宇 | 「滕學淵」FB 圖片可能辨識為「滕學澍」，前兩字相同可接受 |
 
 ### 操作步驟（每月底，抓取下個月班表）
