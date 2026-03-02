@@ -143,19 +143,21 @@ for code, (cid, name) in clinic_map.items():
 
 | 診所 | Facebook 頁面 | 說明 |
 |------|--------------|------|
-| c01 禾安復健科 | https://www.facebook.com/share/19qBxvUV52/ | 多年不變，当作固定班表 |
-| c12 陳正傑骨科 | https://www.facebook.com/share/1EwsVWdZka/ | 多年不變，当作固定班表 |
+| c01 禾安復健科 | https://www.facebook.com/share/19qBxvUV52/ | 多年不變，當作固定班表 |
+| c12 陳正傑骨科 | https://www.facebook.com/share/1EwsVWdZka/ | 多年不變，當作固定班表 |
 
 **管理原則**：
 - 班表內容不變，不需抓取
 - 但 sessions 有時間範圍，**每月月初必須延伸到下個月**（和 C3 一起處理）
 - 若診所通知班表異動，才需重新截圖並更新內容
 
-**每月延伸操作**：
+**每月延伸操作**（每月 1 日執行）：
 
 1. 依現有固定週班，用 Python 生成下個月整月 sessions
 2. 不刪除舊資料，直接新增
 3. 執行衝突檢查
+
+參考腳本：`scraper/extend_fixed.py`（處理 B2 + D + C3，每月月初執行一次）
 
 ---
 
