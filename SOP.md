@@ -166,7 +166,7 @@ for code, (cid, name) in clinic_map.items():
 | 診所 | 網址 | 醫師 | OCR 備註 |
 |------|------|------|---------|
 | c15 誠陽復健科 | https://sites.google.com/view/chengyang-clinic | 楊景堯、林俊言 | 週三上午僅復健無門診 |
-| c16 康澤復健科（土城） | https://kangzereh.com/tuchengkangze#business | 李紹安、許哲維 | — |
+| c16 康澤復健科（土城） | https://kangzereh.com/tuchengkangze#business | 李紹安、許哲維、陳冠誠 | **主表 + 底部 ★ 備註兩層皆須處理** |
 
 ### 操作步驟（每月底，抓取下個月班表）
 
@@ -175,8 +175,11 @@ for code, (cid, name) in clinic_map.items():
    ```
    scraper/snapshots/web/{診所ID}/YYYYMMDD_schedule.png
    ```
-3. 逐格讀取整月班表
+3. 讀取分兩層：
+   - **主表格**：固定週班（早/午/晚 × 週一至週六）
+   - **底部 ★ 備註欄**：特定日期的代診、停診、時間異動（**不可略過，這是例外資料**）
 4. **寫入整月 sessions**：刪除該診所下個月所有舊 sessions，新增整月正確 sessions
+   - 先依主表格展開整月，再逐一套用 ★ 備註的例外
 
 ---
 
@@ -374,4 +377,4 @@ scraper/snapshots/
         └── YYYYMMDD_schedule.png
 ```
 
-*最後更新：2026-03-02 v1.5*
+*最後更新：2026-03-05 v1.6*
