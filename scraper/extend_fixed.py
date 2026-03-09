@@ -7,7 +7,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-SCHEDULES_FILE = Path('/Users/yezuhao/.gemini/antigravity/scratch/clinic-pwa/schedules.json')
+SCHEDULES_FILE = Path('/Users/yezuhao/Projects/scraper/schedules.json')
 
 with open(SCHEDULES_FILE, encoding='utf-8') as f:
     data = json.load(f)
