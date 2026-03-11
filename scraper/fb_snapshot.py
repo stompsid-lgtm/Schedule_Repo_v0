@@ -14,6 +14,7 @@
   c12 陳正傑骨科    (Facebook)
   c17 仁祐骨科      (Facebook)
   c22 順安復健科    (Facebook)
+  c23 黃石診所      (Facebook)
 
 用法：
   # 對單一診所截圖
@@ -49,6 +50,7 @@ SOCIAL_CLINICS = {
     "c12": {"name": "陳正傑骨科",   "platform": "facebook"},
     "c17": {"name": "仁祐骨科",     "platform": "facebook"},
     "c22": {"name": "順安復健科",   "platform": "facebook"},
+    "c23": {"name": "黃石診所",     "platform": "facebook"},
 }
 
 

@@ -10,7 +10,7 @@
 | 類型 | 班表性質 | 更新頻率 | 診所 |
 |------|---------|---------|------|
 | **A. CXMS 網頁** | 週班表 | **每週** | c02 維恩、c03 富新、c04 得安、c05 昌惟、c06 昌禾、c07 土城杏光、c19 得揚、c20 力康 |
-| **B1. Facebook（月班表）** | 月班表 | **前月月底** | c09 健維、c17 仁祐、c22 順安 |
+| **B1. Facebook（月班表）** | 月班表 | **前月月底** | c09 健維、c17 仁祐、c22 順安、c23 黃石 |
 | **B2. Facebook（固定班表）** | 固定班表 | **每月延伸** | c01 禾安、c12 陳正傑 |
 | **C1. 官方網站（月班表）** | 月班表 | **前月月底** | c15 誠陽、c16 康澤 |
 | **C2. 官方網站（週班表）** | 週班表 | **每週** | c21 永馨 |
@@ -123,6 +123,7 @@ for code, (cid, name) in clinic_map.items():
 | c09 健維骨科 | https://www.facebook.com/JianWeiGuKeZhenSuo | 韓文江、林承翰 | 週四下午林承翰看診至 17:15（17:00 截止掛號） |
 | c17 仁祐骨科 | https://www.facebook.com/share/19wyYeXoNV/ | 劉彥麟、陳漢祐 | 週六早診交替（奇週=劉彥麟、偶週=陳漢祐），請每月確認 |
 | c22 順安復健科 | https://www.facebook.com/share/1AnuyYyEsi/ | 滕學澍、陳俊宇 | 「滕學澍」是正確名稱，OCR 可能辨識為「滕學淵」，前兩字相同，遲竅接受 |
+| c23 黃石健康診所 | https://www.facebook.com/people/%E9%BB%83%E7%9F%B3%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%89%80/61586291937168/ | 楊政道、張喬惟、陳韋呈、李苡萍 | 白名單科別：骨科、復健科、風濕免疫科；週日休診 |
 
 ### 操作步驟（每月底，抓取下個月班表）
 
@@ -306,7 +307,7 @@ curl -s -L "https://www.shiangming.com/time.php" \
 □ git commit & push
 
 【每月底執行（抓取下個月）】
-□ 類型 B1（FB 月班表：c09/c17/c22）：截大圖 → 讀取整月 → 新增下月 sessions（不刪本月）
+□ 類型 B1（FB 月班表：c09/c17/c22/c23）：截大圖 → 讀取整月 → 新增下月 sessions（不刪本月）
 □ 類型 C1（官網月班表：c15/c16）：截圖 → 讀取整月 → 新增下月 sessions（不刪本月）
 □ C3 檢查（c10/c11/c18）：對比上月快照，有變動才更新
 □ git commit & push
@@ -369,7 +370,7 @@ scraper/snapshots/
 │   └── {診所}/
 │       ├── schedule_transcription.md
 │       └── verified.json
-├── social/         # Facebook 截圖（c01/c09/c12/c17/c22）
+├── social/         # Facebook 截圖（c01/c09/c12/c17/c22/c23）
 │   └── {診所}/
 │       └── YYYYMMDD_schedule_full.png   ← 必須是放大後的全尺寸圖
 └── web/            # CXMS + 官方網站截圖
