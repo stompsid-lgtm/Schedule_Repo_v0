@@ -849,13 +849,13 @@
       gap: 8px;
     }
     #reload-btn {
-      font-size: 10px;
+      font-size: 18px;
       background: none;
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      color: var(--text3);
-      padding: 1px 6px;
+      border: none;
+      color: var(--text2);
+      padding: 4px;
       cursor: pointer;
+      line-height: 1;
     }
     #reload-btn:active { opacity: 0.6; }
 
@@ -900,6 +900,7 @@
             <button id="b2" class="on" onclick="setView('2day')">2天</button>
             <button id="bw" onclick="setView('week')">週</button>
           </div>
+          <button id="reload-btn" onclick="loadData()" title="重新整理資料">🔄</button>
           <button class="ibtn" onclick="showPage('settings')">⚙️</button>
         </div>
       </div>
@@ -920,7 +921,7 @@
       <div id="cw">
         <div id="cal"></div>
       </div>
-      <div id="ubar"><span id="ubar-text">載入中…</span><button id="reload-btn" onclick="loadData()">重新整理</button></div>
+      <div id="ubar"><span id="ubar-text">載入中…</span></div>
     </div>
 
     <!-- SETTINGS PAGE -->
