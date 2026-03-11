@@ -842,8 +842,22 @@
       font-size: 10px;
       color: var(--text3);
       text-align: center;
-      flex-shrink: 0
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
     }
+    #reload-btn {
+      font-size: 10px;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text3);
+      padding: 1px 6px;
+      cursor: pointer;
+    }
+    #reload-btn:active { opacity: 0.6; }
 
     ::-webkit-scrollbar {
       width: 3px;
@@ -906,7 +920,7 @@
       <div id="cw">
         <div id="cal"></div>
       </div>
-      <div id="ubar">載入中…</div>
+      <div id="ubar"><span id="ubar-text">載入中…</span><button id="reload-btn" onclick="loadData()">重新整理</button></div>
     </div>
 
     <!-- SETTINGS PAGE -->
@@ -1202,7 +1216,7 @@
       const t = DATA.meta?.generated_at
         ? new Date(DATA.meta.generated_at).toLocaleString('zh-TW', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' })
         : '—';
-      document.getElementById('ubar').textContent = `資料更新：${t}`;
+      document.getElementById('ubar-text').textContent = `資料更新：${t}`;
     }
 
     // ═══════════════════════════
@@ -1491,7 +1505,7 @@
       w.addEventListener('touchstart', e => { if (w.scrollTop === 0) ps = e.touches[0].clientY; }, { passive: true });
       w.addEventListener('touchend', e => {
         if (ps > 0 && e.changedTouches[0].clientY - ps > 72 && w.scrollTop === 0) {
-          document.getElementById('ubar').textContent = '更新中…'; loadData();
+          document.getElementById('ubar-text').textContent = '更新中…'; loadData();
         } ps = 0;
       }, { passive: true });
     })();
