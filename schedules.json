@@ -236,6 +236,19 @@
       "schedule_type": "B1",
       "whitelist": [],
       "blacklist": []
+    },
+    {
+      "id": "c23",
+      "name": "黃石健康診所",
+      "color": "#e74c3c",
+      "source_url": "https://www.facebook.com/people/黃石健康診所/61586291937168/",
+      "schedule_type": "B1",
+      "whitelist": [
+        "骨科",
+        "復健科",
+        "風濕免疫科"
+      ],
+      "blacklist": []
     }
   ],
   "sessions": [
@@ -13612,6 +13625,717 @@
       "slot": "morning",
       "time_label": "早診 09:00–12:00",
       "source_note": "FB 月班表 2026-03-01 更新"
+    },
+    {
+      "id": "hs_m_0302",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0302_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0302",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-02",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0302",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-02",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0303",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0303",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-03",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0303",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-03",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0304",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0304",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-04",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0304",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-04",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0304_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-04",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0305",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-05",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0305",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-05",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0305",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-05",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0306",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0306",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-06",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0306",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-06",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0307",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-07",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0309",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0309_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0309",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-09",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0309",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-09",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0310",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0310",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-10",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0310",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-10",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0311",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0311",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-11",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0311",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-11",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0311_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-11",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0312",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-12",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0312",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-12",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0312",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-12",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0313",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0313",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-13",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0313",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-13",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0314",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-14",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0316",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0316_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0316",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0316",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0317",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0317",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0317",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0318",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0318",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0318",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0318_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0319",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0319",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0319",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0320",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0320",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0320",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0321",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0323",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0323_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0323",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-23",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0323",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-23",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0324",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0324",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-24",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0324",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-24",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0325",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0325",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-25",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0325",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-25",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0325_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-25",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0326",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0326",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-26",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0326",
+      "doctor_name": "陳韋呈",
+      "clinic_id": "c23",
+      "date": "2026-03-26",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0327",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0327",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-27",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0327",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-27",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0328",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-28",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0330",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0330_2",
+      "doctor_name": "李苡萍",
+      "clinic_id": "c23",
+      "date": "2026-03-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0330",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-30",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0330",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-30",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_m_0331",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-31",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_a_0331",
+      "doctor_name": "楊政道",
+      "clinic_id": "c23",
+      "date": "2026-03-31",
+      "slot": "afternoon",
+      "time_label": "午診 13:30–17:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "hs_e_0331",
+      "doctor_name": "張喬惟",
+      "clinic_id": "c23",
+      "date": "2026-03-31",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
     }
   ]
 }
