@@ -149,8 +149,8 @@
     }
 
     .ibtn {
-      width: 28px;
-      height: 28px;
+      width: 32px;
+      height: 32px;
       border: none;
       background: transparent;
       display: flex;
@@ -158,12 +158,27 @@
       justify-content: center;
       cursor: pointer;
       color: var(--accent);
-      font-size: 18px;
-      transition: opacity 0.2s;
+      border-radius: 8px;
+      transition: background 0.15s, opacity 0.15s;
     }
 
     .ibtn:active {
-      opacity: 0.5;
+      background: var(--accent-dim);
+      opacity: 0.8;
+    }
+
+    .ibtn svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    @keyframes ibtn-spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .ibtn.spinning svg {
+      animation: ibtn-spin 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     /* NAV BAR */
@@ -848,16 +863,7 @@
       justify-content: center;
       gap: 8px;
     }
-    #reload-btn {
-      font-size: 18px;
-      background: none;
-      border: none;
-      color: var(--text2);
-      padding: 4px;
-      cursor: pointer;
-      line-height: 1;
-    }
-    #reload-btn:active { opacity: 0.6; }
+
 
     ::-webkit-scrollbar {
       width: 3px;
@@ -900,8 +906,20 @@
             <button id="b2" class="on" onclick="setView('2day')">2天</button>
             <button id="bw" onclick="setView('week')">週</button>
           </div>
-          <button id="reload-btn" onclick="loadData()" title="重新整理資料">🔄</button>
-          <button class="ibtn" onclick="showPage('settings')">⚙️</button>
+          <button id="reload-btn" class="ibtn" title="重新整理資料" onclick="triggerReload()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+              <path d="M3 3v5h5"/>
+              <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/>
+              <path d="M16 16h5v5"/>
+            </svg>
+          </button>
+          <button class="ibtn" onclick="showPage('settings')" title="設定">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </button>
         </div>
       </div>
       <div class="nbar">
@@ -1479,6 +1497,15 @@
     // ═══════════════════════════
     //  DATA LOAD
     // ═══════════════════════════
+    function triggerReload() {
+      const btn = document.getElementById('reload-btn');
+      btn.classList.remove('spinning');
+      void btn.offsetWidth;
+      btn.classList.add('spinning');
+      btn.addEventListener('animationend', () => btn.classList.remove('spinning'), { once: true });
+      loadData();
+    }
+
     async function loadData() {
       try {
         const r = await fetch('./schedules.json?v=' + Date.now(), { cache: 'no-store' });
