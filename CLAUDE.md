@@ -92,4 +92,22 @@ COMMANDS:
   python3 scraper/vision_scraper.py --clinic c24 --weeks 5
   python3 scraper/vision_scraper.py --clinic c24 --weeks 5 --output /tmp/jr_sessions.json
 
+  # 104 新成立診所爬蟲（台北市+新北市）
+  python3 104-clinic-scraper.py                    # 終端印出結果
+  python3 104-clinic-scraper.py --out results.json # 匯出 JSON
+
 </ref>
+
+<tool name="104-clinic-scraper">
+file: 104-clinic-scraper.py
+purpose: 爬 104 人力銀行，搜尋台北市+新北市新成立/籌備中的診所職缺
+api: https://www.104.com.tw/jobs/search/api/jobs（公開 JSON API，需帶 Referer header）
+strategies:
+  - 「診所（籌備處）」全形/半形直搜
+  - indcat=1012001002（診所產業）+ 籌備/新成立/新開幕/即將開幕
+filter:
+  api-level: excludeJobKeyword=牙科,眼科,兒科,皮膚科,醫美,中醫
+  post-filter: 公司名含 牙/眼科/兒科/皮膚/醫美/中醫/美學/美容/婦產/產後/月子 → 排除
+  relevance: 職缺需含 籌備/新成立/新開幕/即將開幕/開幕/籌設 任一關鍵字
+output: 按公司分組，🏗️=籌備處 🆕=新成立
+</tool>
