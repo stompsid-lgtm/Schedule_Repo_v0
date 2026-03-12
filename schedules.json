@@ -245,6 +245,20 @@
       "schedule_type": "B1",
       "whitelist": [],
       "blacklist": []
+    },
+    {
+      "id": "c24",
+      "name": "新店精睿泌尿科",
+      "aliases": [
+        "新店精睿"
+      ],
+      "color": "#9b59b6",
+      "source_url": "https://14387.vision.com.tw/Register",
+      "schedule_type": "E",
+      "whitelist": [
+        "黃旭澤"
+      ],
+      "blacklist": []
     }
   ],
   "sessions": [
@@ -14332,6 +14346,294 @@
       "slot": "evening",
       "time_label": "晚診 18:00–21:00",
       "source_note": "FB 月班表 2026-02-26 更新（三月門診表）"
+    },
+    {
+      "id": "jr_e_0312",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-12",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0313",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-13",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_e_0313",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-13",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0314",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-14",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_m_0316",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0316",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_e_0316",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0318",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_m_0319",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_e_0319",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0320",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0321",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_m_0323",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0323",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-23",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_e_0323",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-23",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0325",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-25",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_m_0326",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_e_0326",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-26",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0327",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-27",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0328",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-28",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_m_0330",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0330",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-30",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_e_0330",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-03-30",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0401",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-01",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_m_0402",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_e_0402",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-02",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0403",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0408",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-08",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_m_0409",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_e_0409",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-09",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0410",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-10",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+    },
+    {
+      "id": "jr_a_0411",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-11",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
     }
   ]
 }

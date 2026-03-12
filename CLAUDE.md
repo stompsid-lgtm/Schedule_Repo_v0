@@ -2,8 +2,8 @@
 
 <meta>
 repo: stompsid-lgtm/Schedule_Repo_v0（private）
-purpose: 半自動化診所排班資料管理系統（23 家診所 → schedules.json → index.html PWA）
-sop-version: v1.6
+purpose: 半自動化診所排班資料管理系統（24 家診所 → schedules.json → index.html PWA）
+sop-version: v1.7
 </meta>
 
 <conn label="精確保留 | 禁壓縮">
@@ -37,6 +37,9 @@ CLINIC-TYPES:
   C3（官網固定）: 每季/半年確認有無更新，月初 extend_fixed.py 延伸 → c10 板橋維力 | c11 土城維力 | c18 祥明
   C3-source: c10/c11 均使用 https://www.weili-clinic.com/news/category-5/post-30
   D（靜態圖片）: 每 6 個月驗證 + 每月延伸 → c08 正陽 | c13 悅滿意永和 | c14 悅滿意新店
+  E（Vision.com.tw 週班）: POST /Register 直抓 HTML，每週更新 → c24 新店精睿泌尿科
+  E-parser: scraper/vision_scraper.py（解析 myFunction() 呼叫，SSL 驗證已停用）
+  E-query: POST date=上週一&type=1 → 回傳該週班表（系統固定返回下一週資料）
 
 SCHEDULES-JSON-SCHEMA:
   meta: generated_at | week_start | week_end | version
@@ -84,5 +87,9 @@ COMMANDS:
   # 靜態圖片驗證（D 類型）
   python3 scraper/image_validator.py --status
   python3 scraper/image_validator.py --update c08 --note "已確認"
+
+  # Vision.com.tw 班表（E 類型，每週）
+  python3 scraper/vision_scraper.py --clinic c24 --weeks 5
+  python3 scraper/vision_scraper.py --clinic c24 --weeks 5 --output /tmp/jr_sessions.json
 
 </ref>

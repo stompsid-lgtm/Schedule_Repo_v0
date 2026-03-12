@@ -103,17 +103,19 @@
 ## 目錄結構
 
 ```
-clinic-pwa/
+scraper/
 ├── index.html          # 整個 App（HTML + CSS + JS）
-├── schedules.json      # 排班資料（由 scraper 維護）
+├── schedules.json      # 排班資料（24 家診所，由 scraper/ 維護）
 ├── Spec.md             # 本文件
 ├── Log.md              # 開發日誌
-├── SOP.md              # 門診班表資料更新 SOP（標準作業程序）
+├── SOP.md              # 門診班表資料更新 SOP（標準作業程序，TA=agent）
 └── scraper/
     ├── ocr_corrections.md  # OCR 辨識比對修正清單
-    ├── web_validator.py    # CXMS 網站爬取
-    ├── fb_snapshot.py      # Facebook / LINE VOOM 截圖
-    ├── image_validator.py  # 圖片來源驗證
-    ├── weili_scraper.py    # 維力骨科（Selenium）
+    ├── web_validator.py    # CXMS 網站爬取（類型 A）
+    ├── fb_snapshot.py      # Facebook / LINE VOOM 截圖（類型 B1）
+    ├── image_validator.py  # 圖片來源驗證（類型 D）
+    ├── vision_scraper.py   # Vision.com.tw 班表爬蟲（類型 E，c24 新店精睿）
+    ├── extend_fixed.py     # 固定班表每月延伸（類型 B2/C3/D）
+    ├── weili_scraper.py    # 維力骨科（Selenium，備用）
     └── snapshots/          # 各診所快照存放
 ```

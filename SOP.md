@@ -1,11 +1,11 @@
 # 門診班表資料更新 SOP
 
-**版本**：v1.5（2026-03-02）  
+**版本**：v1.7（2026-03-12）
 **最高守則**：資料正確性優先於一切。有疑問時，以原始來源為準，不猜測。
 
 ---
 
-## 概覽：22 家診所分類
+## 概覽：24 家診所分類
 
 | 類型 | 班表性質 | 更新頻率 | 診所 |
 |------|---------|---------|------|
@@ -16,6 +16,7 @@
 | **C2. 官方網站（週班表）** | 週班表 | **每週** | c21 永馨 |
 | **C3. 官方網站（固定班表）** | 固定班表 | **每月檢查** | c10 板橋維力、c11 土城維力、c18 祥明 |
 | **D. 靜態圖片** | 固定班表 | **內容 6 個月、sessions 每月** | c08 正陽、c13 悅滿意永和、c14 悅滿意新店 |
+| **E. Vision.com.tw 週班表** | 週班表 | **每週** | c24 新店精睿泌尿科 |
 
 ### 衝突判斷規則
 - 目前名單內**無醫師重複姓名**，同名必定同人
@@ -290,12 +291,64 @@ curl -s -L "https://www.shiangming.com/time.php" \
 
 ---
 
+## 類型 E：Vision.com.tw 週班表（1 家）— 每週更新
+
+| 診所 | 網址 | 醫師 whitelist |
+|------|------|---------------|
+| c24 新店精睿泌尿科 | https://14387.vision.com.tw/Register | 黃旭澤 |
+
+### 技術細節
+
+- 系統：展望亞洲科技 (vision.com.tw)，POST `/Register` 回傳週班表 HTML
+- 解析目標：`myFunction('第一診', '黃旭澤', '103', 'uuid', '泌尿科', '日期', '週幾', '時段', ...)`
+- **時間偏移**：POST `date=本週一` → 系統回傳**下週**班表（固定偏移 +1 週）
+- SSL：vision.com.tw 憑證鏈不完整，爬蟲已停用驗證（`ssl.CERT_NONE`）
+- session ID 格式：`jr_{m|a|e}_{MMDD}`（例：`jr_m_0316`）
+
+### 操作步驟（每週日執行）
+
+```bash
+# 爬取 c24 未來 5 週班表（輸出到 /tmp 確認內容）
+cd /Users/yezuhao/Projects/scraper
+python3 scraper/vision_scraper.py --clinic c24 --weeks 5 --output /tmp/jr_sessions.json
+```
+
+確認輸出無誤後，將 `/tmp/jr_sessions.json` 的內容合併進 `schedules.json`：
+
+```python
+import json
+
+with open('schedules.json', encoding='utf-8') as f:
+    sched = json.load(f)
+
+with open('/tmp/jr_sessions.json', encoding='utf-8') as f:
+    new_sessions = json.load(f)
+
+# 刪除 c24 舊 sessions，補入新 sessions
+sched['sessions'] = [s for s in sched['sessions'] if s['clinic_id'] != 'c24']
+sched['sessions'].extend(new_sessions)
+
+with open('schedules.json', 'w', encoding='utf-8') as f:
+    json.dump(sched, f, ensure_ascii=False, indent=2)
+
+print(f"✅ c24 更新完成，共 {len(new_sessions)} 筆 sessions")
+```
+
+### 特殊注意
+
+- 只追蹤**黃旭澤**，其他醫師（朱信誠、魏汶玲）已由 whitelist 過濾
+- 週六有下午門診，**不跳過週六**（與其他診所不同）
+- 若系統傳回空白或錯誤，先確認 https://14387.vision.com.tw/Register 是否可連線
+
+---
+
 ## 每週執行清單
 
 ```
 【每週日執行，抓取下週班表】
 □ 類型 A（CXMS 8 家）：curl 抓 HTML → Python 解析 → 更新 schedules.json（下週）
 □ 類型 C2（永馨 c21）：截圖 → 讀取 → 更新 schedules.json（下週）
+□ 類型 E（精睿 c24）：vision_scraper.py --clinic c24 --weeks 5 → 合併 sessions
 □ 衝突檢查（見下方）
 □ git commit & push
 
@@ -378,4 +431,4 @@ scraper/snapshots/
         └── YYYYMMDD_schedule.png
 ```
 
-*最後更新：2026-03-05 v1.6*
+*最後更新：2026-03-12 v1.7*
