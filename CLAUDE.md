@@ -33,7 +33,7 @@ CLINIC-TYPES:
   B1（FB 月班）: 截圖後人工轉錄，月底更新 → c09 健維 | c17 仁祐 | c22 順安 | c23 黃石
   B2（FB 固定）: 每月月初 extend_fixed.py 延伸 → c01 禾安 | c12 陳正傑
   C1（官網月）: 截圖後人工轉錄，月底更新 → c15 誠陽 | c16 康澤
-  C2（官網週）: 每週更新 → c21 永馨
+  C2（官網月）: POST API 回傳未來 ~4 週資料，實質為月班表，每週更新 → c21 永馨
   C3（官網固定）: 每季/半年確認有無更新，月初 extend_fixed.py 延伸 → c10 板橋維力 | c11 土城維力 | c18 祥明
   C3-source: c10/c11 均使用 https://www.weili-clinic.com/news/category-5/post-30
   D（靜態圖片）: 每 6 個月驗證 + 每月延伸 → c08 正陽 | c13 悅滿意永和 | c14 悅滿意新店
@@ -53,6 +53,37 @@ OCR-CORRECTIONS:
 </conn>
 
 <rules>
+
+UPDATE-WORKFLOW:
+  step-1: 掃描 schedules.json，列出「接下來一週」各診所 session 覆蓋狀況
+  step-2: 產出缺漏清單（❌ 無資料 / ⚠️ 部分缺漏），確認哪些需要更新
+  step-3: 依清單逐一執行爬蟲或手動補錄
+  step-4: 更新後重新掃描，確認覆蓋完整
+  script: |
+    python3 -c "
+    import json
+    from datetime import datetime, timedelta
+    from collections import defaultdict
+    with open('schedules.json') as f: data = json.load(f)
+    clinics = {c['id']: c for c in data['clinics']}
+    today = datetime.now()
+    # 下週一到週日
+    monday = today + timedelta(days=(7 - today.weekday()) % 7 or 7)
+    if today.weekday() == 6: monday = today + timedelta(days=1)
+    dates = [(monday + timedelta(days=i)).strftime('%Y-%m-%d') for i in range(7)]
+    print(f'檢查範圍: {dates[0]} ~ {dates[-1]}')
+    clinic_sessions = defaultdict(list)
+    for s in data['sessions']:
+        if s['date'] in dates: clinic_sessions[s['clinic_id']].append(s)
+    for c in sorted(clinics.values(), key=lambda x: x['id']):
+        cid, name = c['id'], c['name']
+        stype = c.get('schedule_type', '?')
+        sessions = clinic_sessions.get(cid, [])
+        covered = sorted(set(s['date'] for s in sessions))
+        flag = '❌' if not sessions else ''
+        covered_str = ', '.join(d[5:] for d in covered) if covered else '無資料'
+        print(f'{cid:<5} {name:<12} {stype:<10} {len(sessions):<4} {covered_str} {flag}')
+    "
 
 PAIN-POINTS:
   core: 7 種來源類型無法全自動化，需半人工維護

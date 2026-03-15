@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-11T13:28:42+08:00",
-    "week_start": "2026-03-09",
-    "week_end": "2026-03-13",
+    "generated_at": "2026-03-16T00:10:16+08:00",
+    "week_start": "2026-03-16",
+    "week_end": "2026-03-21",
     "version": "1.0"
   },
   "clinics": [
@@ -14384,13 +14384,1723 @@
       "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
     },
     {
+      "id": "wn_m_0316",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_m_0317",
+      "clinic_id": "c02",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_m_0318",
+      "clinic_id": "c02",
+      "doctor_name": "朱育葳",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_m_0319",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_m_0320",
+      "clinic_id": "c02",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_m_0321",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_m_0316b",
+      "clinic_id": "c02",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_a_0316",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_a_0317",
+      "clinic_id": "c02",
+      "doctor_name": "朱育葳",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_a_0318",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_a_0319",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_a_0320",
+      "clinic_id": "c02",
+      "doctor_name": "朱育葳",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_a_0321",
+      "clinic_id": "c02",
+      "doctor_name": "朱育葳",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_a_0316b",
+      "clinic_id": "c02",
+      "doctor_name": "朱育葳",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_a_0318b",
+      "clinic_id": "c02",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_e_0316",
+      "clinic_id": "c02",
+      "doctor_name": "朱育葳",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_e_0317",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_e_0318",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_e_0319",
+      "clinic_id": "c02",
+      "doctor_name": "朱育葳",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_e_0320",
+      "clinic_id": "c02",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_e_0318b",
+      "clinic_id": "c02",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間二診 2026-03-16 抓取"
+    },
+    {
+      "id": "wn_e_0320b",
+      "clinic_id": "c02",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間二診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_m_0316",
+      "clinic_id": "c03",
+      "doctor_name": "蔡馥如",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_m_0317",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_m_0318",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_m_0319",
+      "clinic_id": "c03",
+      "doctor_name": "蔡馥如",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_m_0320",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_m_0321",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_a_0316",
+      "clinic_id": "c03",
+      "doctor_name": "李荃",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_a_0317",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_a_0318",
+      "clinic_id": "c03",
+      "doctor_name": "李荃",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_a_0319",
+      "clinic_id": "c03",
+      "doctor_name": "李荃",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_a_0320",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_a_0321",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_e_0316",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_e_0317",
+      "clinic_id": "c03",
+      "doctor_name": "李荃",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_e_0318",
+      "clinic_id": "c03",
+      "doctor_name": "蔡馥如",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_e_0319",
+      "clinic_id": "c03",
+      "doctor_name": "潘毅軒",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "fc_e_0320",
+      "clinic_id": "c03",
+      "doctor_name": "李荃",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_m_0316",
+      "clinic_id": "c04",
+      "doctor_name": "郭周樺",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_m_0317",
+      "clinic_id": "c04",
+      "doctor_name": "李持盈",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_m_0318",
+      "clinic_id": "c04",
+      "doctor_name": "許育維",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_m_0319",
+      "clinic_id": "c04",
+      "doctor_name": "李持盈",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_m_0320",
+      "clinic_id": "c04",
+      "doctor_name": "許育維",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_m_0321",
+      "clinic_id": "c04",
+      "doctor_name": "許育維",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_a_0316",
+      "clinic_id": "c04",
+      "doctor_name": "李持盈",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_a_0317",
+      "clinic_id": "c04",
+      "doctor_name": "許育維",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_a_0318",
+      "clinic_id": "c04",
+      "doctor_name": "郭周樺",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_a_0319",
+      "clinic_id": "c04",
+      "doctor_name": "許育維",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_a_0320",
+      "clinic_id": "c04",
+      "doctor_name": "李持盈",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_a_0321",
+      "clinic_id": "c04",
+      "doctor_name": "許育維",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_e_0316",
+      "clinic_id": "c04",
+      "doctor_name": "李持盈",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_e_0317",
+      "clinic_id": "c04",
+      "doctor_name": "許育維",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_e_0318",
+      "clinic_id": "c04",
+      "doctor_name": "李持盈",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_e_0319",
+      "clinic_id": "c04",
+      "doctor_name": "許育維",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "da_e_0320",
+      "clinic_id": "c04",
+      "doctor_name": "李持盈",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_m_0316",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_m_0317",
+      "clinic_id": "c05",
+      "doctor_name": "莊凱如",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_m_0318",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_m_0319",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_m_0320",
+      "clinic_id": "c05",
+      "doctor_name": "鄧維仁",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_m_0321",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_a_0316",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_a_0317",
+      "clinic_id": "c05",
+      "doctor_name": "莊凱如",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_a_0318",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_a_0319",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_a_0320",
+      "clinic_id": "c05",
+      "doctor_name": "許育維",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_a_0321",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_e_0316",
+      "clinic_id": "c05",
+      "doctor_name": "莊凱如",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_e_0317",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_e_0318",
+      "clinic_id": "c05",
+      "doctor_name": "莊凱如",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_e_0319",
+      "clinic_id": "c05",
+      "doctor_name": "何建輝",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_e_0320",
+      "clinic_id": "c05",
+      "doctor_name": "吳灝彝",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "cw_e_0316b",
+      "clinic_id": "c05",
+      "doctor_name": "許育維",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間二診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_m_0316",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_m_0317",
+      "clinic_id": "c06",
+      "doctor_name": "楊碩文",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_m_0318",
+      "clinic_id": "c06",
+      "doctor_name": "楊碩文",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_m_0319",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_m_0320",
+      "clinic_id": "c06",
+      "doctor_name": "楊碩文",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_m_0321",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_a_0316",
+      "clinic_id": "c06",
+      "doctor_name": "楊碩文",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_a_0317",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_a_0318",
+      "clinic_id": "c06",
+      "doctor_name": "楊碩文",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_a_0319",
+      "clinic_id": "c06",
+      "doctor_name": "楊碩文",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_a_0320",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_a_0321",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_e_0316",
+      "clinic_id": "c06",
+      "doctor_name": "楊碩文",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_e_0317",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_e_0318",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_e_0319",
+      "clinic_id": "c06",
+      "doctor_name": "楊碩文",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "ch_e_0320",
+      "clinic_id": "c06",
+      "doctor_name": "姜智偉",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0316",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0317",
+      "clinic_id": "c07",
+      "doctor_name": "劉侑真",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0318",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0319",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0320",
+      "clinic_id": "c07",
+      "doctor_name": "劉侑真",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0321",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0316b",
+      "clinic_id": "c07",
+      "doctor_name": "劉侑真",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0317b",
+      "clinic_id": "c07",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_m_0319b",
+      "clinic_id": "c07",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_a_0316",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_a_0317",
+      "clinic_id": "c07",
+      "doctor_name": "劉侑真",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_a_0318",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_a_0319",
+      "clinic_id": "c07",
+      "doctor_name": "劉侑真",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_a_0320",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_a_0321",
+      "clinic_id": "c07",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_a_0317b",
+      "clinic_id": "c07",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_a_0320b",
+      "clinic_id": "c07",
+      "doctor_name": "陳振軒",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_e_0316",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_e_0317",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_e_0318",
+      "clinic_id": "c07",
+      "doctor_name": "劉侑真",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_e_0319",
+      "clinic_id": "c07",
+      "doctor_name": "劉侑真",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "xq_e_0320",
+      "clinic_id": "c07",
+      "doctor_name": "黃鉦斌",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_m_0316",
+      "clinic_id": "c19",
+      "doctor_name": "廖芝晨",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_m_0317",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_m_0318",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_m_0319",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_m_0320",
+      "clinic_id": "c19",
+      "doctor_name": "廖芝晨",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_m_0321",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_a_0316",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_a_0317",
+      "clinic_id": "c19",
+      "doctor_name": "廖芝晨",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_a_0318",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_a_0319",
+      "clinic_id": "c19",
+      "doctor_name": "廖芝晨",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_a_0320",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_a_0321",
+      "clinic_id": "c19",
+      "doctor_name": "廖芝晨",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_e_0316",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_e_0317",
+      "clinic_id": "c19",
+      "doctor_name": "廖芝晨",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_e_0318",
+      "clinic_id": "c19",
+      "doctor_name": "廖芝晨",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_e_0319",
+      "clinic_id": "c19",
+      "doctor_name": "廖芝晨",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "dy_e_0320",
+      "clinic_id": "c19",
+      "doctor_name": "郭忠和",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0316",
+      "clinic_id": "c20",
+      "doctor_name": "蔡長洲",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0317",
+      "clinic_id": "c20",
+      "doctor_name": "林恭毅",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0318",
+      "clinic_id": "c20",
+      "doctor_name": "林恭毅",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0319",
+      "clinic_id": "c20",
+      "doctor_name": "齊燕斌",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0320",
+      "clinic_id": "c20",
+      "doctor_name": "蔡長洲",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0321",
+      "clinic_id": "c20",
+      "doctor_name": "王政為",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0316b",
+      "clinic_id": "c20",
+      "doctor_name": "黃尚豪",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0317b",
+      "clinic_id": "c20",
+      "doctor_name": "彭馨婷",
+      "date": "2026-03-17",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0318b",
+      "clinic_id": "c20",
+      "doctor_name": "蔡長洲",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0320b",
+      "clinic_id": "c20",
+      "doctor_name": "彭馨婷",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_m_0321b",
+      "clinic_id": "c20",
+      "doctor_name": "陳興源",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "CXMS 上午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0316",
+      "clinic_id": "c20",
+      "doctor_name": "蔡長洲",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0317",
+      "clinic_id": "c20",
+      "doctor_name": "林恭毅",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0318",
+      "clinic_id": "c20",
+      "doctor_name": "林恭毅",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0319",
+      "clinic_id": "c20",
+      "doctor_name": "陳興源",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0320",
+      "clinic_id": "c20",
+      "doctor_name": "齊燕斌",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0321",
+      "clinic_id": "c20",
+      "doctor_name": "齊燕斌",
+      "date": "2026-03-21",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0316b",
+      "clinic_id": "c20",
+      "doctor_name": "彭馨婷",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0317b",
+      "clinic_id": "c20",
+      "doctor_name": "齊燕斌",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0318b",
+      "clinic_id": "c20",
+      "doctor_name": "彭馨婷",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0319b",
+      "clinic_id": "c20",
+      "doctor_name": "黃志逢",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_a_0320b",
+      "clinic_id": "c20",
+      "doctor_name": "蔡長洲",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "CXMS 下午二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_e_0316",
+      "clinic_id": "c20",
+      "doctor_name": "黃志逢",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_e_0317",
+      "clinic_id": "c20",
+      "doctor_name": "齊燕斌",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_e_0318",
+      "clinic_id": "c20",
+      "doctor_name": "彭馨婷",
+      "date": "2026-03-18",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_e_0319",
+      "clinic_id": "c20",
+      "doctor_name": "彭馨婷",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_e_0320",
+      "clinic_id": "c20",
+      "doctor_name": "蔡長洲",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間一診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_e_0317b",
+      "clinic_id": "c20",
+      "doctor_name": "蔡長洲",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間二診 2026-03-16 抓取"
+    },
+    {
+      "id": "lk_e_0319b",
+      "clinic_id": "c20",
+      "doctor_name": "黃志逢",
+      "date": "2026-03-19",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "CXMS 夜間二診 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0316",
+      "clinic_id": "c21",
+      "doctor_name": "王欣宜",
+      "date": "2026-03-16",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0316",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-16",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_e_0316",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-16",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0317",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-17",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_e_0317",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-17",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0318",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-18",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0318",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-18",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0319",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-19",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0319",
+      "clinic_id": "c21",
+      "doctor_name": "陳瑋杰",
+      "date": "2026-03-19",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0320",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-20",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0320",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-20",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_e_0320",
+      "clinic_id": "c21",
+      "doctor_name": "陳瑋杰",
+      "date": "2026-03-20",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0321",
+      "clinic_id": "c21",
+      "doctor_name": "陳瑋杰",
+      "date": "2026-03-21",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0323",
+      "clinic_id": "c21",
+      "doctor_name": "王欣宜",
+      "date": "2026-03-23",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0323",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-23",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_e_0323",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-23",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0324",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-24",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_e_0324",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-24",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0325",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-25",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0325",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-25",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0326",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-26",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0326",
+      "clinic_id": "c21",
+      "doctor_name": "陳瑋杰",
+      "date": "2026-03-26",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0327",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-27",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0327",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-27",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_e_0327",
+      "clinic_id": "c21",
+      "doctor_name": "陳瑋杰",
+      "date": "2026-03-27",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0328",
+      "clinic_id": "c21",
+      "doctor_name": "陳瑋杰",
+      "date": "2026-03-28",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_m_0330",
+      "clinic_id": "c21",
+      "doctor_name": "王欣宜",
+      "date": "2026-03-30",
+      "slot": "morning",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0330",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-30",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_e_0330",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-30",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_a_0331",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-31",
+      "slot": "afternoon",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
+      "id": "yx_e_0331",
+      "clinic_id": "c21",
+      "doctor_name": "陳彥誌",
+      "date": "2026-03-31",
+      "slot": "evening",
+      "time_label": "",
+      "source_note": "永馨 API 2026-03-16 抓取"
+    },
+    {
       "id": "jr_m_0316",
       "doctor_name": "黃旭澤",
       "clinic_id": "c24",
       "date": "2026-03-16",
       "slot": "morning",
       "time_label": "早診 09:00–12:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0316",
@@ -14399,7 +16109,7 @@
       "date": "2026-03-16",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_e_0316",
@@ -14408,7 +16118,7 @@
       "date": "2026-03-16",
       "slot": "evening",
       "time_label": "晚診 18:00–20:30",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0318",
@@ -14417,7 +16127,7 @@
       "date": "2026-03-18",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_m_0319",
@@ -14426,7 +16136,7 @@
       "date": "2026-03-19",
       "slot": "morning",
       "time_label": "早診 09:00–12:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_e_0319",
@@ -14435,7 +16145,7 @@
       "date": "2026-03-19",
       "slot": "evening",
       "time_label": "晚診 18:00–20:30",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0320",
@@ -14444,7 +16154,7 @@
       "date": "2026-03-20",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0321",
@@ -14453,7 +16163,7 @@
       "date": "2026-03-21",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_m_0323",
@@ -14462,7 +16172,7 @@
       "date": "2026-03-23",
       "slot": "morning",
       "time_label": "早診 09:00–12:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0323",
@@ -14471,7 +16181,7 @@
       "date": "2026-03-23",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_e_0323",
@@ -14480,7 +16190,7 @@
       "date": "2026-03-23",
       "slot": "evening",
       "time_label": "晚診 18:00–20:30",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0325",
@@ -14489,7 +16199,7 @@
       "date": "2026-03-25",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_m_0326",
@@ -14498,7 +16208,7 @@
       "date": "2026-03-26",
       "slot": "morning",
       "time_label": "早診 09:00–12:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_e_0326",
@@ -14507,7 +16217,7 @@
       "date": "2026-03-26",
       "slot": "evening",
       "time_label": "晚診 18:00–20:30",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0327",
@@ -14516,7 +16226,7 @@
       "date": "2026-03-27",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0328",
@@ -14525,7 +16235,7 @@
       "date": "2026-03-28",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_m_0330",
@@ -14534,7 +16244,7 @@
       "date": "2026-03-30",
       "slot": "morning",
       "time_label": "早診 09:00–12:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0330",
@@ -14543,7 +16253,7 @@
       "date": "2026-03-30",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_e_0330",
@@ -14552,7 +16262,7 @@
       "date": "2026-03-30",
       "slot": "evening",
       "time_label": "晚診 18:00–20:30",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0401",
@@ -14561,7 +16271,7 @@
       "date": "2026-04-01",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_m_0402",
@@ -14570,7 +16280,7 @@
       "date": "2026-04-02",
       "slot": "morning",
       "time_label": "早診 09:00–12:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_e_0402",
@@ -14579,7 +16289,7 @@
       "date": "2026-04-02",
       "slot": "evening",
       "time_label": "晚診 18:00–20:30",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0403",
@@ -14588,7 +16298,7 @@
       "date": "2026-04-03",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0408",
@@ -14597,7 +16307,7 @@
       "date": "2026-04-08",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_m_0409",
@@ -14606,7 +16316,7 @@
       "date": "2026-04-09",
       "slot": "morning",
       "time_label": "早診 09:00–12:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_e_0409",
@@ -14615,7 +16325,7 @@
       "date": "2026-04-09",
       "slot": "evening",
       "time_label": "晚診 18:00–20:30",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0410",
@@ -14624,7 +16334,7 @@
       "date": "2026-04-10",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     },
     {
       "id": "jr_a_0411",
@@ -14633,7 +16343,43 @@
       "date": "2026-04-11",
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
-      "source_note": "vision.com.tw 官網班表 2026-03-12 更新"
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
+    },
+    {
+      "id": "jr_m_0413",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
+    },
+    {
+      "id": "jr_a_0413",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-13",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
+    },
+    {
+      "id": "jr_e_0413",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-13",
+      "slot": "evening",
+      "time_label": "晚診 18:00–20:30",
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
+    },
+    {
+      "id": "jr_a_0415",
+      "doctor_name": "黃旭澤",
+      "clinic_id": "c24",
+      "date": "2026-04-15",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "vision.com.tw 官網班表 2026-03-16 更新"
     }
   ]
 }
