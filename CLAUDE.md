@@ -2,8 +2,8 @@
 
 <meta>
 repo: stompsid-lgtm/Schedule_Repo_v0（private）
-purpose: 半自動化診所排班資料管理系統（24 家診所 → schedules.json → index.html PWA）
-sop-version: v1.7
+purpose: 半自動化診所排班資料管理系統（25 家診所 → schedules.json → index.html PWA）
+sop-version: v1.8
 </meta>
 
 <conn label="精確保留 | 禁壓縮">
@@ -29,7 +29,7 @@ DIRECTORY:
   ```
 
 CLINIC-TYPES:
-  A（CXMS）: HTTP 直抓靜態 HTML，每週更新 → c02 維恩 | c03 富新 | c04 得安 | c05 昌惟 | c06 昌禾 | c07 杏光 | c19 得揚 | c20 力康
+  A（CXMS）: HTTP 直抓靜態 HTML，每週更新 → c02 維恩 | c03 富新 | c04 得安 | c05 昌惟 | c06 昌禾 | c07 杏光 | c19 得揚 | c20 力康 | c25 上禾
   B1（FB 月班）: 截圖後人工轉錄，月底更新 → c09 健維 | c17 仁祐 | c22 順安 | c23 黃石
   B2（FB 固定）: 每月月初 extend_fixed.py 延伸 → c01 禾安 | c12 陳正傑
   C1（官網月）: 截圖後人工轉錄，月底更新 → c15 誠陽 | c16 康澤

@@ -1,15 +1,15 @@
 # 門診班表資料更新 SOP
 
-**版本**：v1.7（2026-03-12）
+**版本**：v1.8（2026-03-30）
 **最高守則**：資料正確性優先於一切。有疑問時，以原始來源為準，不猜測。
 
 ---
 
-## 概覽：24 家診所分類
+## 概覽：25 家診所分類
 
 | 類型 | 班表性質 | 更新頻率 | 診所 |
 |------|---------|---------|------|
-| **A. CXMS 網頁** | 週班表 | **每週** | c02 維恩、c03 富新、c04 得安、c05 昌惟、c06 昌禾、c07 土城杏光、c19 得揚、c20 力康 |
+| **A. CXMS 網頁** | 週班表 | **每週** | c02 維恩、c03 富新、c04 得安、c05 昌惟、c06 昌禾、c07 土城杏光、c19 得揚、c20 力康、c25 上禾 |
 | **B1. Facebook（月班表）** | 月班表 | **前月月底** | c09 健維、c17 仁祐、c22 順安、c23 黃石 |
 | **B2. Facebook（固定班表）** | 固定班表 | **每月延伸** | c01 禾安、c12 陳正傑 |
 | **C1. 官方網站（月班表）** | 月班表 | **前月月底** | c15 誠陽、c16 康澤 |
@@ -50,13 +50,14 @@
 | c07 土城杏光 | `xq` | http://web.cxms.com.tw/xq/hosp.php |
 | c19 得揚診所 | `dy` | http://web.cxms.com.tw/dy/hosp.php |
 | c20 力康骨科 | `lk` | http://web.cxms.com.tw/lk/hosp.php |
+| c25 上禾骨科 | `sh` | http://web.cxms.com.tw/sh/hosp.php |
 
 ### 操作步驟（每週日執行，抓取下週班表）
 
 #### Step 1：一次下載所有 HTML
 
 ```bash
-for code in wn fc da cw ch xq dy lk; do
+for code in wn fc da cw ch xq dy lk sh; do
   curl -s -L --max-time 10 "http://web.cxms.com.tw/$code/hosp.php" \
     > /tmp/cxms_$code.html
   echo "$code: $(wc -c < /tmp/cxms_$code.html) bytes"
@@ -75,6 +76,7 @@ clinic_map = {
     'da': ('c04','得安診所'),  'cw': ('c05','昌惟骨科'),
     'ch': ('c06','昌禾骨科'),  'xq': ('c07','土城杏光'),
     'dy': ('c19','得揚診所'),  'lk': ('c20','力康骨科'),
+    'sh': ('c25','上禾骨科'),
 }
 days = ['Mon','Tue','Wed','Thu','Fri','Sat']
 
