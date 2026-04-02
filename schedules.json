@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-30T01:35:17Z",
+    "generated_at": "2026-04-02T16:58:03Z",
     "week_start": "2026-03-16",
     "week_end": "2026-03-21",
     "version": "1.0"
@@ -19325,33 +19325,6 @@
       "source_note": "CXMS auto 2026-03-30"
     },
     {
-      "id": "sh_m1_0402",
-      "doctor_name": "黃尚豪",
-      "clinic_id": "c25",
-      "date": "2026-04-02",
-      "slot": "morning",
-      "time_label": "上午 一診",
-      "source_note": "CXMS auto 2026-03-30"
-    },
-    {
-      "id": "sh_m1_0403",
-      "doctor_name": "黃尚豪",
-      "clinic_id": "c25",
-      "date": "2026-04-03",
-      "slot": "morning",
-      "time_label": "上午 一診",
-      "source_note": "CXMS auto 2026-03-30"
-    },
-    {
-      "id": "sh_m1_0404",
-      "doctor_name": "黃尚豪",
-      "clinic_id": "c25",
-      "date": "2026-04-04",
-      "slot": "morning",
-      "time_label": "上午 一診",
-      "source_note": "CXMS auto 2026-03-30"
-    },
-    {
       "id": "sh_a1_0330",
       "doctor_name": "黃尚豪",
       "clinic_id": "c25",
@@ -19379,33 +19352,6 @@
       "source_note": "CXMS auto 2026-03-30"
     },
     {
-      "id": "sh_a1_0402",
-      "doctor_name": "黃尚豪",
-      "clinic_id": "c25",
-      "date": "2026-04-02",
-      "slot": "afternoon",
-      "time_label": "下午 一診",
-      "source_note": "CXMS auto 2026-03-30"
-    },
-    {
-      "id": "sh_a1_0403",
-      "doctor_name": "黃尚豪",
-      "clinic_id": "c25",
-      "date": "2026-04-03",
-      "slot": "afternoon",
-      "time_label": "下午 一診",
-      "source_note": "CXMS auto 2026-03-30"
-    },
-    {
-      "id": "sh_a1_0404",
-      "doctor_name": "黃尚豪",
-      "clinic_id": "c25",
-      "date": "2026-04-04",
-      "slot": "afternoon",
-      "time_label": "下午 一診",
-      "source_note": "CXMS auto 2026-03-30"
-    },
-    {
       "id": "sh_e1_0330",
       "doctor_name": "黃尚豪",
       "clinic_id": "c25",
@@ -19428,24 +19374,6 @@
       "doctor_name": "黃尚豪",
       "clinic_id": "c25",
       "date": "2026-04-01",
-      "slot": "evening",
-      "time_label": "夜間 一診",
-      "source_note": "CXMS auto 2026-03-30"
-    },
-    {
-      "id": "sh_e1_0402",
-      "doctor_name": "黃尚豪",
-      "clinic_id": "c25",
-      "date": "2026-04-02",
-      "slot": "evening",
-      "time_label": "夜間 一診",
-      "source_note": "CXMS auto 2026-03-30"
-    },
-    {
-      "id": "sh_e1_0403",
-      "doctor_name": "黃尚豪",
-      "clinic_id": "c25",
-      "date": "2026-04-03",
       "slot": "evening",
       "time_label": "夜間 一診",
       "source_note": "CXMS auto 2026-03-30"
@@ -20072,26 +20000,8 @@
       "source_note": "固定班表 2026-04 延伸"
     },
     {
-      "id": "zy_a_0402_蔡b",
-      "doctor_name": "蔡馥如",
-      "clinic_id": "c08",
-      "date": "2026-04-02",
-      "slot": "afternoon",
-      "time_label": "下午 14:00–17:30",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
       "id": "zy_e_0402_黃",
       "doctor_name": "黃旭東",
-      "clinic_id": "c08",
-      "date": "2026-04-02",
-      "slot": "evening",
-      "time_label": "晚診 18:00–21:00",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
-      "id": "zy_e_0402_蔡b",
-      "doctor_name": "蔡馥如",
       "clinic_id": "c08",
       "date": "2026-04-02",
       "slot": "evening",
@@ -20270,26 +20180,8 @@
       "source_note": "固定班表 2026-04 延伸"
     },
     {
-      "id": "zy_a_0409_蔡b",
-      "doctor_name": "蔡馥如",
-      "clinic_id": "c08",
-      "date": "2026-04-09",
-      "slot": "afternoon",
-      "time_label": "下午 14:00–17:30",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
       "id": "zy_e_0409_黃",
       "doctor_name": "黃旭東",
-      "clinic_id": "c08",
-      "date": "2026-04-09",
-      "slot": "evening",
-      "time_label": "晚診 18:00–21:00",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
-      "id": "zy_e_0409_蔡b",
-      "doctor_name": "蔡馥如",
       "clinic_id": "c08",
       "date": "2026-04-09",
       "slot": "evening",
@@ -20468,26 +20360,8 @@
       "source_note": "固定班表 2026-04 延伸"
     },
     {
-      "id": "zy_a_0416_蔡b",
-      "doctor_name": "蔡馥如",
-      "clinic_id": "c08",
-      "date": "2026-04-16",
-      "slot": "afternoon",
-      "time_label": "下午 14:00–17:30",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
       "id": "zy_e_0416_黃",
       "doctor_name": "黃旭東",
-      "clinic_id": "c08",
-      "date": "2026-04-16",
-      "slot": "evening",
-      "time_label": "晚診 18:00–21:00",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
-      "id": "zy_e_0416_蔡b",
-      "doctor_name": "蔡馥如",
       "clinic_id": "c08",
       "date": "2026-04-16",
       "slot": "evening",
@@ -20666,26 +20540,8 @@
       "source_note": "固定班表 2026-04 延伸"
     },
     {
-      "id": "zy_a_0423_蔡b",
-      "doctor_name": "蔡馥如",
-      "clinic_id": "c08",
-      "date": "2026-04-23",
-      "slot": "afternoon",
-      "time_label": "下午 14:00–17:30",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
       "id": "zy_e_0423_黃",
       "doctor_name": "黃旭東",
-      "clinic_id": "c08",
-      "date": "2026-04-23",
-      "slot": "evening",
-      "time_label": "晚診 18:00–21:00",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
-      "id": "zy_e_0423_蔡b",
-      "doctor_name": "蔡馥如",
       "clinic_id": "c08",
       "date": "2026-04-23",
       "slot": "evening",
@@ -20864,26 +20720,8 @@
       "source_note": "固定班表 2026-04 延伸"
     },
     {
-      "id": "zy_a_0430_蔡b",
-      "doctor_name": "蔡馥如",
-      "clinic_id": "c08",
-      "date": "2026-04-30",
-      "slot": "afternoon",
-      "time_label": "下午 14:00–17:30",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
       "id": "zy_e_0430_黃",
       "doctor_name": "黃旭東",
-      "clinic_id": "c08",
-      "date": "2026-04-30",
-      "slot": "evening",
-      "time_label": "晚診 18:00–21:00",
-      "source_note": "固定班表 2026-04 延伸"
-    },
-    {
-      "id": "zy_e_0430_蔡b",
-      "doctor_name": "蔡馥如",
       "clinic_id": "c08",
       "date": "2026-04-30",
       "slot": "evening",
@@ -28953,6 +28791,159 @@
       "slot": "evening",
       "time_label": "晚診 18:00–21:00",
       "source_note": "固定班表 2026-04 延伸（官網未更新 4 月）"
+    },
+    {
+      "id": "sh_m1_0406",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-06",
+      "slot": "morning",
+      "time_label": "上午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_a1_0406",
+      "doctor_name": "蔡馥如",
+      "clinic_id": "c25",
+      "date": "2026-04-06",
+      "slot": "afternoon",
+      "time_label": "下午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_e1_0406",
+      "doctor_name": "蔡馥如",
+      "clinic_id": "c25",
+      "date": "2026-04-06",
+      "slot": "evening",
+      "time_label": "晚診 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_m1_0407",
+      "doctor_name": "蔡馥如",
+      "clinic_id": "c25",
+      "date": "2026-04-07",
+      "slot": "morning",
+      "time_label": "上午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_a1_0407",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-07",
+      "slot": "afternoon",
+      "time_label": "下午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_e1_0407",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-07",
+      "slot": "evening",
+      "time_label": "晚診 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_m1_0408",
+      "doctor_name": "蔡馥如",
+      "clinic_id": "c25",
+      "date": "2026-04-08",
+      "slot": "morning",
+      "time_label": "上午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_a1_0408",
+      "doctor_name": "蔡馥如",
+      "clinic_id": "c25",
+      "date": "2026-04-08",
+      "slot": "afternoon",
+      "time_label": "下午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_e1_0408",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-08",
+      "slot": "evening",
+      "time_label": "晚診 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_m1_0402",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-02",
+      "slot": "morning",
+      "time_label": "上午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_a1_0402",
+      "doctor_name": "蔡馥如",
+      "clinic_id": "c25",
+      "date": "2026-04-02",
+      "slot": "afternoon",
+      "time_label": "下午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_e1_0402",
+      "doctor_name": "蔡馥如",
+      "clinic_id": "c25",
+      "date": "2026-04-02",
+      "slot": "evening",
+      "time_label": "晚診 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_m1_0403",
+      "doctor_name": "蔡馥如",
+      "clinic_id": "c25",
+      "date": "2026-04-03",
+      "slot": "morning",
+      "time_label": "上午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_a1_0403",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-03",
+      "slot": "afternoon",
+      "time_label": "下午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_e1_0403",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-03",
+      "slot": "evening",
+      "time_label": "晚診 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_m1_0404",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-04",
+      "slot": "morning",
+      "time_label": "上午 一診",
+      "source_note": "CXMS auto 2026-04-02"
+    },
+    {
+      "id": "sh_a1_0404",
+      "doctor_name": "黃尚豪",
+      "clinic_id": "c25",
+      "date": "2026-04-04",
+      "slot": "afternoon",
+      "time_label": "下午 一診",
+      "source_note": "CXMS auto 2026-04-02"
     }
   ]
 }
