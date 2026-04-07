@@ -25,7 +25,7 @@
 
 ---
 
-## 類型 A：CXMS 網頁（8 家）— 每週更新
+## 類型 A：CXMS 網頁（9 家）— 每週更新
 
 ### 重要說明（2026-02-21 更新）
 
@@ -83,9 +83,10 @@ days = ['Mon','Tue','Wed','Thu','Fri','Sat']
 for code, (cid, name) in clinic_map.items():
     with open(f'/tmp/cxms_{code}.html', encoding='utf-8', errors='ignore') as f:
         html = f.read()
-    row_pattern = re.compile(r"<tr align='center'[^>]*>(.*?)</tr>", re.DOTALL)
+    # 支援兩種 row 格式：align='center'（多數診所）和 bgcolor（c25 上禾）
+    row_pattern = re.compile(
+        r"<tr(?:\s+align='center'[^>]*|\s+bgcolor='[^']*')>(.*?)</tr>", re.DOTALL)
     cell_pattern = re.compile(r"<td[^>]*>(.*?)</td>", re.DOTALL)
-    doc_pattern  = re.compile(r'<br>\s*([\u4e00-\u9fff]+)', re.DOTALL)
 
     print(f'\n=== {cid} {name} ===')
     for row in row_pattern.finditer(html):
@@ -95,7 +96,11 @@ for code, (cid, name) in clinic_map.items():
         if not diag: continue
         day_docs = []
         for cell in cells[1:]:
-            m = doc_pattern.search(cell)
+            # 格式1: <br> 後接中文（多數 CXMS）
+            m = re.search(r'<br>\s*([\u4e00-\u9fff]+)', cell, re.DOTALL)
+            if not m:
+                # 格式2: <h2> 中文 </h2>（c25 上禾）
+                m = re.search(r'<h2>([\u4e00-\u9fff]+)</h2>', cell)
             day_docs.append(m.group(1) if m else '空')
         parts = [f'{d}={doc}' for d, doc in zip(days, day_docs)]
         print(f'  {diag}: {" | ".join(parts)}')
@@ -111,8 +116,9 @@ for code, (cid, name) in clinic_map.items():
 
 ### 特殊注意
 - **得揚（c19）**：日期有時顯示上週日期（系統 bug），以實際星期幾判斷
-- **力康（c20）**：每個時段可能有 2 位醫師（一診/二診），都要記錄
+- **二診制診所**：c02 維恩、c03 富新、c05 昌惟、c07 杏光、c20 力康均有一診/二診，每個時段可能有 2 位醫師，都要記錄
 - **維恩（c02）**：CXMS HTML 可能不即時反映當月新增的特聘醫師，若診所有公告圖片，以公告圖片為準
+- **上禾（c25）**：HTML 格式與其他 CXMS 診所不同 — 醫師名用 `<h2>醫師名</h2>` 而非 `<br>醫師名`，解析時需同時支援兩種格式
 - 若網頁空白，先確認是否為假日，不要貿然刪除資料
 
 ---
@@ -348,7 +354,7 @@ print(f"✅ c24 更新完成，共 {len(new_sessions)} 筆 sessions")
 
 ```
 【每週日執行，抓取下週班表】
-□ 類型 A（CXMS 8 家）：curl 抓 HTML → Python 解析 → 更新 schedules.json（下週）
+□ 類型 A（CXMS 9 家）：curl 抓 HTML → Python 解析 → 更新 schedules.json（下週）
 □ 類型 C2（永馨 c21）：截圖 → 讀取 → 更新 schedules.json（下週）
 □ 類型 E（精睿 c24）：vision_scraper.py --clinic c24 --weeks 5 → 合併 sessions
 □ 衝突檢查（見下方）
@@ -433,4 +439,4 @@ scraper/snapshots/
         └── YYYYMMDD_schedule.png
 ```
 
-*最後更新：2026-03-12 v1.7*
+*最後更新：2026-04-06 v1.8*

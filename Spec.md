@@ -72,12 +72,13 @@
   ],
   "sessions": [
     {
-      "id": "c01_20260218_morning_陳柏誠",
+      "id": "ha_m1",
       "clinic_id": "c01",
       "doctor_name": "陳柏誠",
       "date": "2026-02-18",
       "slot": "morning",
-      "time_label": "早診 09:00–12:00"
+      "time_label": "早診 09:00–12:00",
+      "source_note": "extend_fixed 2026-04-01"
     }
   ]
 }
@@ -105,17 +106,19 @@
 ```
 scraper/
 ├── index.html          # 整個 App（HTML + CSS + JS）
-├── schedules.json      # 排班資料（24 家診所，由 scraper/ 維護）
+├── schedules.json      # 排班資料（25 家診所，由 scraper/ 維護）
+├── schedules.json.backup # 備份
+├── CLAUDE.md           # Agent 指令索引（SOT）
 ├── Spec.md             # 本文件
 ├── Log.md              # 開發日誌
-├── SOP.md              # 門診班表資料更新 SOP（標準作業程序，TA=agent）
+├── SOP.md              # 門診班表資料更新 SOP（v1.8，TA=agent）
 └── scraper/
     ├── ocr_corrections.md  # OCR 辨識比對修正清單
     ├── web_validator.py    # CXMS 網站爬取（類型 A）
     ├── fb_snapshot.py      # Facebook / LINE VOOM 截圖（類型 B1）
     ├── image_validator.py  # 圖片來源驗證（類型 D）
     ├── vision_scraper.py   # Vision.com.tw 班表爬蟲（類型 E，c24 新店精睿）
-    ├── extend_fixed.py     # 固定班表每月延伸（類型 B2/C3/D）
+    ├── extend_fixed.py     # 固定班表每月延伸（類型 B2/D，不含 C3）
     ├── weili_scraper.py    # 維力骨科（Selenium，備用）
     └── snapshots/          # 各診所快照存放
 ```

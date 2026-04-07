@@ -323,15 +323,6 @@ curl -s -L --max-time 10 "http://web.cxms.com.tw/{code}/hosp.php"
 
 ---
 
-## 已知限制（不打算修）
-
-- `<select>` 的 `onchange` 在 headless browser 中不觸發（只影響自動化測試，不影響真實使用者）
-- 單一 HTML 檔案，不拆分模組
-- 不加 build pipeline
-- 不做使用者帳號
-
----
-
 ### SOP 建立與流程標準化（commit `3c58289`）
 
 **建立 `SOP.md` v1.2**：
@@ -344,23 +335,3 @@ curl -s -L --max-time 10 "http://web.cxms.com.tw/{code}/hosp.php"
 - 新增 `scraper/ocr_corrections.md`
 - 建立 c13/c14 的 `schedule_transcription.md`
 - 修正 `schedules.json` 中 c02/c09/c10/c13/c14/c22 的資料錯誤與缺漏
-
----
-
-## 待辦事項
-
-### 資料維護
-- [x] 補齊所有診所的快照（FB 全尺寸、CXMS、官網）
-- [x] 修正 `schedules.json` 與快照不符之處
-- [ ] 下週日（2/22）執行第一次依據 SOP v1.2 的例行更新
-
-### 功能改進（未來考慮）
-- [ ] 加入 Service Worker 支援離線瀏覽
-- [ ] 週視圖加入「本週/下週」快速跳轉
-- [ ] 底部資訊卡加入診所電話/地址
-- [ ] 多語言支援（目前只有繁體中文）
-
-### 已知限制（不打算修）
-- 單一 HTML 檔案，不拆分模組（保持簡單，方便直接編輯）
-- 不加 build pipeline（維護成本太高）
-- 不做使用者帳號（私人工具，不需要）
