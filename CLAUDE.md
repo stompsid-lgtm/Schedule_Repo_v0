@@ -66,6 +66,8 @@ sessions[]: id | doctor_name | clinic_id | date | slot(morning/afternoon/evening
 
 <rules>
 
+WEEK-DEFINITION: 一週的第一天是星期一（Monday）| 本週 = Mon~Sun | 下週 = 下個 Mon~Sun
+
 UPDATE-WORKFLOW:
   step-1: 掃描 schedules.json，列出「接下來一週」各診所 session 覆蓋狀況
   step-2: 產出缺漏清單（❌ 無資料 / ⚠️ 部分缺漏），確認哪些需要更新
