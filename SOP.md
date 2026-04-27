@@ -1,6 +1,6 @@
 # 門診班表資料更新 SOP
 
-**版本**：v1.8（2026-03-30）
+**版本**：v1.9（2026-04-27）
 **最高守則**：資料正確性優先於一切。有疑問時，以原始來源為準，不猜測。
 
 ---
@@ -136,16 +136,21 @@ for code, (cid, name) in clinic_map.items():
 
 ### 操作步驟（每月底，抓取下個月班表）
 
-1. 開啟 Facebook 頁面（可能需要登入）
+實作方式：**Claude in Chrome（mcp__claude-in-chrome__*）控瀏覽器抓資料**，不靠人工。
+
+1. `tabs_create_mcp` 開啟 Facebook 頁面（已登入態走預設 Chrome profile）
 2. 找到**下個月**門診表貼文（通常月底前幾天發布）
-3. **點擊貼文中的圖片**，等待全尺寸圖片載入（不能截貼文預覽，會被切掉）
-4. 截圖，儲存至：
+3. 點開貼文圖片至全尺寸，用 `read_page` 取頁面內文 → 若 FB 把班表寫成貼文文字可直接 LLM 解析；
+   若是純圖片（多數情況）→ 對圖片連結用 Gemini OCR（`gemini-3-flash-preview` 或 `gemini-3-pro-image-preview`）取出表格文字
+4. 將原始圖片 URL 或頁面截圖存檔備援：
    ```
    scraper/snapshots/social/{診所ID}_{診所名}/YYYYMMDD_schedule_full.png
    ```
-5. 逐格讀取整月班表（注意代診、停診、假日標示）
+5. LLM 解析 OCR 結果 → 結構化整月 sessions（注意代診、停診、假日標示）
 6. **寫入整月 sessions**：刪除該診所下個月所有舊 sessions，新增整月正確 sessions
 7. 執行衝突檢查
+
+> 不再用「人工逐格轉錄」的流程；OCR 不確定的醫師名先查 `scraper/ocr_corrections.md`，仍無把握再問 Howard。
 
 ---
 
@@ -180,15 +185,19 @@ for code, (cid, name) in clinic_map.items():
 
 ### 操作步驟（每月底，抓取下個月班表）
 
-1. 開啟診所網址，找到月班表頁面
-2. 截圖，儲存至：
+實作方式：**Claude in Chrome（mcp__claude-in-chrome__*）控瀏覽器抓資料**，不靠人工。
+
+1. `tabs_create_mcp` 開啟診所網址，導到月班表頁面
+2. 先試 `read_page` / `get_page_text` 取 HTML 文字 → 能讀出表格就直接 LLM 解析
+3. 若班表是嵌入圖片（c15 誠陽 sites.google.com 常見）→ 截圖或抓圖片 URL，送 Gemini OCR
+4. 備份頁面：
    ```
    scraper/snapshots/web/{診所ID}/YYYYMMDD_schedule.png
    ```
-3. 讀取分兩層：
+5. 解析分兩層（**兩層皆須處理，缺一不可**）：
    - **主表格**：固定週班（早/午/晚 × 週一至週六）
-   - **底部 ★ 備註欄**：特定日期的代診、停診、時間異動（**不可略過，這是例外資料**）
-4. **寫入整月 sessions**：刪除該診所下個月所有舊 sessions，新增整月正確 sessions
+   - **底部 ★ 備註欄**（c16 康澤）：特定日期的代診、停診、時間異動
+6. **寫入整月 sessions**：刪除該診所下個月所有舊 sessions，新增整月正確 sessions
    - 先依主表格展開整月，再逐一套用 ★ 備註的例外
 
 ---
@@ -439,4 +448,4 @@ scraper/snapshots/
         └── YYYYMMDD_schedule.png
 ```
 
-*最後更新：2026-04-06 v1.8*
+*最後更新：2026-04-27 v1.9（B1/C1 月班表改為 Claude in Chrome 抓 + LLM/OCR 解析）*
