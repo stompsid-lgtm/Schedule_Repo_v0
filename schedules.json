@@ -56744,6 +56744,2940 @@
       "slot": "morning",
       "time_label": "",
       "source_note": "yongxin API 2026-05-31"
+    },
+    {
+      "id": "cy_m_0601",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-01",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0601",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-01",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0601",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-01",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0602",
+      "doctor_name": "林俊言",
+      "clinic_id": "c15",
+      "date": "2026-06-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0602",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-02",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0602",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-02",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0603",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0603",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-03",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0604",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-04",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0604",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-04",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0604",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-04",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0605",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-05",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0605",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-05",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0605",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-05",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0606",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-06",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0606",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-06",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–16:00",
+      "source_note": "週六午診16:00結束"
+    },
+    {
+      "id": "cy_m_0608",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-08",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0608",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-08",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0608",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-08",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0609",
+      "doctor_name": "林俊言",
+      "clinic_id": "c15",
+      "date": "2026-06-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0609",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-09",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0609",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-09",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0610",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-10",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0610",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-10",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0611",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-11",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0611",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-11",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0611",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-11",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0612",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-12",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0612",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-12",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0612",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-12",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0613",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-13",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0613",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-13",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–16:00",
+      "source_note": "週六午診16:00結束"
+    },
+    {
+      "id": "cy_m_0615",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-15",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0615",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-15",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0615",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-15",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0616",
+      "doctor_name": "林俊言",
+      "clinic_id": "c15",
+      "date": "2026-06-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0616",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-16",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0616",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0617",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-17",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0617",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0618",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-18",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0618",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-18",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0618",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-18",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0619",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-19",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0620",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-20",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0620",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-20",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–16:00",
+      "source_note": "週六午診16:00結束"
+    },
+    {
+      "id": "cy_m_0622",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-22",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0622",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-22",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0622",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-22",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0623",
+      "doctor_name": "林俊言",
+      "clinic_id": "c15",
+      "date": "2026-06-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0623",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-23",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0623",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0624",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0624",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0625",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-25",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0625",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-25",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0625",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-25",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0626",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-26",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0626",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-26",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0626",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-26",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0627",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-27",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0627",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-27",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–16:00",
+      "source_note": "週六午診16:00結束"
+    },
+    {
+      "id": "cy_m_0629",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-29",
+      "slot": "morning",
+      "time_label": "早診 08:30–11:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0629",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-29",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0629",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-29",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_m_0630",
+      "doctor_name": "林俊言",
+      "clinic_id": "c15",
+      "date": "2026-06-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_a_0630",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-30",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "cy_e_0630",
+      "doctor_name": "楊景堯",
+      "clinic_id": "c15",
+      "date": "2026-06-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:00",
+      "source_note": "誠陽官網 6月門診表 OCR 2026-05-31"
+    },
+    {
+      "id": "jw_m_0601",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-01",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0601",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-01",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0601",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-01",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0602",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0602",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-02",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0602",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-02",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0603",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0603",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0603",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-03",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0604",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0604",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-04",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:15",
+      "source_note": "林承翰看診至17:15（17:00截止掛號）"
+    },
+    {
+      "id": "jw_e_0604",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-04",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0605",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-05",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0605",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-05",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0605",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-05",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0606",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0608",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-08",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0608",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-08",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0608",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-08",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0609",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0609",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-09",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0609",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-09",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0610",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0610",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-10",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0610",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-10",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0611",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0611",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-11",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:15",
+      "source_note": "林承翰看診至17:15（17:00截止掛號）"
+    },
+    {
+      "id": "jw_e_0611",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-11",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0612",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-12",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0612",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-12",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0612",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-12",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0613",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0615",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-15",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0615",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-15",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0615",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-15",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0616",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0616",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-16",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0616",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0617",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0617",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-17",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0617",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0618",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0618",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-18",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:15",
+      "source_note": "林承翰看診至17:15（17:00截止掛號）"
+    },
+    {
+      "id": "jw_e_0618",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-18",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0619",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-19",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "端午節僅開早診，副院長林承翰看診"
+    },
+    {
+      "id": "jw_m_0620",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0622",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-22",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0622",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-22",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0622",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-22",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0623",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0623",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-23",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0623",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0624",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0624",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0624",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0625",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0625",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-25",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:15",
+      "source_note": "林承翰看診至17:15（17:00截止掛號）"
+    },
+    {
+      "id": "jw_e_0625",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-25",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0626",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0626",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-26",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0626",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-26",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0627",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0629",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-29",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0629",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-29",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0629",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-29",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_m_0630",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-06-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_a_0630",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-30",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jw_e_0630",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-06-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年6月門診表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0601",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-01",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0601",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-01",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0601",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-01",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0602",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0602",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-02",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0602",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-02",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0603",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0603",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0603",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-03",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0604",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0604",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-04",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0604",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-04",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0605",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-05",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0605",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-05",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0605",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-05",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0606",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0608",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-08",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0608",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-08",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0608",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-08",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0609",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0609",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-09",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0609",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-09",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0610",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0610",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-10",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0610",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-10",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0611",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0611",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-11",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0611",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-11",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0612",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-12",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0612",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-12",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0612",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-12",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0613",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0615",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-15",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0615",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-15",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0615",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-15",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0616",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0616",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-16",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0616",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0617",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0617",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-17",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0617",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0618",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0618",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-18",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0618",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-18",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0619",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-19",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "端午節僅開早診"
+    },
+    {
+      "id": "jy_m_0620",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0622",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-22",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0622",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-22",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0622",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-22",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0623",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0623",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-23",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0623",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0624",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0624",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0624",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0625",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0625",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-25",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0625",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-25",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0626",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0626",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-26",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0626",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-26",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0627",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0629",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-29",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0629",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-29",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0629",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-29",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_m_0630",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_a_0630",
+      "doctor_name": "陳漢祐",
+      "clinic_id": "c17",
+      "date": "2026-06-30",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "jy_e_0630",
+      "doctor_name": "劉彥麟",
+      "clinic_id": "c17",
+      "date": "2026-06-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:30",
+      "source_note": "FB 6月門診時間表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0601",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-01",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0601",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-01",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0601",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-01",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0602",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0602",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-02",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0603",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0603",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0603",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-03",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0604",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0604",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-04",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0605",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-05",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0605",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-05",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0606",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0608",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-08",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0608",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-08",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0608",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-08",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0609",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0609",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-09",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0610",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0610",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-10",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0610",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-10",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0611",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "（代診） FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0611",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-11",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0612",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-12",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0612",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-12",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0613",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0615",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-15",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0615",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-15",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0615",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-15",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0616",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0616",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-16",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0617",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0617",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-17",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0617",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-17",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0618",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0618",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-18",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0619",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-19",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "端午-早診照常 FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0620",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0622",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-22",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0622",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-22",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0622",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-22",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0623",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0623",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-23",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0624",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0624",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0624",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-24",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0625",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0625",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-06-25",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0626",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "（代診） FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0626",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-26",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "（代診） FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0627",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "（代診） FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0629",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-29",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_a_0629",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-29",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "（代診） FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0629",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-29",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "（代診） FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_m_0630",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "sa_e_0630",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-06-30",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "FB 06月門診表 2026-05-31"
+    },
+    {
+      "id": "hs_m_0601",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-01",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0601",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-01",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0601",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-01",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0602",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0602",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-02",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0602_1",
+      "clinic_id": "c23",
+      "doctor_name": "李苡萍",
+      "date": "2026-06-02",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0602_2",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-02",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0603",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0603",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-03",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0603",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-03",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0604",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0604",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-04",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0604",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-04",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0605",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-05",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0606",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0608",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-08",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0608",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-08",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0608",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-08",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0609",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0609",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-09",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0609_1",
+      "clinic_id": "c23",
+      "doctor_name": "李苡萍",
+      "date": "2026-06-09",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0609_2",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-09",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0610",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0610",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-10",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0610",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-10",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0611",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0611",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-11",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0611",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-11",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0612",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-12",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0613",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0615",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-15",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0615",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-15",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0615",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-15",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0616",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0616",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-16",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0616_1",
+      "clinic_id": "c23",
+      "doctor_name": "李苡萍",
+      "date": "2026-06-16",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0616_2",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-16",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0617",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0617",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-17",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0617",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-17",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0618",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0618",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-18",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0618",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-18",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0620",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0622",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-22",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0622",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-22",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0622",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-22",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0623",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0623",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-23",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0623_1",
+      "clinic_id": "c23",
+      "doctor_name": "李苡萍",
+      "date": "2026-06-23",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0623_2",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-23",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0624",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0624",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-24",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0624",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-24",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0625",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0625",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-25",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0625",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-25",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0626",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0627",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0629",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-29",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0629",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-29",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0629",
+      "clinic_id": "c23",
+      "doctor_name": "張喬惟",
+      "date": "2026-06-29",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_m_0630",
+      "clinic_id": "c23",
+      "doctor_name": "陳韋呈",
+      "date": "2026-06-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_a_0630",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-30",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:30",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0630_1",
+      "clinic_id": "c23",
+      "doctor_name": "李苡萍",
+      "date": "2026-06-30",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
+    },
+    {
+      "id": "hs_e_0630_2",
+      "clinic_id": "c23",
+      "doctor_name": "楊政道",
+      "date": "2026-06-30",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "固定班表延伸（FB未公告6月表）2026-05-31"
     }
   ]
 }
