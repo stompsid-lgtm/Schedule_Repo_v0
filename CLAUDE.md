@@ -2,7 +2,7 @@
 
 <meta>
 repo: stompsid-lgtm/Schedule_Repo_v0（private）
-purpose: 半自動化診所排班資料管理系統（25 家診所 → schedules.json → index.html PWA）
+purpose: 半自動化診所排班資料管理系統（26 家診所 → schedules.json → index.html PWA）
 </meta>
 
 <docs label="子文件索引 | 各主題權威在子文件">
@@ -28,6 +28,7 @@ DIRECTORY:
       ├── web_validator.py             # CXMS 網站爬取與快照
       ├── fb_snapshot.py               # Facebook/LINE VOOM 截圖
       ├── image_validator.py           # 靜態圖片診所驗證管理
+      ├── kaomei_scraper.py            # 新店高美官網月班表爬蟲（c26）
       ├── vision_scraper.py            # Vision.com.tw 班表爬蟲（c24）
       ├── extend_fixed.py             # 每月初延伸固定班表 sessions
       ├── weili_scraper.py             # 維力骨科 Selenium 爬蟲（保留備用）
@@ -44,7 +45,7 @@ DIRECTORY:
 | A（CXMS） | 週班 | 每週日 | c02 維恩、c03 富新、c04 得安、c05 昌惟、c06 昌禾、c07 杏光、c19 得揚、c20 力康、c25 上禾 | curl HTTP → Python 解析 |
 | B1（FB 月班） | 月班 | 月底 | c09 健維、c17 仁祐、c22 順安、c23 黃石 | 截圖 → 人工轉錄 |
 | B2（FB 固定） | 固定 | 月初延伸 | c01 禾安、c12 陳正傑 | extend_fixed.py |
-| C1（官網月） | 月班 | 月底 | c15 誠陽、c16 康澤 | 截圖 → 人工轉錄 |
+| C1（官網月） | 月班 | 月底 | c15 誠陽、c16 康澤、c26 新店高美 | c15/c16 截圖 → 人工轉錄；c26 curl HTML → parser |
 | C2（官網週） | 週班 | 每週日 | c21 永馨 | POST API → 解析 |
 | C3（官網固定） | 固定 | 月初確認+手動延伸 | c10 板橋維力、c11 土城維力、c18 祥明 | curl 確認 → Python 手動生成 |
 | D（靜態圖片） | 固定 | 月初延伸 / 半年確認 | c08 正陽、c13 悅滿意永和、c14 悅滿意新店 | extend_fixed.py |
@@ -122,6 +123,9 @@ python3 scraper/image_validator.py --status
 # Vision.com.tw（E 類型，每週）
 python3 scraper/vision_scraper.py --clinic c24 --weeks 5
 python3 scraper/vision_scraper.py --clinic c24 --weeks 5 --output /tmp/jr_sessions.json
+# 新店高美（C1 官網月班表）
+python3 scraper/kaomei_scraper.py --print-weekly
+python3 scraper/kaomei_scraper.py --start-date 2026-06-15 --months 2 --update-schedules
 # 104 新成立診所爬蟲
 python3 104/104-clinic-scraper.py
 </commands>

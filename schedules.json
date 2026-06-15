@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-15T09:25:03",
+    "generated_at": "2026-06-15T16:16:51",
     "week_start": "2026-06-15",
     "week_end": "2026-06-21",
     "version": "1.0"
@@ -265,6 +265,18 @@
       "color": "#7b68ee",
       "source_url": "http://web.cxms.com.tw/sh/hosp.php",
       "schedule_type": "A",
+      "whitelist": [],
+      "blacklist": []
+    },
+    {
+      "id": "c26",
+      "name": "新店高美泌尿科",
+      "aliases": [
+        "新店高美"
+      ],
+      "color": "#16a085",
+      "source_url": "https://www.kaomei.com.tw/hours.asp?id=37",
+      "schedule_type": "C1",
       "whitelist": [],
       "blacklist": []
     }
@@ -62450,6 +62462,816 @@
       "slot": "afternoon",
       "time_label": "午診 14:00–17:00",
       "source_note": "vision.com.tw 官網班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0615",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-15",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0615",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-15",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0616",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0616",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0617",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0617",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-17",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0617",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0618",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0618",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-18",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0619",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-19",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0619",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-19",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0619",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-19",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0620",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0622",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-22",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0622",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-22",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0623",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0623",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0624",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0624",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0624",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0625",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0625",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-25",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0626",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-26",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0626",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-26",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0626",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-26",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0627",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0629",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-29",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0629",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-29",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0630",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0630",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-06-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0701",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-01",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0701",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-01",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0701",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-01",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0702",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0702",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-02",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0703",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0703",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0703",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-03",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0704",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0706",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0706",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-06",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0707",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-07",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0707",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-07",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0708",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-08",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0708",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-08",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0708",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-08",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0709",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0709",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-09",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0710",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0710",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-10",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0710",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-10",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0711",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0713",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0713",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-13",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0714",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-14",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0714",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-14",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0715",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-15",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0715",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-15",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0715",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-15",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0716",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0716",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-16",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0717",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0717",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-17",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0717",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0718",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0720",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0720",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-20",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0721",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-21",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0721",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-21",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0722",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-22",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0722",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-22",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0722",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-22",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0723",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0723",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-23",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0724",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0724",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0724",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0725",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0727",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0727",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-27",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0728",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-28",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0728",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-28",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0729",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-29",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0729",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-29",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0729",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-29",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0730",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0730",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-30",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_m_0731",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-31",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_a_0731",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-31",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
+    },
+    {
+      "id": "km_e_0731",
+      "doctor_name": "周孟翰",
+      "clinic_id": "c26",
+      "date": "2026-07-31",
+      "slot": "evening",
+      "time_label": "晚診 18:30–20:30",
+      "source_note": "新店高美官網月班表 2026-06-15 更新"
     }
   ]
 }

@@ -12,6 +12,7 @@ scraper/
 ├── web_validator.py      # CXMS 網站爬取（輔助）
 ├── fb_snapshot.py        # Facebook / LINE VOOM 截圖（輔助）
 ├── image_validator.py    # 圖片來源驗證記錄管理
+├── kaomei_scraper.py     # 新店高美官網月班表解析
 ├── weili_scraper.py      # 維力骨科爬蟲（Selenium）
 ├── requirements.txt      # Python 依賴
 └── snapshots/
@@ -48,12 +49,20 @@ python3 scraper/fb_snapshot.py --status
 ### 3. OCR 修正記錄
 當遇到 OCR 辨識問題時，請查閱並更新 `ocr_corrections.md`。
 
+### 4. 新店高美官網月班表 (`kaomei_scraper.py`)
+用於解析 c26 新店高美泌尿科官網靜態 HTML 表格。
+
+```bash
+python3 scraper/kaomei_scraper.py --print-weekly
+python3 scraper/kaomei_scraper.py --start-date 2026-06-15 --months 2 --update-schedules
+```
+
 ## 📋 SOP 快速摘要
 
 請參閱 `SOP.md` 獲取完整指令與步驟。
 
-- **每週日**：更新 8 家 CXMS 診所 + 永馨 (c21)
-- **每月底**：更新 Facebook (c09, c17, c22) 與 官網月班表 (c10, c15, c16)
+- **每週日**：更新 9 家 CXMS 診所 + 永馨 (c21) + 精睿 (c24)
+- **每月底**：更新 Facebook (c09, c17, c22, c23) 與 官網月班表 (c15, c16, c26)
 - **每半年**：檢查 圖片診所 (c08, c13, c14)
 
 ---
