@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-22T12:04:31",
+    "generated_at": "2026-06-28T22:27:27",
     "week_start": "2026-06-22",
     "week_end": "2026-06-28",
     "version": "1.0"
@@ -64937,6 +64937,1104 @@
       "slot": "evening",
       "time_label": "夜診 18:00–21:00",
       "source_note": "夜間一診"
+    },
+    {
+      "id": "sa_m_0701",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-01",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0701",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-01",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "代診（16:30 止掛）"
+    },
+    {
+      "id": "sa_e_0701",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-01",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0702",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "代診"
+    },
+    {
+      "id": "sa_e_0702",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-02",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0703",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0703",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0704",
+      "clinic_id": "c22",
+      "doctor_name": "林昂頡",
+      "date": "2026-07-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "代診"
+    },
+    {
+      "id": "sa_m_0706",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0706",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-06",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0706",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-06",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0707",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-07",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0707",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-07",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0708",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-08",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0708",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-08",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0708",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-08",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0709",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-09",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0709",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-09",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0710",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-10",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0710",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-10",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0711",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-11",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0713",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0713",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-13",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0713",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-13",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0714",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-14",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0714",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-14",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0715",
+      "clinic_id": "c22",
+      "doctor_name": "林昂頡",
+      "date": "2026-07-15",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "代診"
+    },
+    {
+      "id": "sa_a_0715",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-15",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0715",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-15",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0716",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0716",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-16",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": "代診"
+    },
+    {
+      "id": "sa_m_0717",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "代診"
+    },
+    {
+      "id": "sa_a_0717",
+      "clinic_id": "c22",
+      "doctor_name": "林昂頡",
+      "date": "2026-07-17",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": "代診"
+    },
+    {
+      "id": "sa_m_0718",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0720",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0720",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-20",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0720",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-20",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0721",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-21",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0721",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-21",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0722",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-22",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0722",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-22",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0722",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-22",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0723",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "代診"
+    },
+    {
+      "id": "sa_e_0723",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-23",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0724",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0724",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0725",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0727",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0727",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-27",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0727",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-27",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0728",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-28",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0728",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-28",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0729",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-29",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0729",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-29",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0729",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-29",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0730",
+      "clinic_id": "c22",
+      "doctor_name": "滕學澍",
+      "date": "2026-07-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_e_0730",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-30",
+      "slot": "evening",
+      "time_label": "晚診 18:00–21:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_m_0731",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-31",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": ""
+    },
+    {
+      "id": "sa_a_0731",
+      "clinic_id": "c22",
+      "doctor_name": "陳俊宇",
+      "date": "2026-07-31",
+      "slot": "afternoon",
+      "time_label": "午診 14:00–17:00",
+      "source_note": ""
+    },
+    {
+      "id": "jw_m_0701",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-01",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0701",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-01",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0701",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-01",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0702",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-02",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0702",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-02",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:15",
+      "source_note": "林承翰看診至17:15（17:00截止掛號）"
+    },
+    {
+      "id": "jw_e_0702",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-02",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0703",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-03",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0703",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-03",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0703",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-03",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0704",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-04",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0706",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-06",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0706",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-06",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0706",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-06",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0707",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-07",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0707",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-07",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0707",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-07",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0713",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-13",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0713",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-13",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0713",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-13",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0714",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-14",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0714",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-14",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0714",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-14",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0715",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-15",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0715",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-15",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0715",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-15",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0716",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-16",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0716",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-16",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:15",
+      "source_note": "林承翰看診至17:15（17:00截止掛號）"
+    },
+    {
+      "id": "jw_e_0716",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-16",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0717",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-17",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0717",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-17",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0717",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-17",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0718",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-18",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0720",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-20",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0720",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-20",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0720",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-20",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0721",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-21",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0721",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-21",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0721",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-21",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0722",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-22",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0722",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-22",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0722",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-22",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0723",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-23",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0723",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-23",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:15",
+      "source_note": "林承翰看診至17:15（17:00截止掛號）"
+    },
+    {
+      "id": "jw_e_0723",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-23",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0724",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-24",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0724",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-24",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0724",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-24",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0725",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-25",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0727",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-27",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0727",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-27",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0727",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-27",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0728",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-28",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0728",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-28",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0728",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-28",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0729",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-29",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0729",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-29",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0729",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-29",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0730",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-30",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0730",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-30",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:15",
+      "source_note": "林承翰看診至17:15（17:00截止掛號）"
+    },
+    {
+      "id": "jw_e_0730",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-30",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_m_0731",
+      "clinic_id": "c09",
+      "doctor_name": "韓文江",
+      "date": "2026-07-31",
+      "slot": "morning",
+      "time_label": "早診 09:00–12:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_a_0731",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-31",
+      "slot": "afternoon",
+      "time_label": "午診 14:30–17:30",
+      "source_note": "FB 115年7月門診表 2026-06-23"
+    },
+    {
+      "id": "jw_e_0731",
+      "clinic_id": "c09",
+      "doctor_name": "林承翰",
+      "date": "2026-07-31",
+      "slot": "evening",
+      "time_label": "晚診 18:30–21:00",
+      "source_note": "FB 115年7月門診表 2026-06-23"
     }
   ]
 }
