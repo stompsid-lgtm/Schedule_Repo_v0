@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-29T15:54:02",
+    "generated_at": "2026-06-29T16:17:59",
     "week_start": "2026-06-29",
     "week_end": "2026-07-05",
     "version": "1.0"
@@ -33,7 +33,7 @@
       "id": "c03",
       "name": "富新骨科",
       "color": "#50c878",
-      "source_url": "http://web.cxms.com.tw/fc/hosp.php",
+      "source_url": "https://fcbone-schedule.hixcare.tw/schedule",
       "schedule_type": "A",
       "whitelist": [],
       "blacklist": []
@@ -67529,6 +67529,204 @@
       "slot": "evening",
       "time_label": "夜診 18:00–21:00",
       "source_note": "夜間一診"
+    },
+    {
+      "id": "fc_m1_0629",
+      "doctor_name": "曾庭毅",
+      "clinic_id": "c03",
+      "date": "2026-06-29",
+      "slot": "morning",
+      "time_label": "上午 08:30–12:00",
+      "source_note": "上午一診"
+    },
+    {
+      "id": "fc_a1_0629",
+      "doctor_name": "李荃",
+      "clinic_id": "c03",
+      "date": "2026-06-29",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:00",
+      "source_note": "下午一診"
+    },
+    {
+      "id": "fc_a2_0629",
+      "doctor_name": "曾庭毅",
+      "clinic_id": "c03",
+      "date": "2026-06-29",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:00",
+      "source_note": "下午二診"
+    },
+    {
+      "id": "fc_e1_0629",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-06-29",
+      "slot": "evening",
+      "time_label": "晚上 18:00–21:00",
+      "source_note": "晚上一診"
+    },
+    {
+      "id": "fc_m1_0630",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-06-30",
+      "slot": "morning",
+      "time_label": "上午 08:30–12:00",
+      "source_note": "上午一診"
+    },
+    {
+      "id": "fc_m2_0630",
+      "doctor_name": "曾庭毅",
+      "clinic_id": "c03",
+      "date": "2026-06-30",
+      "slot": "morning",
+      "time_label": "上午 08:30–12:00",
+      "source_note": "上午二診"
+    },
+    {
+      "id": "fc_a1_0630",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-06-30",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:00",
+      "source_note": "下午一診"
+    },
+    {
+      "id": "fc_e1_0630",
+      "doctor_name": "李荃",
+      "clinic_id": "c03",
+      "date": "2026-06-30",
+      "slot": "evening",
+      "time_label": "晚上 18:00–21:00",
+      "source_note": "晚上一診"
+    },
+    {
+      "id": "fc_m1_0701",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-07-01",
+      "slot": "morning",
+      "time_label": "上午 08:30–12:00",
+      "source_note": "上午一診"
+    },
+    {
+      "id": "fc_a1_0701",
+      "doctor_name": "李荃",
+      "clinic_id": "c03",
+      "date": "2026-07-01",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:00",
+      "source_note": "下午一診"
+    },
+    {
+      "id": "fc_e1_0701",
+      "doctor_name": "曾庭毅",
+      "clinic_id": "c03",
+      "date": "2026-07-01",
+      "slot": "evening",
+      "time_label": "晚上 18:00–21:00",
+      "source_note": "晚上一診"
+    },
+    {
+      "id": "fc_m1_0702",
+      "doctor_name": "曾庭毅",
+      "clinic_id": "c03",
+      "date": "2026-07-02",
+      "slot": "morning",
+      "time_label": "上午 08:30–12:00",
+      "source_note": "上午一診"
+    },
+    {
+      "id": "fc_a1_0702",
+      "doctor_name": "李荃",
+      "clinic_id": "c03",
+      "date": "2026-07-02",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:00",
+      "source_note": "下午一診"
+    },
+    {
+      "id": "fc_a2_0702",
+      "doctor_name": "曾庭毅",
+      "clinic_id": "c03",
+      "date": "2026-07-02",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:00",
+      "source_note": "下午二診"
+    },
+    {
+      "id": "fc_e1_0702",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-07-02",
+      "slot": "evening",
+      "time_label": "晚上 18:00–21:00",
+      "source_note": "晚上一診"
+    },
+    {
+      "id": "fc_m1_0703",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-07-03",
+      "slot": "morning",
+      "time_label": "上午 08:30–12:00",
+      "source_note": "上午一診"
+    },
+    {
+      "id": "fc_a1_0703",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-07-03",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:00",
+      "source_note": "下午一診"
+    },
+    {
+      "id": "fc_e1_0703",
+      "doctor_name": "李荃",
+      "clinic_id": "c03",
+      "date": "2026-07-03",
+      "slot": "evening",
+      "time_label": "晚上 18:00–21:00",
+      "source_note": "晚上一診"
+    },
+    {
+      "id": "fc_e2_0703",
+      "doctor_name": "曾庭毅",
+      "clinic_id": "c03",
+      "date": "2026-07-03",
+      "slot": "evening",
+      "time_label": "晚上 18:00–21:00",
+      "source_note": "晚上二診"
+    },
+    {
+      "id": "fc_m1_0704",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-07-04",
+      "slot": "morning",
+      "time_label": "上午 08:30–12:00",
+      "source_note": "上午一診"
+    },
+    {
+      "id": "fc_m2_0704",
+      "doctor_name": "曾庭毅",
+      "clinic_id": "c03",
+      "date": "2026-07-04",
+      "slot": "morning",
+      "time_label": "上午 08:30–12:00",
+      "source_note": "上午二診"
+    },
+    {
+      "id": "fc_a1_0704",
+      "doctor_name": "潘毅軒",
+      "clinic_id": "c03",
+      "date": "2026-07-04",
+      "slot": "afternoon",
+      "time_label": "下午 14:00–17:00",
+      "source_note": "下午一診"
     }
   ]
 }
