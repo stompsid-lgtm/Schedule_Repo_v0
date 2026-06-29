@@ -25,7 +25,9 @@
 
 ---
 
-## 類型 A：CXMS 網頁（9 家）— 每週更新
+## 類型 A：CXMS 網頁（8 家）— 每週更新
+
+適用：c02 c04 c05 c06 c07 c19 c20 c25（c03 富新走【類型 A-hix】）
 
 ### 重要說明（2026-02-21 更新）
 
@@ -43,7 +45,6 @@
 | 診所 | 代碼 | 網址 |
 |------|------|------|
 | c02 維恩骨科 | `wn` | http://web.cxms.com.tw/wn/hosp.php |
-| c03 富新骨科 | `fc` | http://web.cxms.com.tw/fc/hosp.php |
 | c04 得安診所 | `da` | http://web.cxms.com.tw/da/hosp.php |
 | c05 昌惟骨科 | `cw` | http://web.cxms.com.tw/cw/hosp.php |
 | c06 昌禾骨科 | `ch` | http://web.cxms.com.tw/ch/hosp.php |
@@ -57,7 +58,7 @@
 #### Step 1：一次下載所有 HTML
 
 ```bash
-for code in wn fc da cw ch xq dy lk sh; do
+for code in wn da cw ch xq dy lk sh; do
   curl -s -L --max-time 10 "http://web.cxms.com.tw/$code/hosp.php" \
     > /tmp/cxms_$code.html
   echo "$code: $(wc -c < /tmp/cxms_$code.html) bytes"
@@ -72,11 +73,10 @@ done
 import re, json
 
 clinic_map = {
-    'wn': ('c02','維恩骨科'),  'fc': ('c03','富新骨科'),
-    'da': ('c04','得安診所'),  'cw': ('c05','昌惟骨科'),
-    'ch': ('c06','昌禾骨科'),  'xq': ('c07','土城杏光'),
-    'dy': ('c19','得揚診所'),  'lk': ('c20','力康骨科'),
-    'sh': ('c25','上禾骨科'),
+    'wn': ('c02','維恩骨科'),  'da': ('c04','得安診所'),
+    'cw': ('c05','昌惟骨科'),  'ch': ('c06','昌禾骨科'),
+    'xq': ('c07','土城杏光'),  'dy': ('c19','得揚診所'),
+    'lk': ('c20','力康骨科'),  'sh': ('c25','上禾骨科'),
 }
 days = ['Mon','Tue','Wed','Thu','Fri','Sat']
 
@@ -120,6 +120,60 @@ for code, (cid, name) in clinic_map.items():
 - **維恩（c02）**：CXMS HTML 可能不即時反映當月新增的特聘醫師，若診所有公告圖片，以公告圖片為準
 - **上禾（c25）**：HTML 格式與其他 CXMS 診所不同 — 醫師名用 `<h2>醫師名</h2>` 而非 `<br>醫師名`，解析時需同時支援兩種格式
 - 若網頁空白，先確認是否為假日，不要貿然刪除資料
+
+---
+
+## 類型 A-hix：hixcare 線上系統 — 每週更新
+
+hixcare 是雲端掛號系統（Vue SPA + REST API），直接 POST 拿結構化 JSON，不需開瀏覽器、不需 OCR。
+
+### 適用診所
+
+| 診所 | 前端網址 | HOSPITAL_ID |
+|------|---------|-------------|
+| c03 富新骨科 | https://fcbone-schedule.hixcare.tw/schedule | `3531053856`（科別 `06` 骨科）|
+
+### 操作步驟（每週日執行）— 直接跑腳本
+
+```bash
+# 抓本週、列印確認（不寫回）
+python3 scraper/hixcare_scraper.py --clinic c03
+
+# 確認無誤後，直接寫回 schedules.json（刪該診所該範圍舊 sessions、補新、更新 generated_at）
+python3 scraper/hixcare_scraper.py --clinic c03 --update-schedules
+
+# 指定範圍
+python3 scraper/hixcare_scraper.py --clinic c03 --date-from 2026-06-29 --date-to 2026-07-05
+```
+
+寫回後記得跑 **衝突檢查**（見下方）→ `git commit & push`。
+
+### API 速查（腳本已封裝，這裡備查）
+
+base = `https://fcbone-schedule.hixcare.tw`
+
+| 用途 | 方法 | 路徑 | body |
+|------|------|------|------|
+| 診所設定 | GET | `{base}/hixLocal/sysConfig/getHixConfig` | — |
+| 班表查詢 | POST | `{base}/hixLocal/regSchedule/find` | `{"dateFrom":"YYYY-MM-DD","dateTo":"YYYY-MM-DD","flagType":"1"}` |
+
+班表 record 重要欄位 → session 對應：
+- `schDate`（UTC ISO，取前 10 碼）→ `date`
+- `refShiftId`：`AM`→morning / `PM`→afternoon / `EVENING`→evening
+- `startTime`/`endTime`（如 08:30:00）→ `time_label`
+- `hixClinicRoomName`：`一診`/`二診` → 診次（ID 與 source_note）
+- `doctorName` → `doctor_name`
+- `flagOpenClose`：`9` = 停診（跳過）
+
+### 排除規則（重要）
+
+- **「成人健檢」不收**：那是健檢時段不是骨科門診（`hixClinicRoomName`/`doctorName` 皆為「成人健檢」）。腳本已用 `exclude_rooms` 過濾。
+- `flagOpenClose == "9"`（停診）跳過。
+
+### 新增其他 hixcare 診所
+
+把診所加進 `scraper/hixcare_scraper.py` 的 `HIXCARE_CLINICS` dict 即可。
+若需自行找出某診所的 API，逆向方法寫在該腳本檔頭 docstring。
 
 ---
 
@@ -391,7 +445,8 @@ print(f"✅ c24 更新完成，共 {len(new_sessions)} 筆 sessions")
 
 ```
 【每週日執行，抓取下週班表】
-□ 類型 A（CXMS 9 家）：curl 抓 HTML → Python 解析 → 更新 schedules.json（下週）
+□ 類型 A（CXMS 8 家）：curl 抓 HTML → Python 解析 → 更新 schedules.json（下週）
+□ 類型 A-hix（c03 富新）：python3 scraper/hixcare_scraper.py --clinic c03 --update-schedules
 □ 類型 C2（永馨 c21）：截圖 → 讀取 → 更新 schedules.json（下週）
 □ 類型 E（精睿 c24）：vision_scraper.py --clinic c24 --weeks 5 → 合併 sessions
 □ 衝突檢查（見下方）

@@ -30,6 +30,7 @@ DIRECTORY:
       ├── image_validator.py           # 靜態圖片診所驗證管理
       ├── kaomei_scraper.py            # 新店高美官網月班表爬蟲（c26）
       ├── vision_scraper.py            # Vision.com.tw 班表爬蟲（c24）
+      ├── hixcare_scraper.py           # hixcare 線上系統班表爬蟲（c03 富新，POST API）
       ├── extend_fixed.py             # 每月初延伸固定班表 sessions
       ├── weili_scraper.py             # 維力骨科 Selenium 爬蟲（保留備用）
       ├── ocr_corrections.md           # OCR 修正對照表
@@ -42,7 +43,8 @@ DIRECTORY:
 
 | 類型 | 班表性質 | 頻率 | 診所 | 工具/方法 |
 |------|---------|------|------|----------|
-| A（CXMS） | 週班 | 每週日 | c02 維恩、c03 富新、c04 得安、c05 昌惟、c06 昌禾、c07 杏光、c19 得揚、c20 力康、c25 上禾 | curl HTTP → Python 解析 |
+| A（CXMS） | 週班 | 每週日 | c02 維恩、c04 得安、c05 昌惟、c06 昌禾、c07 杏光、c19 得揚、c20 力康、c25 上禾 | curl HTTP → Python 解析 |
+| A-hix（hixcare） | 週班 | 每週日 | c03 富新 | hixcare_scraper.py（POST REST API） |
 | B1（FB 月班） | 月班 | 月底 | c09 健維、c17 仁祐、c22 順安、c23 黃石 | 截圖 → 人工轉錄 |
 | B2（FB 固定） | 固定 | 月初延伸 | c01 禾安、c12 陳正傑 | extend_fixed.py |
 | C1（官網月） | 月班 | 月底 | c15 誠陽、c16 康澤、c26 新店高美 | c15/c16 截圖 → 人工轉錄；c26 curl HTML → parser |
@@ -123,6 +125,9 @@ python3 scraper/image_validator.py --status
 # Vision.com.tw（E 類型，每週）
 python3 scraper/vision_scraper.py --clinic c24 --weeks 5
 python3 scraper/vision_scraper.py --clinic c24 --weeks 5 --output /tmp/jr_sessions.json
+# hixcare 線上系統（A-hix，每週；c03 富新）
+python3 scraper/hixcare_scraper.py --clinic c03                    # 列印本週
+python3 scraper/hixcare_scraper.py --clinic c03 --update-schedules # 寫回 schedules.json
 # 新店高美（C1 官網月班表）
 python3 scraper/kaomei_scraper.py --print-weekly
 python3 scraper/kaomei_scraper.py --start-date 2026-06-15 --months 2 --update-schedules
